@@ -12,8 +12,24 @@ html {
     background-position: center;
 }
 
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 6rem;
+    height: 9rem;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
 .nav-link {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
+    color: white !important;
+    font-family: "Marshland Beauty";
+    text-shadow: 1px 1px 2px #000;
+    padding-right: 2.5rem !important;
 }
 
 .container {
@@ -54,6 +70,6 @@ hr:before {
 .container p {
     font-size: 5rem;
     color: white;
-    font-family: Marshland Beauty;
+    font-family: 'Marshland Beauty';
     text-shadow: 1px 1px 2px #000;
 }
