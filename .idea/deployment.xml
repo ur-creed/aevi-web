@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="AeviWebSever" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="aevi-web local" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="AeviWebLocal">
+      <paths name="aevi-web local">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="AeviWebSever">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="aevi-web" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
