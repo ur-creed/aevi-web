@@ -7,6 +7,8 @@
     <title>Aevi Web | Infinite Possibilities</title>
 <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/8545886103.js" crossorigin="anonymous"></script>
 <!-- Local CSS -->
     <link rel="stylesheet" href="css/index.css" type="text/css">
 
