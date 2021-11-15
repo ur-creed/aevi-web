@@ -11,7 +11,6 @@
     <script src="https://kit.fontawesome.com/8545886103.js" crossorigin="anonymous"></script>
 <!-- Local CSS -->
     <link rel="stylesheet" href="css/index.css" type="text/css">
-
 </head>
 
 <body class="body">
