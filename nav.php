@@ -7,13 +7,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-user-friends"></i> About</a>
+                    <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-igttem">
-                    <a class="nav-link" href="#"><i class="fas fa-tags"></i> Pricing</a>
+                    <a class="nav-link" href="#">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-id-card"></i> Contact</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
