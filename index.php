@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-    <title>Aevi Web | Infinite Possibilities</title>
+    <title>Aevi Web</title>
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
 	<!-- Bootstrap CSS CDN -->
@@ -13,6 +13,8 @@
     <script src="https://kit.fontawesome.com/8545886103.js" crossorigin="anonymous"></script>
 	<!-- Local CSS -->
     <link rel="stylesheet" href="css/index.css" type="text/css">
+	<!-- Local JS -->
+	<script src="js/index.js" type="text/javascript"></script>
 </head>
 <body class="body">
 	<!-- The navigation bar -->
