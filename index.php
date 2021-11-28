@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <!-- Local JS -->
@@ -22,7 +24,7 @@
 	<!-- Particles in the background -->
 	<?php include_once 'particles.php' ?>
 <div class="container">
-    <img src="images/Aevi%20Web.png" class="img-fluid" alt="Aevi Logo">
+    <img src="images/Aevi%20Web.png" class="img-fluid logo animate__animated animate__fadeInUp" alt="Aevi Logo">
 </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
