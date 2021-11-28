@@ -3,18 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Aevi Web | Possibilities Are Infinite</title>
+	<title>Aevi Web | About</title>
 	
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-	
-	<!-- Local CSS -->
-<!--	<link rel="stylesheet" href="css/icon-font.css">-->
-<!--	<link href="css/index_old.css" rel="stylesheet" type="text/css">-->
-<!--	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">-->
-<!--	<link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">-->
+	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="js/index.js" type="text/javascript"></script>
+	<script src="js/about.js" type="text/javascript"></script>
 </head>
 <body>
 	<p>
