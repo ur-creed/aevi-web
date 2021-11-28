@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    <!-- CDN Fonts   -->
+    <link href="http://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
