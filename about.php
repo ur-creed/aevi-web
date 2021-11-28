@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Aevi Web | About</title>
-	
-	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="js/about.js" type="text/javascript"></script>
+    <!-- Meta FIRST -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <!-- Local JS -->
+    <script src="js/index.js" type="text/javascript"></script>
+    <title>About Us</title>
 </head>
 <body>
 	<p>

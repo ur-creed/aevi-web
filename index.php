@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Meta FIRST -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-    <title>Aevi Web</title>
-	<!-- Google Font -->
-	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
-	<!-- Bootstrap CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<!-- Font Awesome CDN -->
-    <script src="https://kit.fontawesome.com/8545886103.js" crossorigin="anonymous"></script>
-	<!-- Local CSS -->
+    <!-- Meta FIRST -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+    <!-- Local CSS -->
     <link rel="stylesheet" href="css/index.css" type="text/css">
-	<!-- Local JS -->
-	<script src="js/index.js" type="text/javascript"></script>
+    <!-- Local JS -->
+    <script src="js/index.js" type="text/javascript"></script>
+    <title>Aevi Web</title>
 </head>
 <body class="body">
 	<!-- The navigation bar -->
