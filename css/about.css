@@ -1,0 +1,115 @@
+html {
+    /* this defines what 1 rem is */
+    font-size: 62.5%; /* 1rem = 10px; 10/16px = 62.5% */
+
+
+}
+
+body {
+    background-color: rgb(255, 115, 38);
+    font-family: "laca Text", sans-serif;
+}
+
+/* Nav bar Start */
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+.navbar-brand img {
+    width: 6rem;
+    height: 9rem;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+.nav-link {
+    font-size: 2.5rem;
+    color: white !important;
+    /*font-family: "Marshland Beauty";*/
+    font-family: 'laca Text' , sans-serif;
+    font-weight: 350;
+    /*text-shadow: 1px 1px 2px #000;*/
+    padding-right: 2.5rem !important;
+}
+/* Navbar End */
+
+strong {
+    color: #000000;
+}
+
+.display-4 {
+    color: rgb(255, 115, 38);
+}
+
+.my-4 {
+    color: #8c8b8b;
+}
+
+.container-header {
+    border-radius: 2rem;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+/* ==== GENERAL STYLES ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* ==== SIMPLE FOOTER ==== */
+
+footer {
+    background-color: rgb(245, 245, 245);
+    display: table;
+    width: 100vw;
+    height: 8rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 93.1rem;
+}
+
+.wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer small {
+    color: rgb(255, 115, 38);
+    letter-spacing: .025rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.footer-nav a {
+    color: #c74f78;
+    text-decoration: none;
+    margin: 0 .5rem;
+    display: inline-block;
+}
+
+.footer-nav a:hover {
+    color: #f26896;
+    transition: color .15s ease-in-out;
+}
+
+
+

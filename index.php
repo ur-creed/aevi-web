@@ -20,7 +20,7 @@
     <script src="js/index.js" type="text/javascript"></script>
     <title>Aevi Web</title>
 </head>
-<body class="body">
+<body>
 	<!-- The navigation bar -->
 	<?php include_once 'navigation.php' ?>
 	<!-- Particles in the background -->
