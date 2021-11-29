@@ -49,11 +49,13 @@
 </div>
 <footer>
 <div class="wrapper">
-    <small>&copy;2017 <strong>Awesome Company</strong>, All Rights Reserved</small>
+    <small>&copy;2021 <strong>Aevi Web LLC</strong>, All Rights Reserved</small>
     <nav class="footer-nav">
         <a href="#">Back to Top</a>
-        <a href="#">Terms of Use</a>
-        <a href="#">Privacy</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
     </nav>
 </div>
 </footer>
