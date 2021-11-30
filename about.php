@@ -38,7 +38,7 @@
                 <strong>Creating</strong> / <strong>Maintaining</strong> / <strong>Consulting</strong> with you every step of the way until your web dream becomes a reality and beyond.
             </p>
         <div class="col-sm d-none d-lg-block">
-                <img src="images/Aevi%20Web.png"  class="img-fluid" height="500" width="500" alt="logo">
+                <img src="images/Aevi%20Web.png"  class="animate__animated animate__slideInRight img-fluid" height="500" width="500" alt="logo">
         </div>
 
             <p class="p-3 display-6 text-center text-white col-12">

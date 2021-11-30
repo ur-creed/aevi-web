@@ -24,11 +24,8 @@ body {
 }
 
 .navbar-brand img {
-    width: 6rem;
-    height: 9rem;
     position: relative;
     top: 2rem;
-
     left: 2rem;
 }
 

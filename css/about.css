@@ -21,11 +21,9 @@ body {
 }
 
 .navbar-brand img {
-    /*width: 4rem;*/
-    /*height: 7rem;*/
-    /*position: relative;*/
-    /*top: 2rem;*/
-    /*left: 2rem;*/
+    position: relative;
+    top: .5rem;
+    left: 1rem;
 }
 
 .nav-link {

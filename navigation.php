@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="index.php"><img class="img-fluid" src="images/jara.png" height="55" width="55" alt="Aevi Web Logo"></a>
+		<a class="navbar-brand" href="index.php"><img class="img-fluid" src="images/AeviWeblogo.png" height="100" width="100" alt="Aevi Web Logo"></a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
