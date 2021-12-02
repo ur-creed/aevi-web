@@ -37,7 +37,7 @@
 	            We work with custom websites, WordPress, Squarespace, Magento, or just about any other CMS (Content Management System) too!
 	            From basic to advanced, we are here to build you the best website out there!
 	            <br>
-	            <strong>Creating</strong> / <strong>Maintaining</strong> / <strong>Consulting</strong>
+	            <strong>Creating</strong> | <strong>Maintaining</strong> | <strong>Consulting</strong>
             </p>
 		
 			<!--			-->
