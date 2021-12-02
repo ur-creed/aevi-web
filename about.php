@@ -32,11 +32,12 @@
 		<h1>A Little About Who We Are</h1>
 		<div class="row row-content">
 			<p class="display-6 text-center text-white col-lg-6 col-sm-12">
-	            At Aevi Web, we believe every human being deserves to have their dreams come to life.
-	            Whether you have an existing idea or project in place and need updates or want a brand spanking new project built, we can help with that!
-	            We work with custom websites, WordPress, Squarespace, Magento, or just about any other CMS (Content Management System) too!
-	            From basic to advanced, we are here to build you the best website out there!
+				At Aevi Web, we believe every human being deserves to have their website dream come to life!
+				Whether you have an existing idea or project in place and need updates or want a brand spanking new project built, we can help with that!
+				We work with custom websites, WordPress, Squarespace, Magento, or use just about any other CMS (Content Management System).
+				Let us be your guide on your web journey!
 	            <br>
+				<br>
 	            <strong>Creating</strong> | <strong>Maintaining</strong> | <strong>Consulting</strong>
             </p>
 		
@@ -46,8 +47,8 @@
 	        </div>
 
             <p class="p-3 display-6 text-center text-white col-12">
-	            We are experienced developers based out of Shenandoah, Virginia, with a fiery passion for creating web solutions, helping others, and saving the planet.
-	            Changing the world for the better, one website at a time, plus giving 10% of all sales to help protect our beautiful Earth.
+	            We are experienced developers based out of Shenandoah, Virginia, with a fiery passion for creating web solutions, helping others, and saving the Earth.
+	            Help us change the world for the better, one website at a time, plus 10% of all sales help protect our beautiful planet.
             </p>
 	    </div>
 		<h1>Our Founders</h1>
