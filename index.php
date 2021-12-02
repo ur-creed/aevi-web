@@ -21,15 +21,16 @@
     <title>Aevi Web</title>
 </head>
 <body>
-	<!-- The navigation bar -->
+	<!-- Navigation -->
 	<?php include_once 'navigation.php' ?>
-	<!-- Particles in the background -->
+	<!-- Particles -->
 	<?php include_once 'particles.php' ?>
-<div class="container">
-    <img src="images/Aevi%20Web.png" height="1000" width="1000" class="img-fluid logo animate__animated animate__pulse" alt="Aevi Logo">
-</div>
+
+	<div class="container">
+	    <img src="images/Aevi%20Web.png" height="1000" width="1000" class="img-fluid logo animate__animated animate__pulse" alt="Aevi Logo">
+	</div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-	</body>
+</body>
 </html>
