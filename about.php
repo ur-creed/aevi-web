@@ -29,6 +29,7 @@
 		<a href="#" class="btn btn-primary btn-lg" role="button">Contact Us</a>
 	</div>
 	<div class="container container-about">
+		<h1>A Little About Who We Are</h1>
 		<div class="row row-content">
 			<p class="display-6 text-center text-white col-lg-6 col-sm-12">
 	            At Aevi Web, we believe every human being deserves to have their dreams come to life.
@@ -39,8 +40,9 @@
 	            <strong>Creating</strong> / <strong>Maintaining</strong> / <strong>Consulting</strong>
             </p>
 		
+			<!--			-->
 	        <div class="col-sm d-none d-lg-block">
-	                <img src="images/Aevi%20Web.png"  class="animate__animated animate__slideInRight img-fluid" height="500" width="500" alt="logo">
+	                <img src="images/shenandoah-national-park.png"  class="animate__animated animate__slideInRight img-fluid" height="750" width="750" alt="Shenandoah National Park">
 	        </div>
 
             <p class="p-3 display-6 text-center text-white col-12">
@@ -48,6 +50,10 @@
 	            Changing the world for the better, one website at a time, plus giving 10% of all sales to help protect our beautiful Earth.
             </p>
 	    </div>
+		<h1>Our Founders</h1>
+		<div class="row row-content">
+			<p>This is where our stuff will go...</p>
+		</div>
 	</div>
 	
 	<!-- Footer -->
