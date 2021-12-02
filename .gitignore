@@ -1,3 +1,4 @@
 node_modules
-.idea/deployment.xml
-.idea/webServers.xml
+# ignore all .idea files
+*.idea
+package-lock.json
