@@ -11,6 +11,8 @@
 	<script src="js/pricing.js" type="text/javascript"></script>
 </head>
 <body>
+	<!-- Navigation -->
+	<?php include_once 'navigation.php' ?>
 	<!-- TODO :: UPDATE THIS PART FOR THE PRICING SECTION -->
 	<p>
 		This will be where the pricing stuff will go.
@@ -38,5 +40,7 @@
 			</button>
 		</form>
 	</section>
+	<!-- Footer -->
+	<?php include_once 'footer.php' ?>
 </body>
 </html>

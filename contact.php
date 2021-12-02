@@ -11,6 +11,8 @@
 	<script src="js/contact.js" type="text/javascript"></script>
 </head>
 <body>
+	<!-- Navigation -->
+	<?php include_once 'navigation.php' ?>
 	<div class="container">
 		<form>
 			<label for="FullName">Full name</label>
@@ -40,5 +42,8 @@
 			</button>
 		</form>
 	</div>
+	
+	<!-- Footer -->
+	<?php include_once 'footer.php' ?>
 </body>
 </html>
