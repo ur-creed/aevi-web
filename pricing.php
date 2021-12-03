@@ -14,33 +14,32 @@
 <body>
 	<!-- Navigation -->
 	<?php include_once 'navigation.php' ?>
+	
 	<!-- TODO :: UPDATE THIS PART FOR THE PRICING SECTION -->
 	<p>
 		This will be where the pricing stuff will go.
 	</p>
+	<hr>
 	<section>
 		<form>
-			<input type="text" name="full_name" class="form__input" placeholder="Full Name (John Doe)" id="FullName" required>
-			<label for="FullName" class="form__label">Full name</label>
-		
-			<input type="email" name="from_email" class="form__input" placeholder="Email address" id="Email" required>
-			<label for="Email" class="form__label">Email address</label>
-		
-			<label for="PackageSelect" class="form__label-1">Choose a package:</label>
-			<select id="PackageSelect"  class="form__input" name="package_select">
+			<label for="FullName">Full name</label>
+			<input type="text" name="full_name" placeholder="Full Name (John Doe)" id="FullName" required>
+			<label for="Email">Email address</label>
+			<input type="email" name="client_email" placeholder="Email address" id="Email" required>
+			<label for="PackageSelect">Choose a package:</label>
+			<select id="PackageSelect" name="package_select">
 				<option value=""></option>
 				<option value="new">New Project</option>
 				<option value="maintenance">Maintenance</option>
 			</select>
-		
-			<textarea id="Message" name="message" class="form__input" placeholder="Tell us about your project..." required></textarea>
-			<label for="Message" class="form__label">Tell us about your project</label>
-		
+			<label for="Message">Tell us about your project</label>
+			<textarea id="Message" name="message" placeholder="Tell us about your project..." required></textarea>
 			<button id="SendMessageButton" type="submit" form="ContactForm">
 				Send message
 			</button>
 		</form>
 	</section>
+	
 	<!-- Footer -->
 	<?php include_once 'footer.php' ?>
 </body>

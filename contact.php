@@ -20,25 +20,22 @@
 			<input type="text"
 			       id="FullName"
 			       name="full_name"
-			       class="form__input"
 			       placeholder="John Snow"
 			       required>
 			<label for="Email">Email address</label>
 			<input type="email"
 			       id="Email"
-			       name="from_email"
-			       class="form__input"
+			       name="client_email"
 			       placeholder="JohnSnow@email.com"
 			       required>
 			<label for="Message">Message</label>
 			<textarea id="Message"
 			          name="message"
-			          class="form__input"
 			          placeholder="Send us a message about anything really..."
 			          required>
 			</textarea>
 			<!-- Button(s) -->
-			<button id="SendMessageButton" type="submit" form="ContactForm" class="btn btn--green">
+			<button id="SendMessageButton" type="submit" form="ContactForm" disabled>
 				Send Message
 			</button>
 		</form>

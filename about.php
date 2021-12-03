@@ -4,6 +4,7 @@
     <!-- Meta FIRST -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aevi Web | About Us</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
@@ -18,7 +19,6 @@
     <link rel="stylesheet" href="css/about.css" type="text/css">
     <!-- Local JS -->
     <script src="js/about.js" type="text/javascript"></script>
-    <title>Aevi Web | About Us</title>
 </head>
 <body>
 	<!-- The navigation bar -->
@@ -82,7 +82,7 @@
 
             <p class="p-3 display-6 text-center text-white col-12">
 	            We are experienced developers based out of Shenandoah, Virginia, with a fiery passion for creating web solutions, helping others, and saving the Earth.
-	            Help us change the world for the better, one website at a time, plus 10% of all sales go to help protect our beautiful planet.
+	            Help us change the world for the better, one website at a time, plus 10% of all sales go to help protect our beautiful planet!
             </p>
 	    </div>
 
