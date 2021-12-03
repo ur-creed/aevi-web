@@ -1,8 +1,8 @@
 <?php
-	if (isset($_REQUEST['from_email'])) {
+	if (isset($_REQUEST['client_email'])) {
 		$to = 'creed@aeviweb.com, christopher@aeviweb.com';
 		$from = "inquire@aeviweb.com";
-		$customer_email = $_REQUEST['from_email'];
+		$customer_email = $_REQUEST['client_email'];
 		$customer_full_name = $_REQUEST['full_name'];
 		$package = $_REQUEST['package_select'];
 		$subject = "General Contact";
@@ -12,7 +12,7 @@
 			$subject = "Tell me more!";
 			
 			switch ($package) {
-				case 'starter':
+				case 'new':
 					$subject = $customer_full_name . " - New Project - " . $subject;
 					break;
 				case 'maintenance':
