@@ -85,9 +85,52 @@
 	            Help us change the world for the better, one website at a time, plus 10% of all sales help protect our beautiful planet.
             </p>
 	    </div>
-		<h1>Our Founders</h1>
+
 		<div class="row row-content">
-			<p>This is where our stuff will go...</p>
+            <h1 class="mt-0">Our Founders</h1>
+            <div class="container">
+                <!--  image left  -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/imagesymbol.png" alt="" class="w-100" />
+                    </div>
+                    <!-- /.col-md-6 -->
+                    <div class="col-md-6">
+                        <div class="row align-items-center h-100">
+                            <div class="col">
+                                <h1 class="display-3">Creed Polen | Chief Executive Officer</h1>
+                                <p class="lead">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj
+                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l
+                                    <br /><br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-md-6 -->
+                </div>
+                <!-- /.row -->
+
+                <!--  image right  -->
+                <div class="row">
+                    <div class="col-md-6 order-md-1">
+                        <img src="images/imagesymbol.png" alt="" class="w-100" />
+                    </div>
+                    <!-- /.col-md-6 -->
+                    <div class="col-md-6 order-md-6">
+                        <div class="row align-items-center h-100">
+                            <div class="col">
+                                <h1 class="display-3">Chris Polen | Chief Design Officer</h1>
+                                <p class="lead">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj
+                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l
+                                    <br /><br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-md-6 -->
+                </div>
+                <!-- /.row -->
+            </div>
 		</div>
 	</div>
 	
