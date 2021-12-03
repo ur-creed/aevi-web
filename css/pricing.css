@@ -2,3 +2,12 @@ body {
     background-color: #26d985;
 }
 
+label {
+    color: #F5F5F5;
+}
+
+input, textarea, select, button {
+    color: #26d985;
+    background-color: #F5F5F5;
+    font-weight: bold;
+}

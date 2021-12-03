@@ -33,9 +33,12 @@ body {
 }
 /* Navbar End */
 
-/* Send Message Button */
-#SendMessageButton {
-    background-color: #F5F5F5;
+/* Form */
+label {
+    color: #F5F5F5;
+}
+input, textarea, select, button {
     color: #c93030;
+    background-color: #F5F5F5;
     font-weight: bold;
 }
