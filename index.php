@@ -27,7 +27,7 @@
 	<?php include_once 'particles.php' ?>
 
 	<div class="container">
-	    <img src="images/Aevi%20Web.png" height="1000" width="1000" class="img-fluid logo animate__animated animate__pulse" alt="Aevi Logo">
+	    <img src="images/Aevi%20Web.png" height="1250" width="1250" class="img-fluid logo animate__animated animate__pulse" alt="Aevi Web Development and Design">
 	</div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->

@@ -4,10 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Aevi Web | Contact</title>
-	
+	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Local CSS -->
+	<link rel="stylesheet" href="css/contact.css" type="text/css">
+	<!-- Local JS -->
 	<script src="js/contact.js" type="text/javascript"></script>
 </head>
 <body>

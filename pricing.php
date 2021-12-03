@@ -4,10 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Aevi Web | Pricing</title>
-	
+	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Local CSS -->
+	<link rel="stylesheet" href="css/pricing.css" type="text/css">
+	<!-- Local JS -->
 	<script src="js/pricing.js" type="text/javascript"></script>
 </head>
 <body>
@@ -35,8 +36,8 @@
 			<textarea id="Message" name="message" class="form__input" placeholder="Tell us about your project..." required></textarea>
 			<label for="Message" class="form__label">Tell us about your project</label>
 		
-			<button id="SendMessageButton" type="submit" form="ContactForm" class="btn btn--green">
-				Send Message
+			<button id="SendMessageButton" type="submit" form="ContactForm">
+				Send message
 			</button>
 		</form>
 	</section>

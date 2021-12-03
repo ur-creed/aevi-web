@@ -82,7 +82,7 @@
 
             <p class="p-3 display-6 text-center text-white col-12">
 	            We are experienced developers based out of Shenandoah, Virginia, with a fiery passion for creating web solutions, helping others, and saving the Earth.
-	            Help us change the world for the better, one website at a time, plus 10% of all sales help protect our beautiful planet.
+	            Help us change the world for the better, one website at a time, plus 10% of all sales go to help protect our beautiful planet.
             </p>
 	    </div>
 
