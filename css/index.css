@@ -29,8 +29,16 @@ body {
     left: 2rem;
 }
 
-#about:hover {
-    color: rgb(255, 115, 38) !important;
+#About:hover {
+    color: #d96b26 !important;
+}
+
+#Contact:hover {
+    color: #c93030 !important;
+}
+
+#Pricing:hover {
+    color: #26d985 !important;
 }
 
 .nav-link {
@@ -481,7 +489,7 @@ hr:before {
     animation-delay: -3s;
     -webkit-transform: translate3d(58vw, 20vh, 74px);
     transform: translate3d(58vw, 20vh, 74px);
-    background: #26d932;
+    background: #c93030;
 }
 
 @-webkit-keyframes particle-animation-16 {

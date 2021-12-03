@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: rgb(255, 115, 38);
+    background-color: #d96b26;
     font-family: "laca Text", sans-serif;
     z-index: 0;
 }
@@ -59,7 +59,7 @@ strong {
 }
 
 .display-4 {
-    color: rgb(255, 115, 38);
+    color: #d96b26;
 }
 
 .my-4 {
@@ -112,7 +112,7 @@ footer {
 }
 
 footer small {
-    color: rgb(255, 115, 38);
+    color: #d96b26;
     letter-spacing: .025rem;
     margin-bottom: 1.5rem;
     display: block;
