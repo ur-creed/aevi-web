@@ -8,6 +8,7 @@ html {
 body {
     background-color: rgb(255, 115, 38);
     font-family: "laca Text", sans-serif;
+    z-index: 0;
 }
 
 /* Nav bar Start */
@@ -41,6 +42,18 @@ body {
 }
 /* Navbar End */
 
+form label{
+    font-size: 2rem;
+}
+
+form input {
+    font-size: 1.5rem !important;
+}
+
+form .form-text {
+    font-size: 1.2rem;
+}
+
 strong {
     color: #000000;
 }
@@ -62,6 +75,10 @@ strong {
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
+}
+
+img.animate__animated.animate__slideInRight.img-fluid {
+    border-radius: 3rem;
 }
 
 /* ==== GENERAL STYLES ==== */
