@@ -1,5 +1,49 @@
+html {
+    /* this defines what 1 rem is */
+    font-size: 62.5%; /* 1rem = 10px; 10/16px = 62.5% */
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #26d985;
+    font-family: "laca Text", sans-serif;
+    overflow-x: hidden;
+}
+
+/* Nav bar Start */
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+.navbar-brand img {
+    position: relative;
+    top: .5rem;
+    left: 1rem;
+}
+
+.nav-link {
+    font-size: 2.5rem;
+    color: white !important;
+    /*font-family: "Marshland Beauty";*/
+    font-family: 'laca Text' , sans-serif;
+    font-weight: 350;
+    /*text-shadow: 1px 1px 2px #000;*/
+    padding-right: 2.5rem !important;
+}
+/* Navbar End */
+
+.display-4 {
+    font-size: 8rem;
 }
 
 label {
@@ -10,4 +54,83 @@ input, textarea, select, button {
     color: #26d985;
     background-color: #F5F5F5;
     font-weight: bold;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+/* Form */
+form label {
+    color: #F5F5F5;
+    font-size: 2.5rem;
+}
+
+form input {
+    font-size: 1.5rem !important;
+    box-shadow: 1px 1px 2px #000;
+}
+
+form .form-text {
+    font-size: 1.2rem;
+}
+
+.btn-outline-primary {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+input, textarea, select, button {
+    color: #c93030;
+    background-color: #F5F5F5;
+    font-weight: bold;
+}
+
+textarea {
+    font-size: 1.5rem !important;
+    box-shadow: 1px 1px 2px #000;
+}
+
+/* End Form */
+
+/* ==== SIMPLE FOOTER ==== */
+
+footer {
+    background-color: rgb(245, 245, 245);
+    display: table;
+    width: 100vw;
+    height: 8rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    position: fixed !important;
+    top: 93.1rem;
+}
+
+.wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer small {
+    color: #26d985;
+    letter-spacing: .025rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.footer-nav a {
+    color: #c74f78;
+    text-decoration: none;
+    margin: 0 .5rem;
+    display: inline-block;
+}
+
+.footer-nav a:hover {
+    color: #f26896;
+    transition: color .15s ease-in-out;
 }

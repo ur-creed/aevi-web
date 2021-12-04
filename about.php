@@ -23,48 +23,16 @@
 <body>
 	<!-- The navigation bar -->
 	<?php include_once 'navigation.php' ?>
-    <div id="contactModal" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="contentinfo">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="h1 modal-title">Contact Us</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="">
-                        <div class="mb-3">
-                            <label for="firstname" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="firstname" placeholder="John">
-                        </div>
-                        <div class="mb-3">
-                            <label for="lastname" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lastname" placeholder="Smith">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="JohnSmith@email.com">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else!</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="textarea" class="form-label">Send us a message!</label>
-                            <textarea class="form-control" name="textarea" id="textArea" cols="30" rows="10"></textarea>
-                        </div>
-                            <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                    </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Particles -->
+    <?php include_once 'particles.php' ?>
 
-	<div class="container container-header bg-white p-5">
-		<h1 class="display-4 mt-0">About Us</h1>
+	<div class="container container-header bg-transparent p-5">
+		<h1 class="display-4 text-center text-white h-1 mt-0">About Us</h1>
 		<hr class="my-4">
-		<a data-bs-toggle="modal" data-bs-target="#contactModal" type="button" class="btn btn-primary btn-lg" id="contactModal" role="button">Contact Us</a>
 	</div>
 	<div class="container container-about">
 		<div class="row row-content">
-            <h1>A Little About Who We Are</h1>
+            <h1 class="display-3 h1 mt-0">A Little About Who We Are</h1>
 			<p class="display-6 text-center text-white col-lg-6 col-sm-12 lead">
 				At Aevi Web, we believe every human being deserves to have their website dream come to life!
 				Whether you have an existing idea or project in place and need updates or want a brand spanking new project built, we can help with that!
@@ -87,7 +55,7 @@
 	    </div>
 
 		<div class="row row-content">
-            <h1 class="mt-0">Our Founders</h1>
+            <h1 class="display-3 h1 mt-0">Our Founders</h1>
             <div class="container">
                 <!--  image left  -->
                 <div class="row">
