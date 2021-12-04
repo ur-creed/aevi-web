@@ -25,7 +25,7 @@ body {
 
 .nav-link:hover {
     text-decoration: underline;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .navbar-brand img {
@@ -35,14 +35,33 @@ body {
 }
 
 .nav-link {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: white !important;
     /*font-family: "Marshland Beauty";*/
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
     /*text-shadow: 1px 1px 2px #000;*/
-    padding-right: 2.5rem !important;
+    padding-right: 3.5rem !important;
 }
+
+.nav-link#Pricing:hover {
+    color: #26d985 !important;
+}
+
+.nav-link#Contact:hover {
+    color: #c93030 !important;
+}
+
+.active {
+    text-decoration: underline;
+    border: 1px solid;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    color: #d96b26 !important;
+    font-size: 3.5rem;
+    box-shadow: 1px 1px 2px #000;
+}
+
 /* Navbar End */
 
 strong {

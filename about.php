@@ -60,7 +60,7 @@
                 <!--  image left  -->
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="images/imagesymbol.png" alt="" class="w-100" />
+                        <img src="images/imagesymbol.png" alt="" class="img-fluid w-100" />
                     </div>
                     <!-- /.col-md-6 -->
                     <div class="col-md-6">
@@ -81,7 +81,7 @@
                 <!--  image right  -->
                 <div class="row">
                     <div class="col-md-6 order-md-1">
-                        <img src="images/imagesymbol.png" alt="" class="w-100" />
+                        <img src="images/imagesymbol.png" alt="" class="img-fluid w-100" />
                     </div>
                     <!-- /.col-md-6 -->
                     <div class="col-md-6 order-md-6">

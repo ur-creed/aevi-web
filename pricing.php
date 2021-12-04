@@ -37,6 +37,7 @@
                     <img src="images/imagesymbol.png" class="img-fluid card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title display-4 mt-0">New Site</h5>
+                        <hr class="my-4">
                         <p class="card-text lead h1">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
@@ -46,6 +47,7 @@
                     <img src="images/imagesymbol.png" class="img-fluid card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title display-4 mt-0">Maintenance</h5>
+                        <hr class="my-4">
                         <p class="card-text lead h1">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
