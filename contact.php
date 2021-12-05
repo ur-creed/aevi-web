@@ -40,7 +40,7 @@
                         <input type="text" class="email formEntry" placeholder="Email"/>
                         <textarea class="message formEntry" placeholder="Message"></textarea>
                         <input type="checkbox" class="termsConditions" value="Term">
-                        <label class="form-label form-text text-center mt-0" style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+                        <label class="form-label form-text text-center mt-0" style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Privacy Policy</span>.</label><br>
                         <button class="submit formEntry" onclick="thanks()">Submit</button>
                     </form>
                 </div>
