@@ -32,25 +32,18 @@
 	<div class="container container-form h-100">
         <div class="row align-items-center h-100">
             <div class="col-6 mx-auto">
-                <form>
-                    <div class="mb-3">
-                        <label class="form-label" for="FullName">Full name</label>
-                        <input class="form-control" type="text" id="FullName" name="full_name" placeholder="John Snow" required>
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label" for="Email">Email address</label>
-                        <input class="form-control" type="email" id="Email" name="client_email" placeholder="JohnSnow@email.com" aria-describedby="emailHelp" required>
-                        <div id="emilHelp" class="form-text text-white">We'll never share your email with anyone else!</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="Message">Message</label>
-                        <textarea name="message" id="Message" class="form-control" cols="30" rows="10" placeholder="Send us a message about anything really..." required></textarea>
-                    </div>
-                    <!-- Button(s) -->
-                    <button class="btb btn-lg btn-outline-primary" id="SendMessageButton" type="submit" form="ContactForm" disabled>
-                        Send Message
-                    </button>
-                </form>
+                <div class="wrapper">
+                    <form class="form">
+                        <div class="pageTitle title">Sign Up </div>
+                        <div class="secondaryTitle title">Please fill this form below.</div>
+                        <input type="text" class="name formEntry" placeholder="Name" />
+                        <input type="text" class="email formEntry" placeholder="Email"/>
+                        <textarea class="message formEntry" placeholder="Message"></textarea>
+                        <input type="checkbox" class="termsConditions" value="Term">
+                        <label class="form-label form-text text-center mt-0" style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+                        <button class="submit formEntry" onclick="thanks()">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
 
