@@ -34,7 +34,7 @@
             <div class="col-6 mx-auto">
                 <div class="wrapper">
                     <form class="form">
-                        <div class="pageTitle title">Sign Up </div>
+                        <div class="pageTitle title">Contact Us </div>
                         <div class="secondaryTitle title">Please fill this form below.</div>
                         <input type="text" class="name formEntry" placeholder="Name" />
                         <input type="text" class="email formEntry" placeholder="Email"/>
