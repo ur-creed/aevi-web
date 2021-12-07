@@ -26,29 +26,36 @@
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
 	<!-- TODO :: UPDATE THIS PART FOR THE PRICING SECTION -->
-    <div class="container">
+    <div class="container container-h1">
         <h1 class="display-4 text-center text-white h1 mt-0">Pricing and Packages</h1>
         <hr class="my-4">
     </div>
-    <div class="container">
+
+    <div class="container container-cards">
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <div class="card">
-                    <img src="images/imagesymbol.png" class="img-fluid card-img-top" alt="...">
+                    <img src="images/bluebg.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title display-4 mt-0">New Site</h5>
-                        <hr class="my-4">
-                        <p class="card-text lead h1">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="display-3 card-title">New Site</h5>
+                        <p class="card-text lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis eget magna at sollicitudin.
+                            Pellentesque eget congue lacus, eget egestas orci. Vivamus ullamcorper velit at odio gravida ultrices. Nam et ex a ex blandit volutpat.
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec iaculis, nulla a maximus interdum, nibh lacus pharetra neque,
+                            eu ornare ipsum urna accumsan nibh. Nulla quam nunc, egestas et posuere in, dictum et turpis. Vestibulum a sagittis lectus.
+                            Nulla efficitur, orci a tincidunt lacinia, sapien dui tempor nunc, a feugiat sem neque in tellus. Vivamus accumsan tellus
+                            eu est placerat hendrerit. Nulla porttitor pellentesque augue nec convallis. Nulla lobortis, dui in blandit suscipit, diam
+                            sapien dapibus risus, eget pulvinar dui dui quis nibh. Duis varius turpis non vehicula consectetur. Donec ante libero, convallis
+                            tincidunt leo non, mattis lacinia nibh. Nunc sodales eleifend consectetur.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="images/imagesymbol.png" class="img-fluid card-img-top" alt="...">
+                    <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title display-4 mt-0">Maintenance</h5>
-                        <hr class="my-4">
-                        <p class="card-text lead h1">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="display-3 card-title">Maintenance</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
             </div>
@@ -56,7 +63,8 @@
         <hr class="my-4">
     </div>
 
-	<div class="container">
+
+	<div class="container container-form">
         <div class="row row-content">
             <form>
                 <div class="mb-3">

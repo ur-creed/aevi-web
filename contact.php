@@ -8,7 +8,7 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
-    <link href="http://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
@@ -35,7 +35,7 @@
                 <div class="wrapper">
                     <form class="form">
                         <div class="pageTitle title">Contact Us </div>
-                        <div class="secondaryTitle title">Please fill this form below.</div>
+                        <div class="secondaryTitle title">Please fill out this form below.</div>
                         <input type="text" class="name formEntry" placeholder="Name" />
                         <input type="text" class="email formEntry" placeholder="Email"/>
                         <textarea class="message formEntry" placeholder="Message"></textarea>
