@@ -37,10 +37,10 @@
 		                <div class="secondaryTitle title">
 			                Please fill out this form below.
 		                </div>
-		                <label class="form-label" for="FullName">First and Last name</label>
-		                <input id="FullName" type="text" class="name formEntry" placeholder="John Smith" required>
+		                <label class="form-label" for="FullName">First and last name</label>
+		                <input id="FullName" type="text" class="name formEntry" placeholder="Ragnar Doe" required>
 		                <label class="form-label" for="ClientEmail">Email address</label>
-	                    <input id="ClientEmail" type="text" class="email formEntry" placeholder="john@email.com" required>
+	                    <input id="ClientEmail" type="text" class="email formEntry" placeholder="ragnar@email.com" required>
 		                <label class="form-label" for="Message">What's on your mind?</label>
                         <textarea id="Message" class="message formEntry" placeholder="Send us a message about anything really here..." required></textarea>
 	                    <label for="Terms" class="form-label form-text text-center mt-0" style="color: grey">I Accept the <span style="color: #0e3721">Privacy Policy</span>.</label><br>

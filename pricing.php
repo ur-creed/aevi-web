@@ -65,27 +65,27 @@
         <div class="row row-content">
             <form>
                 <div class="mb-3">
-                    <label class="form-label" for="FullName">Full name</label>
-                    <input class="form-control" type="text" name="full_name" placeholder="Full Name (John Doe)" id="FullName" required>
+                    <label class="form-label" for="FullName">First and last name</label>
+                    <input class="form-control" type="text" name="full_name" placeholder="Ragnar Doe" id="FullName" required>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="Email">Email address</label>
-                    <input class="form-control" type="email" name="client_email" placeholder="Email address" id="Email" aria-describedby="emailHelp" required>
+                    <input class="form-control" type="email" name="client_email" placeholder="ragnar@email.com" id="Email" aria-describedby="emailHelp" required>
                     <div id="emilHelp" class="form-text text-white">We'll never share your email with anyone else!</div>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="PackageSelect">Choose a package:</label>
                     <select class="form-select" id="PackageSelect" name="package_select">
-                        <option value="">Select from list:</option>
-                        <option value="new">New Project</option>
+                        <option value=""></option>
+                        <option value="new">New project</option>
                         <option value="maintenance">Maintenance</option>
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="Message">Tell us about your project</label>
-                    <textarea name="message" id="Message" class="form-control" cols="30" rows="10"></textarea>
+                    <label class="form-label" for="Message">A little about your dream</label>
+                    <textarea name="message" id="Message" class="form-control" cols="30" rows="10" placeholder="Tell us a little about your project here..."></textarea>
                 </div>
-                <button class="btn btn-lg btn-primary" id="SendMessageButton" type="submit" form="ContactForm">Send message</button>
+                <button class="btn btn-lg btn-outline-success" id="SubmitInquiryButton" type="submit" form="ContactForm">Submit inquiry</button>
             </form>
         </div>
 
