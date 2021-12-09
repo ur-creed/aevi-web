@@ -4,6 +4,7 @@
     <!-- Meta FIRST -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aevi Web</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
@@ -18,7 +19,6 @@
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <!-- Local JS -->
     <script src="js/index.js" type="text/javascript"></script>
-    <title>Aevi Web</title>
 </head>
 <body>
 	<!-- Navigation -->

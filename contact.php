@@ -4,7 +4,7 @@
     <!-- Meta FIRST -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aevi Web | Contact Us</title>
+    <title>Aevi Web | Contact</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
