@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+	<!-- JQuery	-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/pricing.css" type="text/css">
     <!-- Local JS -->
-    <script src="js/about.js" type="text/javascript"></script>
-
+    <script src="js/pricing.js" type="text/javascript"></script>
 <body>
 	<!-- Navigation -->
 	<?php include_once 'navigation.php' ?>
@@ -46,7 +47,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="display-3 card-title">Maintenance</h5>
                         <p class="card-text">Have an existing website that needs updated information or just flat out needs to take that leap to the future? You're in the right place to teleport it there!</p>
@@ -59,31 +60,29 @@
         </div>
         <hr class="my-4">
     </div>
-
-
 	<div class="container container-form">
         <div class="row row-content">
-            <form>
+            <form id="PricingContactForm">
                 <div class="mb-3">
                     <label class="form-label" for="FullName">First and last name</label>
-                    <input class="form-control" type="text" name="full_name" placeholder="Ragnar Doe" id="FullName" required>
+                    <input id="FullName" name="full_name" class="form-control" type="text" placeholder="Ragnar Doe" required>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="Email">Email address</label>
-                    <input class="form-control" type="email" name="client_email" placeholder="ragnar@email.com" id="Email" aria-describedby="emailHelp" required>
-                    <div id="emilHelp" class="form-text text-white">We'll never share your email with anyone else!</div>
+                    <label class="form-label" for="ClientEmail">Email address</label>
+                    <input id="ClientEmail" name="client_email" class="form-control" type="email" placeholder="ragnar@email.com" aria-describedby="EmailHelp" required>
+                    <span id="EmailHelp" class="form-text text-white">We'll never share your email with anyone else!</span>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="PackageSelect">Choose a package:</label>
-                    <select class="form-select" id="PackageSelect" name="package_select">
-                        <option value=""></option>
+                    <select id="PackageSelect" name="package_select" class="form-select" required>
+                        <option value="">Select an option</option>
                         <option value="new">New project</option>
                         <option value="maintenance">Maintenance</option>
                     </select>
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="Message">A little about your dream</label>
-                    <textarea name="message" id="Message" class="form-control" cols="30" rows="10" placeholder="Tell us a little about your project here..."></textarea>
+                    <textarea id="Message" name="message" class="form-control" cols="30" rows="10" placeholder="Tell us a little about the project you want built..." required></textarea>
                 </div>
                 <button class="btn btn-lg btn-outline-success" id="SubmitInquiryButton" type="submit" form="ContactForm">Submit inquiry</button>
             </form>
