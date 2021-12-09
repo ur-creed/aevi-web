@@ -8,7 +8,7 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
-    <link href="http://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
@@ -25,10 +25,10 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
-	<div class="container">
+   <div class="container">
        <h1 class="h1 display-4 text-center text-white">Contact Us!</h1>
        <hr class="my-4">
-    </div>
+   </div>
 	<div class="container container-form h-100">
         <div class="row align-items-center h-100">
             <div class="col-6 mx-auto">
@@ -50,6 +50,7 @@
                 </div>
             </div>
         </div>
+
 	</div>
 	
 	<!-- Footer -->

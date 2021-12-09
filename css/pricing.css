@@ -1,10 +1,13 @@
 html {
     /* this defines what 1 rem is */
     font-size: 62.5%; /* 1rem = 10px; 10/16px = 62.5% */
-
-
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: #26d985;
@@ -13,6 +16,7 @@ body {
     overflow-x: hidden;
     overflow: scroll;
 }
+
 
 /* Nav bar Start */
 .navbar-nav {
@@ -63,6 +67,29 @@ color: #d96b26 !important;
     font-size: 8rem;
 }
 
+.lead {
+    font-size: 1.5rem !important;
+}
+
+.card {
+    border-radius: 3.25rem;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        tranform: translate(0, 4px);
+    }
+    50% {
+        transform: translate(0, 8px);
+    }
+}
+
+.card-img-top {
+    border-top-left-radius: calc(3.25rem - 1px);
+    border-top-right-radius: calc(3.25rem - 1px);
+}
+
 label {
     color: #F5F5F5;
 }
@@ -79,7 +106,7 @@ input, textarea, select, button {
     min-height: 400px;
 }
 
-.container {
+.container-h1, .container-form {
     position: relative;
 }
 
@@ -132,8 +159,6 @@ textarea {
 }
 
 /* End Form */
-
-
 
 /* ==== GENERAL STYLES ==== */
 
