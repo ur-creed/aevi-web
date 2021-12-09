@@ -2,31 +2,32 @@
 	if (isset($_REQUEST['client_email'])) {
 		$to = 'creed@aeviweb.com, christopher@aeviweb.com';
 		$from = "inquire@aeviweb.com";
-		$customer_email = $_REQUEST['client_email'];
-		$customer_full_name = $_REQUEST['full_name'];
+		$client_email = $_REQUEST['client_email'];
+		$client_full_name = $_REQUEST['full_name'];
 		$package = $_REQUEST['package_select'];
 		$subject = "General Contact";
-		$message = $_REQUEST['message'] . "<br/>My contact email: " . $customer_email;
+		$message = $_REQUEST['message'] .
+			"<br/>My contact email: " . $client_email;
 		
 		if ($package) {
-			$subject = "Tell me more!";
-			
 			switch ($package) {
 				case 'new':
-					$subject = $customer_full_name . " - New Project - " . $subject;
+					$subject = "New Project Inquiry";
 					break;
 				case 'maintenance':
-					$subject = $customer_full_name . " - Site Maintenance - " . $subject;
+					$subject = "Site Maintenance Inquiry";
 					break;
 				default:
-					$subject = $customer_full_name . " - I'm Undecided But Interested - " . $subject;
+					$subject = "I'm Undecided But Interested";
 					break;
 			}
 		}
 		
+		$subject = $subject . " - " . $client_full_name;
+		
 		$headers = array(
 			'From'    => 'inquire@aeviweb.com',
-			'ReplyTo' => $customer_email
+			'ReplyTo' => $client_email
 		);
 		
 		if (mail($to, $subject, $message, $headers)) {

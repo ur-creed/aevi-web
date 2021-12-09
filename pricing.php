@@ -25,9 +25,8 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
-	<!-- TODO :: UPDATE THIS PART FOR THE PRICING SECTION -->
     <div class="container">
-        <h1 class="display-4 text-center text-white h1 mt-0">Pricing and Packages</h1>
+        <h1 class="display-4 text-center text-white h1 mt-0">Pricing</h1>
         <hr class="my-4">
     </div>
     <div class="container">
@@ -36,9 +35,12 @@
                 <div class="card">
                     <img src="images/imagesymbol.png" class="img-fluid card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title display-4 mt-0">New Site</h5>
+                        <h5 class="card-title display-4 mt-0">New Project</h5>
                         <hr class="my-4">
-                        <p class="card-text lead h1">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text lead h1">Looking to start a brand new project? Whether you know exactly what you want or have absolutely no idea where to begin, We can help with that!</p>
+	                    <button id="NewProjectButton" type="button">
+		                    Learn more
+	                    </button>
                     </div>
                 </div>
             </div>
@@ -48,7 +50,10 @@
                     <div class="card-body">
                         <h5 class="card-title display-4 mt-0">Maintenance</h5>
                         <hr class="my-4">
-                        <p class="card-text lead h1">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text lead h1">Have an existing website that needs updated information or just flat out needs to take that leap to the future? You're in the right place to teleport it there!</p>
+	                    <button id="ExistingProjectButton" type="button">
+		                    Learn more
+	                    </button>
                     </div>
                 </div>
             </div>
@@ -69,18 +74,18 @@
                     <div id="emilHelp" class="form-text text-white">We'll never share your email with anyone else!</div>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="PackageSelect">Choose a package:</label>
+                    <label class="form-label" for="PackageSelect">Choose a package</label>
                     <select class="form-select" id="PackageSelect" name="package_select">
-                        <option value="">Select from list:</option>
-                        <option value="new">New Project</option>
+                        <option value=""></option>
+                        <option value="new">New project</option>
                         <option value="maintenance">Maintenance</option>
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="Message">Tell us about your project</label>
-                    <textarea name="message" id="Message" class="form-control" cols="30" rows="10"></textarea>
+                    <label class="form-label" for="Message">A little about your dream</label>
+                    <textarea name="message" id="Message" class="form-control" cols="30" rows="10" placeholder="Tell us a little about the project you want to publish here..."></textarea>
                 </div>
-                <button class="btn btn-lg btn-primary" id="SendMessageButton" type="submit" form="ContactForm">Send message</button>
+                <button class="btn btn-lg btn-outline-success" id="SubmitInquiryButton" type="submit" form="ContactForm">Submit inquiry</button>
             </form>
         </div>
 

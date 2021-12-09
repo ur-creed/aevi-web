@@ -25,28 +25,31 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
-   <div class="container">
+	<div class="container">
        <h1 class="h1 display-4 text-center text-white">Contact Us!</h1>
        <hr class="my-4">
-   </div>
+    </div>
 	<div class="container container-form h-100">
         <div class="row align-items-center h-100">
             <div class="col-6 mx-auto">
                 <div class="wrapper">
-                    <form class="form">
-                        <div class="pageTitle title">Contact Us </div>
-                        <div class="secondaryTitle title">Please fill this form below.</div>
-                        <input type="text" class="name formEntry" placeholder="Name" />
-                        <input type="text" class="email formEntry" placeholder="Email"/>
-                        <textarea class="message formEntry" placeholder="Message"></textarea>
-                        <input type="checkbox" class="termsConditions" value="Term">
-                        <label class="form-label form-text text-center mt-0" style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Privacy Policy</span>.</label><br>
-                        <button class="submit formEntry" onclick="thanks()">Submit</button>
+	                <form class="form">
+		                <div class="secondaryTitle title">
+			                Please fill out this form below.
+		                </div>
+		                <label class="form-label" for="FullName">First and Last name</label>
+		                <input id="FullName" type="text" class="name formEntry" placeholder="John Smith" required>
+		                <label class="form-label" for="ClientEmail">Email address</label>
+	                    <input id="ClientEmail" type="text" class="email formEntry" placeholder="john@email.com" required>
+		                <label class="form-label" for="Message">What's on your mind?</label>
+                        <textarea id="Message" class="message formEntry" placeholder="Send us a message about anything really here..." required></textarea>
+	                    <label for="Terms" class="form-label form-text text-center mt-0" style="color: grey">I Accept the <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+                        <input id="Terms" type="checkbox" class="termsConditions" value="Term">
+                        <button type="submit" class="submit formEntry">Submit message</button>
                     </form>
                 </div>
             </div>
         </div>
-
 	</div>
 	
 	<!-- Footer -->
