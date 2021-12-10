@@ -47,7 +47,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="" class="card-img-top" alt="...">
+                    <img src="images/bluebg.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="display-3 card-title">Maintenance</h5>
                         <p class="card-text">Have an existing website that needs updated information or just flat out needs to take that leap to the future? You're in the right place to teleport it there!</p>

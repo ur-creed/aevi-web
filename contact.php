@@ -35,23 +35,23 @@
         <div class="row row-content">
             <form action="">
                 <div class="secondaryTitle title">
-                    Please fill out this form below.
+                        Please fill out this form below.
                 </div>
                 <div class="mb-3">
-                    <label class="form-label h1" for="FullName">Full Name</label>
+                    <label class="form-label h1" for="FullName">First and last name</label>
                     <input id="FullName" type="text" class="form-control name formEntry" placeholder="Ragnar Doe" required>
                 </div>
                 <div class="mb-3">
                     <label class="form-label h1" for="ClientEmail">Email address</label>
-                    <input id="ClientEmail" type="text" class="form-control email formEntry" aria-describedby="emailHelp" placeholder="ragnar@email.com" required>
+                    <input id="ClientEmail" type="text" class="form-control email formEntry" aria-describedby="emailHelp" placeholder="ragnarDoe@email.com" required>
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="mb-3">
                     <label class="form-label h1" for="Message">What's on your mind?</label>
-                    <textarea class="form-control message" name="Message" id="Message" cols="30" rows="10" placeholder="Send us a message about anything really..."></textarea>
+                    <textarea class="form-control message" name="Message" id="Message" cols="30" rows="10" placeholder="Send us a message about anything really..." required></textarea>
                 </div>
                 <div class="mb-3 form-check">
-                    <input id="Terms" type="checkbox" class="form-check-input" value="Term">
+                    <input id="Terms" type="checkbox" class="form-check-input" value="Term" required>
                     <label for="Terms" class="form-check-label" style="color: grey">I Accept the <span style="color: #0e3721">Privacy Policy</span>.</label>
                 </div>
                 <button type="submit" class="submit formEntry">Submit message</button>

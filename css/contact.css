@@ -113,7 +113,6 @@ form {
 
 .name {
     background-color: #ebebeb;
-    color: white;
 }
 .name:hover {
     border-bottom: 5px solid #c93030;
@@ -160,7 +159,7 @@ form {
 }
 
 .form-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .formEntry {
