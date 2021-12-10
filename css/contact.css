@@ -24,8 +24,8 @@ body {
 
 .navbar-brand img {
     position: relative;
-    top: .5rem;
-    left: 1rem;
+    top: 2rem;
+    left: 2rem;
 }
 
 .nav-link {
@@ -69,27 +69,6 @@ body {
     position: relative;
 }
 
-
-/* Form */
-form label {
-    color: #F5F5F5;
-    font-size: 2.5rem;
-}
-
-form input {
-    font-size: 1.5rem !important;
-    box-shadow: 1px 1px 2px #000;
-}
-
-form .form-text {
-    font-size: 1.2rem;
-}
-
-.btn-outline-primary {
-    color: #fff !important;
-    border-color: #fff !important;
-}
-
 input, textarea, select, button {
     color: #c93030;
     background-color: #F5F5F5;
@@ -104,21 +83,9 @@ textarea {
 #title-Tag-Line {
     font-size: 20px;
 }
-/* .card-item__bg{
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  display: block;
-  position: relative;
-  margin: 30px auto;
-  transform: translate(0px, 50px);
-  z-index: 5;
-} */
 
 /* form animation starts */
-.form {
+form {
     background: #fff;
     box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
     border-radius: 5px;
@@ -127,9 +94,9 @@ textarea {
     margin-right: auto;
     padding-top: 5px;
     padding-bottom: 5px;
-    left: 0;
-    right: 0;
-    position: absolute;
+    /*left: 0;*/
+    /*right: 0;*/
+    /*position: absolute;*/
     border-top: 5px solid #fff;
     /*   z-index: 1; */
     animation: bounce 1.5s infinite;
@@ -138,22 +105,10 @@ textarea {
     font-size: 1.3em;
 }
 
-.title{
-    display: block;
-    font-family: sans-serif;
-    margin: 10px auto 5px;
-    width: 300px;
-}
-.termsConditions{
-    margin: 0 auto 5px 9rem;
-}
-
-.pageTitle{
-    font-size: 2.5em;
-    font-weight: bold;
-}
 .secondaryTitle{
     color: grey;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .name {
@@ -163,19 +118,16 @@ textarea {
 .name:hover {
     border-bottom: 5px solid #c93030;
     height: 30px;
-    width: 380px;
     transition: ease 0.5s;
 }
 
 .email {
     background-color: #ebebeb;
-    height: 2em;
 }
 
 .email:hover {
     border-bottom: 5px solid #c93030;
     height: 30px;
-    width: 380px;
     transition: ease 0.5s;
 }
 
@@ -188,13 +140,32 @@ textarea {
 .message:hover {
     border-bottom: 5px solid #c93030;
     height: 12em;
-    width: 380px;
     transition: ease 0.5s;
+}
+
+.form-control {
+    font-size: 1.5rem;
+}
+
+.form-check-label {
+    font-size: 1.2rem;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 5.25em!important;
+}
+.form-check-input {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.form-text {
+    font-size: 1rem;
 }
 
 .formEntry {
     display: block;
-    margin: 30px auto;
+    margin: auto;
     min-width: 300px;
     padding: 10px;
     border-radius: 2px;
@@ -208,6 +179,13 @@ textarea {
     background-color: #c93030;
     font-size: 20px;
 }
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    min-height: 400px;
+}
+
 
 .submit:hover {
     box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);

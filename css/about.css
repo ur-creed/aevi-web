@@ -13,8 +13,7 @@ body {
     background-color: #d96b26;
     font-family: "laca Text", sans-serif;
     z-index: 0;
-    overflow: hidden;
-    overflow: scroll;
+    overflow-y: scroll;
     overflow-x: hidden;
 }
 
@@ -30,8 +29,8 @@ body {
 
 .navbar-brand img {
     position: relative;
-    top: .5rem;
-    left: 1rem;
+    top: 2rem;
+    left: 2rem;
 }
 
 .nav-link {

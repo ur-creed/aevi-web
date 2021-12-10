@@ -30,8 +30,8 @@ body {
 
 .navbar-brand img {
     position: relative;
-    top: .5rem;
-    left: 1rem;
+    top: 2rem;
+    left:2rem;
 }
 
 .nav-link {
