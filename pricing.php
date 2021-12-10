@@ -26,11 +26,12 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
+<!-- Pricing Heading   -->
     <div class="container container-h1">
         <h1 class="display-4 text-center text-white h1 mt-0">Pricing</h1>
         <hr class="my-4">
     </div>
-
+<!-- Pricing Cards -->
     <div class="container container-cards">
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
@@ -60,6 +61,7 @@
         </div>
         <hr class="my-4">
     </div>
+<!-- Pricing Form -->
 	<div class="container container-form">
         <div class="row row-content">
             <form id="PricingContactForm">
@@ -87,12 +89,12 @@
                 <button class="btn btn-lg btn-outline-success" id="SubmitInquiryButton" type="submit" form="ContactForm">Submit inquiry</button>
             </form>
         </div>
-
     </div>
+<!-- End Form -->
 
     <!-- Footer -->
     <?php include_once 'footer.php' ?>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- Bootstrap JS. -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

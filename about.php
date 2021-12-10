@@ -27,11 +27,12 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
-
+<!-- About Header -->
 	<div class="container container-header bg-transparent p-5">
 		<h1 class="display-4 text-center text-white h-1 mt-0">About Us</h1>
 		<hr class="my-4">
 	</div>
+<!-- About Content -->
 	<div class="container container-about">
 		<div class="row row-content">
             <h1 class="display-3 h1 mt-0">A Little About Who We Are</h1>
@@ -44,18 +45,15 @@
 				<br>
 	            <strong class="h1 mt-0">Creating</strong> | <strong class="h1 mt-0">Maintaining</strong> | <strong class="h1 mt-0">Consulting</strong>
             </p>
-		
-			<!--			-->
 	        <div class="col-sm d-none d-lg-block">
 	                <img src="images/shenandoah-national-park.png"  class="animate__animated animate__slideInRight img-fluid" height="750" width="750" alt="Shenandoah National Park">
 	        </div>
-
             <p class="p-3 display-6 text-center text-white col-12">
 	            We are experienced developers based out of Shenandoah, Virginia, with a fiery passion for creating web solutions, helping others, and saving the Earth.
 	            Help us change the world for the better, one website at a time, plus 10% of all sales go to help protect our beautiful planet!
             </p>
 	    </div>
-
+<!-- Founders -->
 		<div class="row row-content">
             <h1 class="display-3 h1 mt-0">Our Founders</h1>
             <div class="container">
@@ -106,7 +104,7 @@
 	
 	<!-- Footer -->
 	<?php include_once 'footer.php' ?>
-	<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+	<!-- Bootstrap JS. -->
 	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
