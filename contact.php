@@ -16,7 +16,7 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 	<!-- JQuery	-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/contact.css" type="text/css">
     <!-- Local JS -->
@@ -61,7 +61,7 @@
 
 	<!-- Footer -->
 	<?php include_once 'footer.php' ?>
-
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
