@@ -65,15 +65,28 @@ color: #d96b26 !important;
 
 .display-4 {
     font-size: 8rem;
+    letter-spacing: .5rem;
+    font-weight: 350;
+}
+/* Card */
+.card {
+    animation: bounce 1.5s infinite;
+}
+
+.card-text {
+    font-size: 2rem;
 }
 
 .lead {
     font-size: 1.5rem !important;
 }
 
-.card {
-    border-radius: 3.25rem;
-    animation: bounce 1.5s infinite;
+img.card-img-top.img-fluid {
+    height: 38.6rem !important;
+}
+
+span.badge {
+    font-size: 2rem;
 }
 
 @keyframes bounce {
@@ -85,19 +98,18 @@ color: #d96b26 !important;
     }
 }
 
-.card-img-top {
-    border-top-left-radius: calc(3.25rem - 1px);
-    border-top-right-radius: calc(3.25rem - 1px);
+.btn-primary {
+    font-size: 1.5rem;
 }
 
-label {
-    color: #F5F5F5;
+.btn-primary:hover {
+    transform: translateY(-3px) !important;
+    border-top: 5px solid red;
 }
+/* End Card */
 
-input, textarea, select, button {
-    color: #26d985;
-    background-color: #F5F5F5;
-    font-weight: bold;
+.row {
+justify-content: center !important;
 }
 
 .row-content {
@@ -122,6 +134,7 @@ button.accordion-button.text-black.h1 {
 .accordion-body {
     font-size: 1.5rem;
 }
+
 /* Form */
 form label {
     color: #F5F5F5;
@@ -147,8 +160,27 @@ form .form-text {
     border-color: #fff !important;
 }
 
+.secondaryTitle{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    font-size: 2rem;
+}
+
+label {
+    color: #F5F5F5;
+}
+
+button.btn-outline-success {
+    font-size: 2rem;
+}
+.btn-outline-success:hover {
+    transform: translateY(-3px);
+    border-top: 5px solid yellow;
+}
+
 input, textarea, select, button {
-    color: #c93030;
+    color: #26d985;
     background-color: #F5F5F5;
     font-weight: bold;
 }
@@ -158,7 +190,54 @@ textarea {
     box-shadow: 1px 1px 2px #000;
 }
 
+.formEntry {
+    display: block;
+    margin: auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+}
+
+.name {
+    background-color: #fff;
+}
+.name:hover {
+    border-bottom: 5px solid #c93030;
+    height: 30px;
+    transition: ease 0.5s;
+}
+
+.email {
+    background-color: #fff;
+}
+
+.email:hover {
+    border-bottom: 5px solid #c93030;
+    height: 30px;
+    transition: ease 0.5s;
+}
+
+.select {
+    background-color: #fff;
+}
+
+.message {
+    background-color: #fff;
+    overflow: hidden;
+    height: 10rem;
+}
+
+.message:hover {
+    border-bottom: 5px solid #c93030;
+    height: 12em;
+    transition: ease 0.5s;
+}
+
 /* End Form */
+
+
 
 /* ==== GENERAL STYLES ==== */
 
