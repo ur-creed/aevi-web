@@ -8,30 +8,29 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
-    <link href="http://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-	<!-- JQuery	-->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/pricing.css" type="text/css">
-    <!-- Local JS -->
-    <script src="js/pricing.js" type="text/javascript"></script>
+</head>
 <body>
 	<!-- Navigation -->
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
-<!-- Pricing Heading   -->
+	
+	<!-- Pricing Heading   -->
     <div class="container container-h1">
         <h1 class="display-4 text-center text-white h1 mt-0">Pricing</h1>
         <hr class="my-4">
     </div>
-<!-- Pricing Cards -->
+	
+	<!-- Pricing Cards -->
     <div class="container container-cards">
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
@@ -67,7 +66,8 @@
         </div>
         <hr class="my-4">
     </div>
-<!-- Pricing Form -->
+	
+	<!-- Pricing Form -->
 	<div class="container container-form">
         <div class="row row-content">
             <form id="PricingContactForm">
@@ -101,12 +101,16 @@
             </form>
         </div>
     </div>
-<!-- End Form -->
+	<!-- End Form -->
 
     <!-- Footer -->
     <?php include_once 'footer.php' ?>
+	
+	<!-- JQuery	-->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap JS. -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
+	<!-- Local JS -->
+	<script src="js/pricing.js" type="text/javascript"></script>
 </body>
 </html>
