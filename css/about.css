@@ -6,6 +6,8 @@ html {
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -22,15 +24,18 @@ body {
     text-align: center;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
-    font-size: 3.5rem;
-}
-
 .navbar-brand img {
     position: relative;
     top: 2rem;
-    left: 2rem;
+    left:2rem;
+}
+
+.navbar-nav li {
+    display:inline-block;
+    padding:10px;
+    margin: 4px;
+    width:auto;
+    border-radius: 10px;
 }
 
 .nav-link {
@@ -40,7 +45,11 @@ body {
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
     /*text-shadow: 1px 1px 2px #000;*/
-    padding-right: 3.5rem !important;
+    padding-right: 1rem !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 .nav-link#Pricing:hover {
@@ -122,10 +131,11 @@ footer {
     top: 93.1rem;
 }
 
-.wrapper {
+.wrapper1 {
     display: table-cell;
     vertical-align: middle;
 }
+
 
 footer small {
     color: #d96b26;

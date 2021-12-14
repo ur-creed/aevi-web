@@ -12,7 +12,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+    <<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- Animate CSS -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <!-- Local CSS -->
@@ -23,14 +23,13 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
-	
+
 	<!-- Pricing Heading   -->
     <div class="container container-h1">
         <h1 class="display-4 text-center text-white h1 mt-0">Pricing</h1>
         <hr class="my-4">
     </div>
-	
-	<!-- Pricing Cards -->
+<!-- Pricing Cards -->
     <div class="container container-cards">
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
@@ -66,8 +65,7 @@
         </div>
         <hr class="my-4">
     </div>
-	
-	<!-- Pricing Form -->
+<!-- Pricing Form -->
 	<div class="container container-form">
         <div class="row row-content">
             <form id="PricingContactForm">
@@ -105,7 +103,7 @@
 
     <!-- Footer -->
     <?php include_once 'footer.php' ?>
-	
+
 	<!-- JQuery	-->
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap JS. -->

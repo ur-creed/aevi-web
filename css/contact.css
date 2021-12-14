@@ -17,15 +17,19 @@ body {
     text-align: center;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
-    font-size: 3.5rem;
-}
 
 .navbar-brand img {
     position: relative;
     top: 2rem;
     left: 2rem;
+}
+
+.navbar-nav li {
+    display:inline-block;
+    padding:10px;
+    margin: 4px;
+    width:auto;
+    border-radius: 10px;
 }
 
 .nav-link {
@@ -35,7 +39,7 @@ body {
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
     /*text-shadow: 1px 1px 2px #000;*/
-    padding-right: 3.5rem !important;
+    padding-right: 1rem !important;
 }
 
 .nav-link#About:hover {
@@ -118,7 +122,7 @@ form {
 }
 .name:hover {
     border-bottom: 5px solid #c93030;
-    height: 30px;
+    height: 3.5em;
     transition: ease 0.5s;
 }
 
@@ -128,7 +132,7 @@ form {
 
 .email:hover {
     border-bottom: 5px solid #c93030;
-    height: 30px;
+    height: 3.5em;
     transition: ease 0.5s;
 }
 
@@ -232,7 +236,7 @@ footer {
     top: 93.1rem;
 }
 
-.wrapper {
+.wrapper1 {
     display: table-cell;
     vertical-align: middle;
 }

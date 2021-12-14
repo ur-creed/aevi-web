@@ -23,15 +23,18 @@ body {
     text-align: center;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
-    font-size: 3.5rem;
-}
-
 .navbar-brand img {
     position: relative;
     top: 2rem;
     left:2rem;
+}
+
+.navbar-nav li {
+    display:inline-block;
+    padding:10px;
+    margin: 4px;
+    width:auto;
+    border-radius: 10px;
 }
 
 .nav-link {
@@ -41,7 +44,11 @@ body {
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
     /*text-shadow: 1px 1px 2px #000;*/
-    padding-right: 3.5rem !important;
+    padding-right: 1rem !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 .nav-link#About:hover {
@@ -69,47 +76,220 @@ color: #d96b26 !important;
     font-weight: 350;
 }
 /* Card */
-.card {
-    animation: bounce 1.5s infinite;
+.wrapper{
+    max-width: 1090px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.wrapper .table{
+    background: #fff;
+    width: calc(33% - 20px);
+    padding: 30px 30px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.table .price-section{
+    display: flex;
+    justify-content: center;
+}
+.table .price-area{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 2px;
+}
+.price-area .inner-area{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    line-height: 117px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.price-area .inner-area .text{
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: -10px;
+    left: 17px;
+}
+.price-area .inner-area .price{
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 16px;
+}
+.table .package-name{
+    width: 100%;
+    height: 2px;
+    margin: 35px 0;
+    position: relative;
+}
+.table .package-name::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    font-weight: 500;
+    background: #fff;
+    padding: 0 15px;
+    transform: translate(-50%, -50%);
+}
+.table .features li{
+    margin-bottom: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.features li .list-name{
+    font-size: 17px;
+    font-weight: 400;
+}
+.features li .icon{
+    font-size: 15px;
+}
+.features li .icon.check{
+    color: #2db94d;
+}
+.features li .icon.cross{
+    color: #cd3241;
+}
+.table .btn{
+    width: 100%;
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+}
+.table .btn button{
+    width: 80%;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.table .btn button:hover{
+    border-radius: 5px;
+}
+.basic .features li::selection{
+    background: #ffd861;
+}
+.basic ::selection,
+.basic .price-area,
+.basic .inner-area{
+    background: #ffd861;
+}
+.basic .btn button{
+    border: 2px solid #ffd861;
+    background: #fff;
+    color: #ffd861;
+}
+.basic .btn button:hover{
+    background: #ffd861;
+    color: #fff;
+}
+.premium ::selection,
+.premium .price-area,
+.premium .inner-area,
+.premium .btn button{
+    background: #a26bfa;
+}
+.premium .btn button:hover{
+    background: #833af8;
+}
+.basic:hover {
+    animation: bounce 1.5s;
+}
+.premium:hover {
+    animation: bounce 1.5s;
 }
 
-.card-text {
-    font-size: 2rem;
+.basic .package-name{
+    background: #ffecb3;
 }
-
-.lead {
-    font-size: 1.5rem !important;
+.premium .package-name{
+    background: #d0b3ff;
 }
-
-img.card-img-top.img-fluid {
-    height: 38.6rem !important;
+.basic .package-name::before{
+    content: "New Site";
 }
-
-span.badge {
-    font-size: 2rem;
+.premium .package-name::before{
+    content: "Maintenance";
+    font-size: 24px;
 }
-
-@keyframes bounce {
-    0% {
-        tranform: translate(0, 4px);
+@media (max-width: 1020px) {
+    .wrapper .table{
+        width: calc(50% - 20px);
+        margin-bottom: 40px;
     }
-    50% {
-        transform: translate(0, 8px);
+}
+@media (max-width: 698px) {
+    .wrapper .table{
+        width: 100%;
     }
 }
-
-.btn-primary {
-    font-size: 1.5rem;
+::selection{
+    color: #fff;
 }
-
-.btn-primary:hover {
-    transform: translateY(-3px) !important;
-    border-top: 5px solid red;
+.table .ribbon{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    overflow: hidden;
 }
-/* End Card */
+.table .ribbon::before,
+.table .ribbon::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    display: block;
+    border: 7px solid #000;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+.table .ribbon::before{
+    top: 0px;
+    right: 15px;
+}
+.table .ribbon::after{
+    bottom: 15px;
+    left: 0px;
+}
+.table .ribbon span{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    transform: rotate(-45deg);
+    width: 200px;
+    background: #ffd861;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+}
+/* End Card*/
 
 .row {
 justify-content: center !important;
+}
+
+.row-content1 {
+    border-bottom: 1px ridge;
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    min-height: 400px;
 }
 
 .row-content {
@@ -122,22 +302,21 @@ justify-content: center !important;
     position: relative;
 }
 
-/* Accordion */
-.accordion {
-    box-shadow: 1px 1px 2px #000;
+/*!* Form *!*/
+form {
+    background: #fff;
+    box-shadow: 0 3rem 6rem 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 5px solid #fff;
+    /*animation: bounce 1s infinite;*/
 }
-
-button.accordion-button.text-black.h1 {
-    font-size: 2.5rem;
-}
-
-.accordion-body {
-    font-size: 1.5rem;
-}
-
-/* Form */
 form label {
-    color: #F5F5F5;
+    color: #26d985;
     font-size: 2.5rem;
 }
 
@@ -155,44 +334,38 @@ form .form-text {
     box-shadow: 1px 1px 2px #000;
 }
 
-.btn-outline-primary {
-    color: #fff !important;
-    border-color: #fff !important;
-}
 
 .secondaryTitle{
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
+    color: #26d985;
     text-align: center;
     font-size: 2rem;
 }
 
-label {
-    color: #F5F5F5;
-}
+/*input, select, textarea {*/
+/*    background-color: #8c8b8b!important;*/
+/*}*/
 
-button.btn-outline-success {
+button.btn-success {
     font-size: 2rem;
+    border-radius: 6.25em;
 }
-.btn-outline-success:hover {
+.btn-success:hover {
     transform: translateY(-3px);
-    border-top: 5px solid yellow;
+    border-top: 5px solid #198754;
+    background: transparent;
+    color: #198754;
 }
 
-input, textarea, select, button {
-    color: #26d985;
-    background-color: #F5F5F5;
-    font-weight: bold;
-}
 
 textarea {
     font-size: 1.5rem !important;
     box-shadow: 1px 1px 2px #000;
+    background-color: #F5F5F5;
 }
 
 .formEntry {
     display: block;
-    margin: auto;
+    margin: 5px auto;
     min-width: 300px;
     padding: 10px;
     border-radius: 2px;
@@ -204,8 +377,8 @@ textarea {
     background-color: #fff;
 }
 .name:hover {
-    border-bottom: 5px solid #c93030;
-    height: 30px;
+    border-bottom: 5px solid  #26d985;
+    height: 3.5em;
     transition: ease 0.5s;
 }
 
@@ -214,8 +387,8 @@ textarea {
 }
 
 .email:hover {
-    border-bottom: 5px solid #c93030;
-    height: 30px;
+    border-bottom: 5px solid  #26d985;
+    height: 3.5em;
     transition: ease 0.5s;
 }
 
@@ -230,24 +403,12 @@ textarea {
 }
 
 .message:hover {
-    border-bottom: 5px solid #c93030;
+    border-bottom: 5px solid #26d985;
     height: 12em;
     transition: ease 0.5s;
 }
 
-/* End Form */
-
-
-
-/* ==== GENERAL STYLES ==== */
-
-* {
-    box-sizing: border-box;
-}
-
-strong {
-    font-weight: 700;
-}
+/*!*!* End Form *!*!*/
 
 /* ==== SIMPLE FOOTER ==== */
 
@@ -264,6 +425,11 @@ footer {
 }
 
 .wrapper {
+    /*display: table-cell;*/
+    vertical-align: middle;
+}
+
+.wrapper1 {
     display: table-cell;
     vertical-align: middle;
 }

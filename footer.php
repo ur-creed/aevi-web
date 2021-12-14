@@ -1,5 +1,5 @@
 <footer>
-	<div class="wrapper">
+	<div class="wrapper1">
 		<small>&copy;2021 <strong>Aevi Web LLC</strong>, All Rights Reserved</small>
 		<nav class="footer-nav">
 			<a href="#">Back to Top</a>
