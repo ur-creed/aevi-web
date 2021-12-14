@@ -8,19 +8,15 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
-    <link href="http://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-	<!-- JQuery	-->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/about.css" type="text/css">
-    <!-- Local JS -->
-    <script src="js/about.js" type="text/javascript"></script>
 </head>
 <body>
 	<!-- The navigation bar -->
@@ -104,7 +100,11 @@
 	
 	<!-- Footer -->
 	<?php include_once 'footer.php' ?>
+	<!-- JQuery	-->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<!-- Bootstrap JS. -->
 	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Local JS -->
+	<script src="js/about.js" type="text/javascript"></script>
 </body>
 </html>
