@@ -387,6 +387,7 @@ justify-content: center !important;
 
 button.btn.btn-success.mb-3 {
     font-size: 2rem !important;
+    border-radius: 6.25em;
 }
 
 .child1 p span{
@@ -529,21 +530,21 @@ button.btn.btn-success.mb-3 {
 /*.name {*/
 /*    background-color: #fff;*/
 /*}*/
-.name:hover {
-    border-bottom: 5px solid  #26d985;
-    height: 3.5em;
-    transition: ease 0.5s;
-}
+/*.name:hover {*/
+/*    border-bottom: 5px solid  #26d985;*/
+/*    height: 3.5em;*/
+/*    transition: ease 0.5s;*/
+/*}*/
 
 /*.email {*/
 /*    background-color: #fff;*/
 /*}*/
 
-.email:hover {
-    border-bottom: 5px solid  #26d985;
-    height: 3.5em;
-    transition: ease 0.5s;
-}
+/*.email:hover {*/
+/*    border-bottom: 5px solid  #26d985;*/
+/*    height: 3.5em;*/
+/*    transition: ease 0.5s;*/
+/*}*/
 
 /*.select {*/
 /*    background-color: #fff;*/
@@ -555,11 +556,11 @@ button.btn.btn-success.mb-3 {
     height: 10rem;
 }
 
-.message:hover {
-    border-bottom: 5px solid #26d985;
-    height: 12em;
-    transition: ease 0.5s;
-}
+/*.message:hover {*/
+/*    border-bottom: 5px solid #26d985;*/
+/*    height: 12em;*/
+/*    transition: ease 0.5s;*/
+/*}*/
 
 /*!*!* End Form *!*!*/
 
