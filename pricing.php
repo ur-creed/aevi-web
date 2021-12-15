@@ -38,7 +38,7 @@
                     <div class="card-body">
                         <h5 class="display-3 card-title">New Project</h5>
                         <p class="card-text lead">Looking to start a brand new project? Whether you know exactly what you want or have absolutely no idea where to begin, We can help with that!</p>
-                        <p class="card-text"><span class="badge bg-primary">$750</span></p>
+                        <p class="card-text"><span class="badge bg-primary">Starting at: $750</span></p>
 	                    <div class="d-grid gap-2 col-6 mx-auto">
                             <button class="btn btn-primary " id="NewProjectButton" type="button">
                                 Learn more
@@ -53,7 +53,7 @@
                     <div class="card-body">
                         <h5 class="display-3 card-title">Maintenance</h5>
                         <p class="card-text lead">Have an existing website that needs updated information or just flat out needs to take that leap to the future? You're in the right place to teleport it there!</p>
-                        <p class="card-text"><span class="badge bg-primary">$750</span></p>
+                        <p class="card-text"><span class="badge bg-primary">$63 / hr</span></p>
                         <div class="d-grid gap-2 col-6 mx-auto">
                             <button class="btn btn-primary" id="ExistingProjectButton" type="button">
                                 Learn more
