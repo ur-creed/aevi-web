@@ -12,7 +12,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
-    <<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- Animate CSS -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <!-- Local CSS -->
@@ -98,39 +98,37 @@
     </div>
 
 <!-- Pricing Form -->
-    <div class="container">
-        <div class="contact-parent">
-            <div class="contact-child child1">
+<div class="container container-form">
+    <div class="row row-content">
+        <form action="">
+            <div class="secondaryTitle title">
+                Please fill out this form below.
             </div>
-
-            <div class="contact-child child2">
-                <div class="inside-contact">
-                    <h2>Please Fill Out The Form</h2>
-                    <h3>
-                        <span id="confirm">
-                    </h3>
-                    <form action="">
-                        <div class="mb-3">
-                            <label for="txt_name" id="name" class="form-label">Full Name</label>
-                            <input id="txt_name" type="text" class="name form-control" placeholder="Ragnar Doe" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="txt_email" id="email" class="form-label">Email</label>
-                            <input id="txt_email" type="text" class="email form-control" placeholder="ragnarDoe@email.com" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="" class="form-label">Leave a message</label>
-                            <textarea name="" id="" cols="30" rows="10" class="form-control message"></textarea>
-                        </div>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button type="button" class="btn btn-success mb-3">Submit</button>
-                        </div>
-                    </form>
-
-                </div>
+            <div class="mb-3">
+                <label for="fullName" id="fullname" class="form-label">Full Name</label>
+                <input type="text" name="fullName" class="form-control name formEntry" placeholder="Ragnar Doe" required>
             </div>
-        </div>
+            <div class="mb-3">
+                <label for="email" id="email" class="form-label">Email</label>
+                <input type="email" name="email" class="form-control email formEntry" placeholder="ragnarDoe@email.com" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="select" class="form-label">Select a Package</label>
+                <select class="form-select" required>
+                    <option class="placeholder">Choose Package</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="message"  id="message" class="form-label">Leave us a Message</label>
+                <textarea name="" id="txt_msg"  class="form-control message formEntry" placeholder="Tell us about your project" required></textarea>
+            </div>
+            <div class="d-grid gap-1 col-6 mx-auto mt-4 mb-3">
+                <button class="btn btn-success">Submit</button>
+            </div>
+        </form>
     </div>
+</div>
 <!-- End Form -->
     <a href="#" class="scrollToTop" title="Go Top"><i class="sprite scrollarrow"></i></a>
 

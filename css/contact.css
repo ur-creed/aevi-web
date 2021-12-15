@@ -8,7 +8,8 @@ html {
 body {
     background-color: #c93030;
     z-index: 0;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow: scroll;
     font-family: "laca Text", sans-serif;
 }
 
@@ -107,7 +108,7 @@ form {
     /*position: absolute;*/
     border-top: 5px solid #fff;
     /*   z-index: 1; */
-    animation: bounce 1.5s infinite;
+    /*animation: bounce 1.5s infinite;*/
 }
 ::-webkit-input-placeholder {
     font-size: 1.3em;
@@ -236,8 +237,8 @@ footer {
     padding: 1rem;
     font-family: 'Arial', sans-serif;
     font-size: 1.5rem;
-    position: fixed !important;
-    top: 93.1rem;
+    /*position: fixed !important;*/
+    /*top: 93.1rem;*/
 }
 
 .wrapper1 {
