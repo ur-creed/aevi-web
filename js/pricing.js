@@ -14,7 +14,7 @@ function HandleNewProjectButtonClick() {
 // Handle what happens when "Maintenance" button is click
 function HandleExistingProjectButtonClick() {
     $existingProjectButton.click(function() {
-        $packageSelect.value = "maintenance"
+        $packageSelect.value = "existing"
     });
 }
 
@@ -39,10 +39,10 @@ $(document).ready(function(){
             $('.scrollToTop').fadeOut();
         }
     });
+
     //Click event to scroll to top
     $('.scrollToTop').click(function(){
-        $('html, body').animate({scrollTop : 0},800);
+        $('html, body').animate({scrollTop : 0}, 800);
         return false;
     });
-
 });

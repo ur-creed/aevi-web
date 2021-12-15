@@ -14,7 +14,7 @@ body {
     z-index: 0;
     font-family: "laca Text", sans-serif;
     overflow-x: hidden;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 
