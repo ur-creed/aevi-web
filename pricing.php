@@ -8,7 +8,7 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
-    <link href="http://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/pricing.css" type="text/css">
-
 <body>
 	<!-- Navigation -->
 	<?php include_once 'navigation.php' ?>
@@ -33,7 +32,7 @@
         <div class="row row-content1">
             <div class="wrapper">
                 <div class="table basic">
-                    <div class="ribbon"><span>Recommend</span></div>
+                    <div class="ribbon"><span>Starting At</span></div>
                     <div class="price-section">
                         <div class="price-area">
                             <div class="inner-area">
@@ -64,6 +63,7 @@
                     <div class="btn"><button>Learn More</button></div>
                 </div>
                 <div class="table premium">
+                    <div class="ribbon"><span>Starting At</span></div>
                     <div class="price-section">
                         <div class="price-area">
                             <div class="inner-area">
@@ -98,40 +98,41 @@
     </div>
 
 <!-- Pricing Form -->
-	<div class="container container-form">
-        <div class="row row-content">
-            <form id="PricingContactForm">
-                <div class="secondaryTitle title">
-                    Please fill out this form below.
+    <div class="container">
+        <div class="contact-parent">
+            <div class="contact-child child1">
+            </div>
+
+            <div class="contact-child child2">
+                <div class="inside-contact">
+                    <h2>Please Fill Out The Form</h2>
+                    <h3>
+                        <span id="confirm">
+                    </h3>
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="txt_name" id="name" class="form-label">Full Name</label>
+                            <input id="txt_name" type="text" class="name form-control" placeholder="Ragnar Doe" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="txt_email" id="email" class="form-label">Email</label>
+                            <input id="txt_email" type="text" class="email form-control" placeholder="ragnarDoe@email.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Leave a message</label>
+                            <textarea name="" id="" cols="30" rows="10" class="form-control message"></textarea>
+                        </div>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button type="button" class="btn btn-success mb-3">Submit</button>
+                        </div>
+                    </form>
+
                 </div>
-                <div class="mb-3">
-                    <label class="form-label" for="FullName">First and last name</label>
-                    <input id="FullName" name="full_name" class="form-control name formEntry" type="text" placeholder="Ragnar Doe" required>
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="ClientEmail">Email address</label>
-                    <input id="ClientEmail" name="client_email" class="form-control email formEntry" type="email" placeholder="ragnar@email.com" aria-describedby="EmailHelp" required>
-                    <span id="EmailHelp" class="form-text text-black">We'll never share your email with anyone else!</span>
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="PackageSelect">Choose a package:</label>
-                    <select id="PackageSelect" name="package_select" class="form-select select formEntry" required>
-                        <option value="">Select an option</option>
-                        <option value="new">New project</option>
-                        <option value="maintenance">Maintenance</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="Message">A little about your dream</label>
-                    <textarea id="Message" name="message" class="form-control message formEntry" cols="30" rows="10" placeholder="Tell us a little about the project you want built..." required></textarea>
-                </div>
-                <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-success" id="SubmitInquiryButton" type="submit" form="ContactForm">Submit</button>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
 <!-- End Form -->
+    <a href="#" class="scrollToTop" title="Go Top"><i class="sprite scrollarrow"></i></a>
 
     <!-- Footer -->
     <?php include_once 'footer.php' ?>
