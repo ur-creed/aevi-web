@@ -8,8 +8,7 @@ html {
 body {
     background-color: #c93030;
     z-index: 0;
-    overflow-x: hidden;
-    overflow: scroll;
+    overflow: hidden;
     font-family: "laca Text", sans-serif;
 }
 
@@ -72,59 +71,69 @@ body {
     font-size: 8rem;
 }
 
-/* Container */
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    min-height: 400px;
+}
+
+
+/* Form */
 .container-form {
-    padding: 2rem;
-    position: relative;
+   position: relative;
 }
 
-input, textarea, select, button {
-    color: #c93030;
-    background-color: #F5F5F5;
-    font-weight: bold;
-}
-
-textarea {
-    font-size: 1.5rem !important;
-    box-shadow: 1px 1px 2px #000;
-}
-
-#title-Tag-Line {
-    font-size: 20px;
-}
-
-/* form animation starts */
 form {
     background: #fff;
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    box-shadow: 0 3rem 6rem 0 rgba(90, 116, 148, 0.4);
     border-radius: 5px;
-    max-width: 480px;
+    max-width: 48rem;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5px;
     padding-bottom: 5px;
-    /*left: 0;*/
-    /*right: 0;*/
-    /*position: absolute;*/
     border-top: 5px solid #fff;
-    /*   z-index: 1; */
     /*animation: bounce 1.5s infinite;*/
-}
-::-webkit-input-placeholder {
-    font-size: 1.3em;
 }
 
 .secondaryTitle{
-    color: grey;
+    color: #C93030;
     text-align: center;
+    font-size: 2rem;
+}
+
+form label {
+    color: #C93030;
+    font-size: 2rem;
+}
+
+form input {
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 2px #000;
+}
+
+form .form-text {
+    font-size: 1.2rem;
+}
+
+.form-control {
     font-size: 1.5rem;
 }
 
-
+.formEntry {
+    display: block;
+    margin: 5px auto;
+    min-width: 30rem;
+    padding: 1rem;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+}
 
 .name {
-    background-color: #ebebeb;
+    background-color: #fff;
 }
+
 .name:hover {
     border-bottom: 5px solid #c93030;
     height: 3.5em;
@@ -132,7 +141,7 @@ form {
 }
 
 .email {
-    background-color: #ebebeb;
+    background-color: #fff;
 }
 
 .email:hover {
@@ -142,7 +151,7 @@ form {
 }
 
 .message {
-    background-color: #ebebeb;
+    background-color: #fff;
     overflow: hidden;
     height: 10rem;
 }
@@ -153,66 +162,31 @@ form {
     transition: ease 0.5s;
 }
 
-.form-control {
-    font-size: 1.5rem;
+textarea {
+    font-size: 1.5rem !important;
+    box-shadow: 1px 1px 2px #000;
 }
 
-.form-check-label {
-    font-size: 1.2rem;
+.btn-danger {
+    font-size: 2rem !important;
+    border-radius: 6.25em;
 }
 
-.form-check-input[type=checkbox] {
-    border-radius: 5.25em!important;
-}
-.form-check-input {
-    width: 1.2rem;
-    height: 1.2rem;
-}
-
-.form-text {
-    font-size: 1.2rem;
-}
-
-.formEntry {
-    display: block;
-    margin: auto;
-    min-width: 300px;
-    padding: 10px;
-    border-radius: 2px;
-    border: none;
-    transition: all 0.5s ease 0s;
-}
-
-.submit {
-    width: 200px;
-    color: white;
-    background-color: #c93030;
-    font-size: 20px;
-}
-
-.row-content {
-    margin: 0px auto;
-    padding: 50px 0px 50px 0px;
-    min-height: 400px;
-}
-
-
-.submit:hover {
-    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+.btn-danger:hover {
     transform: translateY(-3px);
-    width: 300px;
-    border-top: 5px solid #0e3750;
-    border-radius: 0%;
+    border-top: 5px solid #C93030;
+    background: #ffffff;
+    color: #C93030;
 }
 
-@keyframes bounce {
-    0% {
-        tranform: translate(0, 4px);
-    }
-    50% {
-        transform: translate(0, 8px);
-    }
-}
+/*@keyframes bounce {*/
+/*    0% {*/
+/*        tranform: translate(0, 4px);*/
+/*    }*/
+/*    50% {*/
+/*        transform: translate(0, 8px);*/
+/*    }*/
+/*}*/
 
 /* End Form */
 
@@ -237,8 +211,8 @@ footer {
     padding: 1rem;
     font-family: 'Arial', sans-serif;
     font-size: 1.5rem;
-    /*position: fixed !important;*/
-    /*top: 93.1rem;*/
+    position: fixed !important;
+    top: 90rem;
 }
 
 .wrapper1 {

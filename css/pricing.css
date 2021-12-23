@@ -359,6 +359,12 @@ form {
     /*animation: bounce 1s infinite;*/
 }
 
+.secondaryTitle {
+    color: #26d985;
+    text-align: center;
+    font-size: 2rem;
+}
+
 form label {
     color: #26d985;
     font-size: 2.5rem;
@@ -380,11 +386,7 @@ select.form-select {
 }
 
 
-.secondaryTitle{
-    color: #26d985;
-    text-align: center;
-    font-size: 2rem;
-}
+
 
 /*input, select, textarea {*/
 /*    background-color: #8c8b8b!important;*/
@@ -412,8 +414,8 @@ textarea {
 .formEntry {
     display: block;
     margin: 5px auto;
-    min-width: 300px;
-    padding: 10px;
+    min-width: 30rem;
+    padding: 1rem;
     border-radius: 2px;
     border: none;
     transition: all 0.5s ease 0s;

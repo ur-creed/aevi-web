@@ -25,13 +25,13 @@
     <?php include_once 'particles.php' ?>
 <!-- About Header -->
 	<div class="container container-header bg-transparent p-5">
-		<h1 class="display-4 text-center text-white h-1 mt-0">About Us</h1>
+		<h1 class="display-4 text-center text-white h-1 mt-0">A Little About Who We Are</h1>
 		<hr class="my-4">
 	</div>
 <!-- About Content -->
 	<div class="container container-about">
 		<div class="row row-content">
-            <h1 class="display-3 h1 mt-0">A Little About Who We Are</h1>
+<!--            <h1 class="display-3 h1 mt-0">A Little About Who We Are</h1>-->
 			<p class="display-6 text-center text-white col-lg-6 col-sm-12 lead">
 				At Aevi Web, we believe every human being deserves to have their website dream come to life!
 				Whether you have an existing idea or project in place and need updates or want a brand spanking new project built, we can help with that!
@@ -97,13 +97,14 @@
             </div>
 		</div>
 	</div>
-	
-	<!-- Footer -->
+<!-- Back to Top -->
+    <a href="#" class="scrollToTop" title="Go Top"><i class="sprite scrollarrow"></i></a>
+    <!-- Footer -->
 	<?php include_once 'footer.php' ?>
-	<!-- JQuery	-->
-	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<!-- Bootstrap JS. -->
-	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JQuery	-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap JS. -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 	<!-- Local JS -->
 	<script src="js/about.js" type="text/javascript"></script>
 </body>

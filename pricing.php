@@ -94,7 +94,9 @@
                             <span class="icon cross"><i class="fas fa-times"></i></span>
                         </li>
                     </ul>
-                    <div class="btn"><button id="ExistingProjectButton">Learn More</button></div>
+                    <div class="btn">
+                        <button id="ExistingProjectButton">Learn More</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,16 +109,16 @@
 	            <div class="secondaryTitle title">
 	                Please fill out this form below.
 	            </div>
-	            <div class="mb-3">
+	            <div class="mb-5">
 	                <label for="FullName" class="form-label">Full Name</label>
 	                <input id="FullName" type="text" name="full_Name" class="form-control name formEntry" placeholder="Ragnar Doe" required>
 	            </div>
-	            <div class="mb-3">
+	            <div class="mb-5">
 	                <label for="Email" class="form-label">Email</label>
 	                <input id="Email" type="email" name="email" class="form-control email formEntry" placeholder="ragnarDoe@email.com" required>
 	                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
 	            </div>
-	            <div class="mb-3">
+	            <div class="mb-5">
 	                <label for="PackageSelect" class="form-label">Select a Package:</label>
 	                <select id="PackageSelect" class="form-select" required>
 	                    <option value="">Choose Package</option>
@@ -124,7 +126,7 @@
 		                <option value="existing">Maintenance</option>
 	                </select>
 	            </div>
-	            <div class="mb-3">
+	            <div class="mb-5">
 	                <label for="Message" class="form-label">A little about your project</label>
 	                <textarea id="Message" name="message" class="form-control message formEntry" placeholder="Tell us a little bit about the project vision..." required></textarea>
 	            </div>
@@ -136,7 +138,7 @@
 	</div>
 	<!-- End Form -->
 	
-<!--    <a href="#" class="scrollToTop" title="Go Top"><i class="sprite scrollarrow"></i></a>-->
+    <a href="#" class="scrollToTop" title="Go Top"><i class="sprite scrollarrow"></i></a>
 
     <!-- Footer -->
     <?php include_once 'footer.php' ?>

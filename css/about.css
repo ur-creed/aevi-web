@@ -69,15 +69,51 @@ body {
     font-size: 3.5rem;
     box-shadow: 1px 1px 2px #000;
 }
-
 /* Navbar End */
 
+/* Scroll Back to Top*/
+.scrollToTop {
+    background :#a26bfa;
+    width: 6rem;
+    height: 6rem;
+    text-align: center;
+    position: fixed;
+    bottom: 6rem;
+    right: 5rem;
+    display: none;
+    z-index: 99;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
+.scrollToTop:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.scrollToTop .scrollarrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 15px 10px;
+    border-color: transparent transparent #26d985 ;
+    display: block;
+    margin:20px auto 0;
+}
+
+/* ==== GENERAL STYLES ==== */
 strong {
+    font-weight: 700;
     color: #000000;
 }
 
 .display-4 {
     font-size: 8rem;
+}
+
+.col-sm {
+    padding: 1rem;
 }
 
 .my-4 {
@@ -99,23 +135,14 @@ strong {
 
 .row-content {
     margin: 0px auto;
-    padding: 50px 0px 50px 0px;
+    padding: 2rem 0px 2rem 0px;
     border-bottom: 1px ridge;
-    min-height: 400px;
+    min-height: 40rem;
 }
 
 img.animate__animated.animate__slideInRight.img-fluid {
     border-radius: 3rem;
 }
-
-/* ==== GENERAL STYLES ==== */
-
-
-
-strong {
-    font-weight: 700;
-}
-
 /* ==== SIMPLE FOOTER ==== */
 
 footer {
