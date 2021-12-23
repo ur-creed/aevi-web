@@ -30,7 +30,7 @@
 	<div class="container container-form">
         <div class="row row-content">
             <form action="">
-                <div class="secondaryTitle title">
+                <div class="secondaryTitle">
                         Please fill out this form below.
                 </div>
                 <div class="mb-5">
