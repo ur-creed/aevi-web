@@ -39,7 +39,6 @@ body {
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
     /*text-shadow: 1px 1px 2px #000;*/
-    padding-right: 1rem !important;
 }
 
 .nav-link:hover {
