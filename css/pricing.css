@@ -414,7 +414,6 @@ textarea {
 .formEntry {
     display: block;
     margin: 5px auto;
-    min-width: 30rem;
     padding: 1rem;
     border-radius: 2px;
     border: none;
@@ -492,6 +491,12 @@ textarea {
 
 .aeviweb:hover {
     color: #26d985;
+}
+
+@media only screen and (max-width: 991px) {
+    .copyright ul {
+        text-align: center;
+    }
 }
 
 /* Particle CSS START */

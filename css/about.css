@@ -190,6 +190,12 @@ img.animate__animated.animate__slideInRight.img-fluid {
     color: #000;
 }
 
+@media only screen and (max-width: 991px) {
+    .copyright ul {
+        text-align: center;
+    }
+}
+
 /* Particle CSS START */
 .particle {
     position: absolute;
