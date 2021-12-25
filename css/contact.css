@@ -63,10 +63,25 @@ body {
     box-shadow: 1px 1px 2px #000;
 }
 
+#Home {
+    display: none;
+}
+
 /*!* Nav toggler */
 .navbar-toggler-icon {
-    width: 3.5em;
-    height: 3.5em;
+    width: 3.5em !important;
+    height: 3.5em !important;
+}
+
+/* logo mobile */
+@media only screen and (max-width: 991px) {
+    .navbar-brand img {
+        display: none !important;
+    }
+
+    #Home {
+        display: block;
+    }
 }
 
 .display-4 {
@@ -159,7 +174,7 @@ form .form-text {
 
 .message:hover {
     border-bottom: 5px solid #c93030;
-    height: 12em;
+    height: 12.5rem;
     transition: ease 0.5s;
 }
 

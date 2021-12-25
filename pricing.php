@@ -32,11 +32,11 @@
     <div class="container">
         <div class="row row-content1">
             <div class="wrapper">
-                <div class="table basic">
+                <div class="table new">
                     <div class="ribbon"><span>Starting At</span></div>
                     <div class="price-section">
                         <div class="price-area">
-                            <div class="inner-area">
+                            <div class="inside">
                                 <span class="text">$</span>
                                 <span class="price">1K</span>
                             </div>
@@ -65,11 +65,11 @@
 	                    <button id="NewProjectButton">Learn More</button>
                     </div>
                 </div>
-                <div class="table premium">
+                <div class="table maintenance">
                     <div class="ribbon"><span>Hourly</span></div>
                     <div class="price-section">
                         <div class="price-area">
-                            <div class="inner-area">
+                            <div class="inside">
                                 <span class="text">$</span>
                                 <span class="price">63</span>
                             </div>

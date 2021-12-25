@@ -51,6 +51,27 @@ body {
     padding-right: 3.5rem !important;
 }
 
+/*!* Nav toggler */
+.navbar-toggler-icon {
+    width: 3.5em !important;
+    height: 3.5em !important;
+}
+
+#Home {
+    display: none;
+}
+
+/* logo mobile */
+@media only screen and (max-width: 991px) {
+    .navbar-brand img {
+        display: none !important;
+    }
+
+    #Home {
+        display: block;
+    }
+}
+
 /* Navbar End */
 
 .container {

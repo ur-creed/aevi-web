@@ -68,6 +68,26 @@ color: #d96b26 !important;
     font-size: 3.5rem;
     box-shadow: 1px 1px 2px #000;
 }
+
+#Home {
+    display: none;
+}
+
+/*!* Nav toggler */
+.navbar-toggler-icon {
+    width: 3.5em !important;
+    height: 3.5em !important;
+}
+/* logo mobile */
+@media only screen and (max-width: 991px) {
+    .navbar-brand img {
+        display: none !important;
+    }
+    #Home {
+        display: block;
+    }
+}
+
 /* Navbar End */
 
 /* Scroll Back to Top*/
@@ -124,11 +144,11 @@ color: #d96b26 !important;
     position: relative;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
-.table .price-section{
+.table .price-section {
     display: flex;
     justify-content: center;
 }
-.table .price-area{
+.table .price-area {
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -136,7 +156,7 @@ color: #d96b26 !important;
     position: relative;
     top: .9rem;
 }
-.price-area .inner-area{
+.price-area .inside {
     height: 100%;
     width: 100%;
     border-radius: 50%;
@@ -146,14 +166,14 @@ color: #d96b26 !important;
     color: #fff;
     position: relative;
 }
-.price-area .inner-area .text{
+.price-area .inside .text{
     font-size: 25px;
     font-weight: 400;
     position: absolute;
     top: -10px;
     left: 17px;
 }
-.price-area .inner-area .price{
+.price-area .inside .price{
     font-size: 45px;
     font-weight: 500;
     margin-left: 16px;
@@ -222,49 +242,43 @@ color: #d96b26 !important;
 .table .btn button:hover{
     border-radius: 5px;
 }
-.basic .features li::selection{
+.new .features li::selection{
     background: #ffd861;
 }
-.basic ::selection,
-.basic .price-area,
-.basic .inner-area{
+.new ::selection,
+.new .price-area,
+.new .inside{
     background: #ffd861;
 }
-.basic .btn button{
+.new .btn button{
     border: 2px solid #ffd861;
     background: #fff;
     color: #ffd861;
 }
-.basic .btn button:hover{
+.new .btn button:hover{
     background: #ffd861;
     color: #fff;
 }
-.premium ::selection,
-.premium .price-area,
-.premium .inner-area,
-.premium .btn button{
+.maintenance ::selection,
+.maintenance .price-area,
+.maintenance .inside,
+.maintenance .btn button{
     background: #a26bfa;
 }
-.premium .btn button:hover{
+.maintenance .btn button:hover{
     background: #833af8;
 }
-/*.basic:hover {*/
-/*    animation: bounce 1.5s;*/
-/*}*/
-/*.premium:hover {*/
-/*    animation: bounce 1.5s;*/
-/*}*/
 
-.basic .package-name{
+.new .package-name{
     background: #ffecb3;
 }
-.premium .package-name{
+.maintenance .package-name{
     background: #d0b3ff;
 }
-.basic .package-name::before{
+.new .package-name::before{
     content: "New Site";
 }
-.premium .package-name::before{
+.maintenance .package-name::before{
     content: "Maintenance";
     font-size: 24px;
 }
@@ -451,7 +465,7 @@ textarea {
 
 .message:hover {
     border-bottom: 5px solid #26d985;
-    height: 12em;
+    height: 12.5rem;
     transition: ease 0.5s;
 }
 
