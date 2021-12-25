@@ -109,6 +109,7 @@ strong {
 
 .display-4 {
     font-size: 8rem;
+    font-weight: 350;
 }
 
 .col-sm {
@@ -132,10 +133,21 @@ strong {
     font-weight: 400;
 }
 
+.founderP {
+    font-size: 2rem !important;
+}
+
 .row-content {
     margin: 0px auto;
     padding: 2rem 0px 2rem 0px;
     border-bottom: 1px ridge;
+    min-height: 40rem;
+}
+
+.row-content1 {
+    margin: 0px auto;
+    padding: 6rem 0rem 2rem 0rem;
+    border-bottom: 2rem ridge transparent;
     min-height: 40rem;
 }
 
@@ -144,42 +156,38 @@ img.animate__animated.animate__slideInRight.img-fluid {
 }
 /* ==== SIMPLE FOOTER ==== */
 
-footer {
-    background-color: rgb(245, 245, 245);
-    display: table;
-    width: 100vw;
-    height: 8rem;
-    text-align: center;
-    padding: 1rem;
-    font-family: 'Arial', sans-serif;
-    font-size: 1.5rem;
-    position: static !important;
-    top: 93.1rem;
-}
-
-.wrapper1 {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-
-footer small {
+.copyright {
+    font-size: 2rem;
+    font-family: "laca Text", sans-serif;
     color: #d96b26;
-    letter-spacing: .025rem;
-    margin-bottom: 1.5rem;
-    display: block;
 }
 
-.footer-nav a {
-    color: #c74f78;
-    text-decoration: none;
-    margin: 0 .5rem;
-    display: inline-block;
+.copyright ul {
+    text-align: right;
+    list-style: none;
+    font-size: 1.5rem !important;
 }
 
-.footer-nav a:hover {
-    color: #f26896;
-    transition: color .15s ease-in-out;
+.copyright li {
+    display: inline;
+    font-size: 1.5rem !important;
+    padding: .5rem;
+}
+
+.copyright li a {
+    color: #d96b26;
+}
+
+.aeviweb {
+   color: #d96b26;
+}
+
+.aeviweb:hover {
+    color: #d96b26;
+}
+
+.divider {
+    color: #000;
 }
 
 /* Particle CSS START */

@@ -460,45 +460,38 @@ textarea {
 
 /* ==== SIMPLE FOOTER ==== */
 
-footer {
-    background-color: rgb(245, 245, 245);
-    display: table;
-    width: 100vw;
-    height: 8rem;
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
-    position: sticky !important;
-    top: 93.1rem;
-}
-
-.wrapper {
-    /*display: table-cell;*/
-    vertical-align: middle;
-}
-
-.wrapper1 {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-footer small {
+.copyright {
+    font-size: 2rem;
+    font-family: "laca Text", sans-serif;
     color: #26d985;
-    letter-spacing: .025rem;
-    margin-bottom: 1.5rem;
-    display: block;
 }
 
-.footer-nav a {
-    color: #c74f78;
-    text-decoration: none;
-    margin: 0 .5rem;
-    display: inline-block;
+.copyright ul {
+    text-align: right;
+    list-style: none;
+    font-size: 1.5rem !important;
 }
 
-.footer-nav a:hover {
-    color: #f26896;
-    transition: color .15s ease-in-out;
+.copyright li {
+    display: inline;
+    font-size: 1.5rem !important;
+    padding: .5rem;
+}
+
+.copyright li a {
+    color: #26d985;
+}
+
+.divider {
+    color: #000;
+}
+
+.aeviweb {
+    color: #26d985;
+}
+
+.aeviweb:hover {
+    color: #26d985;
 }
 
 /* Particle CSS START */

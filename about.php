@@ -25,7 +25,7 @@
     <?php include_once 'particles.php' ?>
 <!-- About Header -->
 	<div class="container container-header bg-transparent p-5">
-		<h1 class="display-4 text-center text-white h-1 mt-0">A Little About Who We Are</h1>
+		<h1 class="display-4 text-center text-black h-1 mt-0">A Little About Who We Are</h1>
 		<hr class="my-4">
 	</div>
 <!-- About Content -->
@@ -50,8 +50,8 @@
             </p>
 	    </div>
 <!-- Founders -->
-		<div class="row row-content">
-            <h1 class="display-3 h1 mt-0">Our Founders</h1>
+		<div class="row row-content1">
+            <h1 class="display-3 text-black h1 mt-0 mb-2">Our Founders</h1>
             <div class="container">
                 <!--  image left  -->
                 <div class="row">
@@ -62,8 +62,8 @@
                     <div class="col-md-6">
                         <div class="row align-items-center h-100">
                             <div class="col">
-                                <h1 class="display-3">Creed Polen | Chief Executive Officer</h1>
-                                <p class="lead">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj
+                                <h1 class="display-3 text-white">Creed Polen | Chief Executive Officer</h1>
+                                <p class="lead text-black founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj
                                     al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l
                                     <br /><br />
                                 </p>
@@ -83,8 +83,8 @@
                     <div class="col-md-6 order-md-6">
                         <div class="row align-items-center h-100">
                             <div class="col">
-                                <h1 class="display-3">Chris Polen | Chief Design Officer</h1>
-                                <p class="lead">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj
+                                <h1 class="display-3 text-white">Chris Polen | Chief Design Officer</h1>
+                                <p class="lead text-black founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj
                                     al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l
                                     <br /><br />
                                 </p>
