@@ -101,7 +101,10 @@
             </div>
         </div>
     </div>
-
+	
+	<!-- Alerts	-->
+	<?php include_once 'alert.php'?>
+	
 	<!-- Pricing Form -->
 	<div class="container container-form">
 	    <div class="row row-content">

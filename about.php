@@ -49,7 +49,7 @@
 	            Help us change the world for the better, one website at a time, plus 10% of all sales go to help protect our beautiful planet!
             </p>
 	    </div>
-<!-- Founders -->
+		<!-- Founders -->
 		<div class="row row-content1">
             <h1 class="display-3 text-black h1 mt-0 mb-2">Our Founders</h1>
             <div class="container">
@@ -97,7 +97,7 @@
             </div>
 		</div>
 	</div>
-<!-- Back to Top -->
+	<!-- Back to Top -->
     <a href="#" class="scrollToTop" title="Go Top"><i class="sprite scrollarrow"></i></a>
     <!-- Footer -->
 	<?php include_once 'footer.php' ?>

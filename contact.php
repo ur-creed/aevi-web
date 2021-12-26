@@ -27,6 +27,10 @@
        <h1 class="h1 display-4 text-center text-white">Contact Us!</h1>
        <hr class="my-4">
    </div>
+	
+	<!-- Alerts	-->
+	<?php include_once 'alert.php'?>
+	
 	<div class="container container-form">
         <div class="row row-content">
             <form action="">
@@ -40,16 +44,15 @@
                 <div class="mb-5">
                     <label class="form-label h1" for="ClientEmail">Email address</label>
                     <input id="ClientEmail" type="text" class="form-control email formEntry" aria-describedby="emailHelp" placeholder="ragnarDoe@email.com" required>
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else!</div>
                 </div>
                 <div class="mb-5">
                     <label class="form-label h1" for="Message">What's on your mind?</label>
                     <textarea class="form-control message" name="Message" id="Message" cols="30" rows="10" placeholder="Send us a message about anything really..." required></textarea>
                 </div>
                 <div class="d-grid gap-1 col-6 mx-auto mt-4 mb-3">
-                    <button type="submit" class="btn btn-danger">Submit message</button>
+                    <button type="submit" class="btn btn-danger">Send message</button>
                 </div>
-
             </form>
         </div>
     </div>
