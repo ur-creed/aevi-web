@@ -342,6 +342,11 @@ color: #d96b26 !important;
     text-transform: uppercase;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 }
+
+.table .ribbon_maintenance span {
+    background: #a26bfa;
+}
+
 /* End Card*/
 
 .row {
