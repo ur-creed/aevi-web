@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="table maintenance">
-                    <div class="ribbon"><span>Hourly</span></div>
+                    <div class="ribbon ribbon_maintenance"><span>Hourly</span></div>
                     <div class="price-section">
                         <div class="price-area">
                             <div class="inside">
