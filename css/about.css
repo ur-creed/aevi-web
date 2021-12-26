@@ -138,7 +138,8 @@ strong {
 }
 
 .my-4 {
-    color: whitesmoke;
+    color: #fff !important;
+    opacity: 100;
 }
 
 .container-header {
@@ -161,7 +162,7 @@ strong {
 .row-content {
     margin: 0px auto;
     padding: 2rem 0px 2rem 0px;
-    border-bottom: 1px ridge;
+    border-bottom: 1px solid #fff;
     min-height: 40rem;
 }
 
@@ -177,39 +178,56 @@ img.animate__animated.animate__slideInRight.img-fluid {
 }
 /* ==== SIMPLE FOOTER ==== */
 
-.copyright {
-    font-size: 2rem;
-    font-family: "laca Text", sans-serif;
+footer {
+    /*padding: 4rem 0 2rem;*/
+    font-size: 1.2rem;
+    line-height: 5rem;
+    background-color: #fff;
+}
+
+footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+
+footer hr.small {
+    margin: 2rem 0;
+}
+
+.copyright-text, .copyright-text a {
+    margin: 0;
     color: #d96b26;
 }
 
-.copyright ul {
-    text-align: right;
+.copyright-text a:hover {
+    color: #d96b26;
+}
+
+.foot-links {
+    padding-left: 0;
     list-style: none;
-    font-size: 1.5rem !important;
 }
 
-.copyright li {
+.foot-links li {
     display: inline;
-    font-size: 1.5rem !important;
-    padding: .5rem;
 }
 
-.copyright li a {
+.foot-links {
+    text-align: right;
+}
+
+.foot-links a {
+    line-height: 4rem;
+    margin-left: 6px;
+    margin-right: 0;
+    color: #d96b26;
+
+}
+
+.foot-links a:hover {
     color: #d96b26;
 }
 
-.aeviweb {
-   color: #d96b26;
-}
-
-.aeviweb:hover {
-    color: #d96b26;
-}
-
-.divider {
-    color: #000;
-}
 
 @media only screen and (max-width: 991px) {
     .copyright ul {

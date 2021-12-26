@@ -90,6 +90,12 @@ color: #d96b26 !important;
 
 /* Navbar End */
 
+/* Alerts */
+.success, .no_success {
+    font-size: 1.5rem;
+}
+
+
 /* Scroll Back to Top*/
 .scrollToTop {
     background :#a26bfa;
@@ -252,8 +258,8 @@ color: #d96b26 !important;
 }
 .new .btn button{
     border: 2px solid #ffd861;
-    background: #fff;
-    color: #ffd861;
+    background: #ffd861;
+    color: #fff;
 }
 .new .btn button:hover{
     background: #ffd861;
@@ -322,7 +328,7 @@ color: #d96b26 !important;
     bottom: 15px;
     left: 0px;
 }
-.table .ribbon span{
+.table .ribbon span {
     position: absolute;
     top: 30px;
     right: 0;
@@ -334,7 +340,7 @@ color: #d96b26 !important;
     text-align: center;
     font-size: 17px;
     text-transform: uppercase;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
 }
 /* End Card*/
 
@@ -472,38 +478,53 @@ textarea {
 /*!*!* End Form *!*!*/
 
 /* ==== SIMPLE FOOTER ==== */
+footer {
+    /*padding: 4rem 0 2rem;*/
+    font-size: 1.2rem;
+    line-height: 5rem;
+    background-color: #fff;
+}
 
-.copyright {
-    font-size: 2rem;
-    font-family: "laca Text", sans-serif;
+footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+
+footer hr.small {
+    margin: 2rem 0;
+}
+
+.copyright-text, .copyright-text a {
+    margin: 0;
     color: #26d985;
 }
 
-.copyright ul {
-    text-align: right;
+.copyright-text a:hover {
+    color: #26d985;
+}
+
+.foot-links {
+    padding-left: 0;
     list-style: none;
-    font-size: 1.5rem !important;
 }
 
-.copyright li {
+.foot-links li {
     display: inline;
-    font-size: 1.5rem !important;
-    padding: .5rem;
 }
 
-.copyright li a {
+.foot-links {
+    text-align: right;
+}
+
+.foot-links a {
+    line-height: 4rem;
+    margin-left: 6px;
+    margin-right: 0;
     color: #26d985;
+
 }
 
-.divider {
-    color: #000;
-}
-
-.aeviweb {
-    color: #26d985;
-}
-
-.aeviweb:hover {
+.foot-links a:hover {
     color: #26d985;
 }
 

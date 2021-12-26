@@ -8,7 +8,6 @@ html {
 body {
     background-color: #c93030;
     z-index: 0;
-    overflow: hidden;
     font-family: "laca Text", sans-serif;
 }
 
@@ -83,6 +82,12 @@ body {
         display: block;
     }
 }
+
+/* Alerts */
+.success, .no_success {
+    font-size: 1.5rem;
+}
+
 
 .display-4 {
     font-size: 8rem;
@@ -217,38 +222,54 @@ strong {
 }
 
 /* ==== SIMPLE FOOTER ==== */
-.copyright {
-    font-size: 2rem;
-    font-family: "laca Text", sans-serif;
+footer {
+    /*padding: 4rem 0 2rem;*/
+    font-size: 1.2rem;
+    line-height: 5rem;
+    background-color: #fff;
+}
+
+footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+
+footer hr.small {
+    margin: 2rem 0;
+}
+
+.copyright-text, .copyright-text a {
+    margin: 0;
     color: #C93030;
 }
 
-.copyright ul {
-    text-align: right;
+.copyright-text a:hover {
+    color: #C93030;
+}
+
+.foot-links {
+    padding-left: 0;
     list-style: none;
-    font-size: 1.5rem !important;
 }
 
-.copyright li {
+.foot-links li {
     display: inline;
-    font-size: 1.5rem !important;
-    padding: .5rem;
 }
 
-.copyright li a {
+.foot-links {
+    text-align: right;
+}
+
+.foot-links a {
+    line-height: 4rem;
+    margin-left: 6px;
+    margin-right: 0;
     color: #C93030;
+
 }
 
-.aeviweb {
+.foot-links a:hover {
     color: #C93030;
-}
-
-.aeviweb:hover {
-    color: #C93030;
-}
-
-.divider {
-    color: #000;
 }
 
 @media only screen and (max-width: 991px) {
