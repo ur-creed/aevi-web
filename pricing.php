@@ -141,11 +141,8 @@
 	</div>
 	<!-- End Form -->
 	
-    <a href="#" class="scrollToTop" title="Go Top"><i class="sprite scrollarrow"></i></a>
-
     <!-- Footer -->
     <?php include_once 'footer.php' ?>
-	
     <!-- JQuery	-->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap JS. -->

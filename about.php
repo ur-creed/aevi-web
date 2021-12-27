@@ -97,8 +97,6 @@
             </div>
 		</div>
 	</div>
-	<!-- Back to Top -->
-    <a href="#" class="scrollToTop" title="Go Top"><i class="sprite scrollarrow"></i></a>
     <!-- Footer -->
 	<?php include_once 'footer.php' ?>
     <!-- JQuery	-->
