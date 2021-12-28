@@ -23,32 +23,32 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
-   <div class="container">
-       <h1 class="h1 display-4 text-center text-white">Contact Us!</h1>
-       <hr class="my-4">
-   </div>
+    <div class="container">
+	    <h1 class="h1 display-4 text-center text-white">Contact Us!</h1>
+	    <hr class="my-4">
+    </div>
 	
 	<!-- Alerts	-->
 	<?php include_once 'alert.php'?>
 	
 	<div class="container container-form">
         <div class="row row-content">
-            <form action="">
+            <form id="ContactForm">
                 <div class="secondaryTitle">
-                        Please fill out this form below.
+	                Please fill out this form below.
                 </div>
                 <div class="mb-5">
                     <label class="form-label h1" for="FullName">First and last name</label>
-                    <input id="FullName" type="text" class="form-control name formEntry" placeholder="Ragnar Doe" required>
+                    <input id="FullName" name="full_name" type="text" class="form-control name formEntry" placeholder="Ragnar Lothbrok" required>
                 </div>
                 <div class="mb-5">
                     <label class="form-label h1" for="ClientEmail">Email address</label>
-                    <input id="ClientEmail" type="text" class="form-control email formEntry" aria-describedby="emailHelp" placeholder="ragnarDoe@email.com" required>
+                    <input id="ClientEmail" name="client_email" type="text" class="form-control email formEntry" aria-describedby="emailHelp" placeholder="Ragnar.Lothbrok@email.com" required>
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else!</div>
                 </div>
                 <div class="mb-5">
                     <label class="form-label h1" for="Message">What's on your mind?</label>
-                    <textarea class="form-control message" name="Message" id="Message" cols="30" rows="10" placeholder="Send us a message about anything really..." required></textarea>
+                    <textarea class="form-control message" name="message" id="Message" cols="30" rows="10" placeholder="Send us a message about anything really..." required></textarea>
                 </div>
                 <div class="d-grid gap-1 col-6 mx-auto mt-4 mb-3">
                     <button type="submit" class="btn btn-danger">Send message</button>

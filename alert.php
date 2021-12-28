@@ -12,17 +12,19 @@
         </symbol>
     </svg>
     <!--Success Alert -->
-    <div class="alert alert-success alert-dismissible d-flex align-items-center" role="alert">
+    <div id="SuccessAlert" class="alert alert-success alert-dismissible d-flex align-items-center visually-hidden" role="alert">
         <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
         <div class="success">
             Inquiry successfully sent!
         </div>
+	    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
     <!-- Danger Alert -->
-    <div class="alert alert-danger alert-dismissible d-flex align-items-center" role="alert">
+    <div id="DangerAlert" class="alert alert-danger alert-dismissible d-flex align-items-center visually-hidden" role="alert">
         <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
         <div class="no_success">
-            Oh no, something went wrong! Try again or contact inquiry@aeviweb.com
+            Oh no, something went wrong! Try again or email inquire@aeviweb.com directly.
         </div>
+	    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 </div>

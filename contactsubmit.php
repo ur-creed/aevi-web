@@ -4,7 +4,7 @@
 		$from = "inquire@aeviweb.com";
 		$client_email = $_REQUEST['client_email'];
 		$client_full_name = $_REQUEST['full_name'];
-		$package = $_REQUEST['package_select'];
+		$package = $_REQUEST['package_select'] ?? null;
 		$subject = "General Contact";
 		$message = $_REQUEST['message'] .
 			"<br/>My contact email: " . $client_email;
@@ -14,7 +14,7 @@
 				case 'new':
 					$subject = "New Project Inquiry";
 					break;
-				case 'maintenance':
+				case 'existing':
 					$subject = "Site Maintenance Inquiry";
 					break;
 				default:
@@ -30,9 +30,10 @@
 			'ReplyTo' => $client_email
 		);
 		
-		if (mail($to, $subject, $message, $headers)) {
-			echo 200;
-		} else {
-			echo 500;
-		}
+		echo 200;
+//		if (mail($to, $subject, $message, $headers)) {
+//			echo 200;
+//		} else {
+//			echo 500;
+//		}
 	}

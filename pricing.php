@@ -45,7 +45,7 @@
                     <div class="package-name"></div>
                     <ul class="features">
                         <li>
-                            <span class="list-name">Something here</span>
+                            <span class="list-name">Up to 5 Pages</span>
                             <span class="icon check"><i class="fas fa-check"></i></span>
                         </li>
                         <li>
@@ -53,11 +53,11 @@
                             <span class="icon check"><i class="fas fa-check"></i></span>
                         </li>
                         <li>
-                            <span class="list-name">Something here</span>
+                            <span class="list-name">Lifetime Site Updates</span>
                             <span class="icon cross"><i class="fas fa-times"></i></span>
                         </li>
                         <li>
-                            <span class="list-name">Lifetime Site Updates</span>
+                            <span class="list-name">One Contact Form</span>
                             <span class="icon check"><i class="fas fa-check"></i></span>
                         </li>
                     </ul>
@@ -78,19 +78,19 @@
                     <div class="package-name"></div>
                     <ul class="features">
                         <li>
-                            <span class="list-name">Something here</span>
+                            <span class="list-name">Feature Additions</span>
                             <span class="icon check"><i class="fas fa-check"></i></span>
                         </li>
                         <li>
-                            <span class="list-name">100% Responsive Design</span>
+                            <span class="list-name">SEO & Content Updates</span>
                             <span class="icon check"><i class="fas fa-check"></i></span>
                         </li>
                         <li>
-                            <span class="list-name">Something here</span>
+                            <span class="list-name">Bug Fixes</span>
                             <span class="icon check"><i class="fas fa-check"></i></span>
                         </li>
                         <li>
-                            <span class="list-name">Lifetime Template Updates</span>
+                            <span class="list-name">Lifetime Site Updates</span>
                             <span class="icon cross"><i class="fas fa-times"></i></span>
                         </li>
                     </ul>
@@ -108,33 +108,33 @@
 	<!-- Pricing Form -->
 	<div class="container container-form">
 	    <div class="row row-content">
-	        <form id="PricingContactForm" action="contactsubmit.php">
+	        <form id="PricingContactForm">
 	            <div class="secondaryTitle title">
 	                Please fill out this form below.
 	            </div>
 	            <div class="mb-5">
 	                <label for="FullName" class="form-label">Full Name</label>
-	                <input id="FullName" type="text" name="full_Name" class="form-control name formEntry" placeholder="Ragnar Doe" required>
+	                <input id="FullName" type="text" name="full_name" class="form-control name formEntry" placeholder="Ragnar Lothbrok" required>
 	            </div>
 	            <div class="mb-5">
 	                <label for="Email" class="form-label">Email</label>
-	                <input id="Email" type="email" name="email" class="form-control email formEntry" placeholder="ragnarDoe@email.com" required>
-	                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+	                <input id="ClientEmail" type="email" name="client_email" class="form-control email formEntry" placeholder="Ragnar.Lothbrok@email.com" required>
+	                <div id="emailHelp" class="form-text">We'll never share your email with anyone else!</div>
 	            </div>
 	            <div class="mb-5">
 	                <label for="PackageSelect" class="form-label">Select a Package:</label>
-	                <select id="PackageSelect" class="form-select" required>
-	                    <option value="">Choose Package</option>
-		                <option value="new">New project</option>
+	                <select id="PackageSelect" class="form-select" name="package_select" required>
+	                    <option value="">Choose package</option>
+		                <option value="new">New site</option>
 		                <option value="existing">Maintenance</option>
 	                </select>
 	            </div>
 	            <div class="mb-5">
 	                <label for="Message" class="form-label">A little about your project</label>
-	                <textarea id="Message" name="message" class="form-control message formEntry" placeholder="Tell us a little bit about the project vision..." required></textarea>
+	                <textarea id="Message" name="message" class="form-control message formEntry" placeholder="Tell us a little bit about your project and vision..." required></textarea>
 	            </div>
 	            <div class="d-grid gap-1 col-6 mx-auto mt-4 mb-3">
-	                <button class="btn btn-success">Submit</button>
+	                <button type="submit" class="btn btn-success">Submit</button>
 	            </div>
 	        </form>
 	    </div>

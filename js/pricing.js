@@ -2,19 +2,37 @@ let $contactForm,
     $existingProjectButton,
     $newProjectButton,
     $packageSelect,
-    $pricingNavLink;
+    $pricingNavLink,
+    $successAlert,
+    $dangerAlert;
 
 // Handle what happens when "New" button is click
-function HandleNewProjectButtonClick() {
+function handleNewProjectButtonClick() {
     $newProjectButton.click(function() {
         $packageSelect.value = "new"
     });
 }
 
 // Handle what happens when "Maintenance" button is click
-function HandleExistingProjectButtonClick() {
+function handleExistingProjectButtonClick() {
     $existingProjectButton.click(function() {
         $packageSelect.value = "existing"
+    });
+}
+
+// Handle form submission
+function handleFormSubmission(formData) {
+    $.ajax({
+        url: 'contactsubmit.php',
+        method: 'POST',
+        data: formData
+    }).done(function (data){
+        let isSuccessful = data === '200';
+        if(isSuccessful) {
+            $successAlert.removeClass('visually-hidden');
+        } else {
+            $dangerAlert.removeClass('visually-hidden');
+        }
     });
 }
 
@@ -25,10 +43,19 @@ $(document).ready(function(){
     $newProjectButton = $('#NewProjectButton');
     $existingProjectButton = $('#ExistingProjectButton');
     $packageSelect = $('#PackageSelect')[0];
+    $successAlert = $('#SuccessAlert');
+    $dangerAlert = $('#DangerAlert');
 
     // Make the current page active.
     $pricingNavLink.addClass('active');
 
-    HandleNewProjectButtonClick();
-    HandleExistingProjectButtonClick();
+    handleNewProjectButtonClick();
+    handleExistingProjectButtonClick();
+
+    $contactForm.submit(function (e) {
+        e.preventDefault();
+        let formData = $(this).serialize();
+        handleFormSubmission(formData);
+    });
+
 });

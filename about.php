@@ -35,7 +35,7 @@
 			<p class="display-6 text-center text-white col-lg-6 col-sm-12 lead">
 				At Aevi Web, we believe every human being deserves to have their website dream come to life!
 				Whether you have an existing idea or project in place and need updates or want a brand spanking new project built, we can help with that!
-				We work with custom websites, WordPress, Squarespace, Magento, or use just about any other CMS (Content Management System).
+				We work with custom websites, WordPress, Squarespace, WIX, or just about any other CMS (Content Management System).
 				Let us be your guide on your web journey!
 	            <br>
 				<br>
@@ -63,10 +63,10 @@
                         <div class="row align-items-center h-100">
                             <div class="col">
                                 <h1 class="display-3 text-black">Creed Polen <span class="divider">|</span> Chief Executive Officer</h1>
-                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj
-                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l
-                                    <br /><br />
-                                </p>
+<!--                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj-->
+<!--                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l-->
+<!--                                    <br /><br />-->
+<!--                                </p>-->
                             </div>
                         </div>
                     </div>
@@ -84,10 +84,10 @@
                         <div class="row align-items-center h-100">
                             <div class="col">
                                 <h1 class="display-3 text-black">Chris Polen <span class="divider">|</span> Chief Design Officer</h1>
-                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj
-                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l
-                                    <br /><br />
-                                </p>
+<!--                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj-->
+<!--                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l-->
+<!--                                    <br /><br />-->
+<!--                                </p>-->
                             </div>
                         </div>
                     </div>

@@ -97,37 +97,35 @@ color: #d96b26 !important;
 
 
 /* Scroll Back to Top*/
-.scrollToTop {
-    background :#a26bfa;
-    width: 6rem;
-    height: 6rem;
-    text-align: center;
-    position: fixed;
-    bottom: 6rem;
-    right: 5rem;
-    display: none;
-    z-index: 99;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-}
+/*.scrollToTop {*/
+/*    background :#a26bfa;*/
+/*    width: 6rem;*/
+/*    height: 6rem;*/
+/*    text-align: center;*/
+/*    position: fixed;*/
+/*    bottom: 6rem;*/
+/*    right: 5rem;*/
+/*    display: none;*/
+/*    z-index: 99;*/
+/*    border-radius: 100%;*/
+/*    -webkit-border-radius: 100%;*/
+/*    -moz-border-radius: 100%;*/
+/*}*/
 
-.scrollToTop:hover {
-    text-decoration: none;
-    opacity: 0.8;
-}
+/*.scrollToTop:hover {*/
+/*    text-decoration: none;*/
+/*    opacity: 0.8;*/
+/*}*/
 
-.scrollToTop .scrollarrow {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 10px 15px 10px;
-    border-color: transparent transparent #26d985 ;
-    display: block;
-    margin:20px auto 0;
-}
-
-
+/*.scrollToTop .scrollarrow {*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-style: solid;*/
+/*    border-width: 0 10px 15px 10px;*/
+/*    border-color: transparent transparent #26d985 ;*/
+/*    display: block;*/
+/*    margin:20px auto 0;*/
+/*}*/
 
 .display-4 {
     font-size: 8rem;
