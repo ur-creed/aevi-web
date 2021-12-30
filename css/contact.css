@@ -109,7 +109,7 @@ button.navbar-toggler {
 
 .row-content {
     margin: 0px auto;
-    padding: 50px 0px 50px 0px;
+    padding: 2rem 0rem 5rem 0rem;
     min-height: 400px;
 }
 
@@ -239,9 +239,10 @@ strong {
 footer {
     /*padding: 4rem 0 2rem;*/
     font-size: 1.2rem;
-    line-height: 5.5rem;
+    line-height: 6.5rem;
     background-color: #fff;
     position: relative;
+    top: 1rem;
 }
 
 footer hr {
