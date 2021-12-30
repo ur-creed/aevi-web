@@ -78,6 +78,15 @@ color: #d96b26 !important;
     width: 3.5em !important;
     height: 3.5em !important;
 }
+
+button.navbar-toggler {
+    background: #fff;
+}
+
+button.navbar-toggler {
+    border-radius: 1rem;
+}
+
 /* logo mobile */
 @media only screen and (max-width: 991px) {
     .navbar-brand img {
@@ -93,6 +102,11 @@ color: #d96b26 !important;
 /* Alerts */
 .success, .no_success {
     font-size: 1.5rem;
+}
+
+#SuccessAlert, #DangerAlert {
+    position: relative;
+    top: 4rem;
 }
 
 
@@ -129,7 +143,7 @@ color: #d96b26 !important;
 
 .display-4 {
     font-size: 8rem;
-    letter-spacing: .5rem;
+    letter-spacing: .2rem;
     font-weight: 350;
 }
 /* Card */

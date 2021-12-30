@@ -9,6 +9,7 @@ body {
     background-color: #c93030;
     z-index: 0;
     font-family: "laca Text", sans-serif;
+    overflow: hidden;
 }
 
 /* Nav bar Start */
@@ -72,6 +73,14 @@ body {
     height: 3.5em !important;
 }
 
+button.navbar-toggler {
+    background: #fff;
+}
+
+button.navbar-toggler {
+    border-radius: 1rem;
+}
+
 /* logo mobile */
 @media only screen and (max-width: 991px) {
     .navbar-brand img {
@@ -86,6 +95,11 @@ body {
 /* Alerts */
 .success, .no_success {
     font-size: 1.5rem;
+}
+
+#SuccessAlert, #DangerAlert {
+    position: relative;
+    top: 4rem;
 }
 
 
@@ -225,8 +239,9 @@ strong {
 footer {
     /*padding: 4rem 0 2rem;*/
     font-size: 1.2rem;
-    line-height: 5rem;
+    line-height: 5.5rem;
     background-color: #fff;
+    position: relative;
 }
 
 footer hr {

@@ -22,15 +22,15 @@
 	<!-- Navigation -->
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
-    <?php include_once 'particles.php' ?>
-    <div class="container">
-	    <h1 class="h1 display-4 text-center text-white">Contact Us!</h1>
-	    <hr class="my-4">
+   <?php include_once 'particles.php' ?>
+    <div class="container container-header bg-transparent p-5">
+        <h1 class="display-4 text-center text-white h-1 mt-0">Contact Us!</h1>
+        <hr class="my-4">
     </div>
-	
+
 	<!-- Alerts	-->
 	<?php include_once 'alert.php'?>
-	
+
 	<div class="container container-form">
         <div class="row row-content">
             <form id="ContactForm">
@@ -56,10 +56,8 @@
             </form>
         </div>
     </div>
-
-	<!-- Footer -->
-	<?php include_once 'footer.php' ?>
-	
+    <!-- Footer -->
+    <?php include_once 'footer.php' ?>
 	<!-- JQuery	-->
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<!-- Bootstrap JS. -->
