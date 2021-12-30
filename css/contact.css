@@ -9,7 +9,9 @@ body {
     background-color: #c93030;
     z-index: 0;
     font-family: "laca Text", sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 /* Nav bar Start */
@@ -109,7 +111,7 @@ button.navbar-toggler {
 
 .row-content {
     margin: 0px auto;
-    padding: 2rem 0rem 5rem 0rem;
+    padding: 4rem 0rem 5rem 0rem;
     min-height: 400px;
 }
 

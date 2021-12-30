@@ -15,6 +15,7 @@ body {
     z-index: 0;
     overflow-y: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* Nav bar Start */
@@ -161,6 +162,8 @@ h1.display-3.text-black.text-center.h1.mt-0.mb-4 {
 img.animate__animated.animate__slideInRight.img-fluid {
     border-radius: 3rem;
 }
+
+
 /* ==== SIMPLE FOOTER ==== */
 
 footer {
@@ -215,8 +218,8 @@ footer hr.small {
 
 
 @media only screen and (max-width: 991px) {
-    .copyright ul {
-        text-align: center;
+    h1.display-3.text-black {
+        margin: -8rem 1rem 0rem 2rem;
     }
 }
 
