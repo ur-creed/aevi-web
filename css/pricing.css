@@ -108,6 +108,7 @@ button.navbar-toggler {
 #SuccessAlert, #DangerAlert {
     position: relative;
     top: 4rem;
+    border-radius: 1rem;
 }
 
 

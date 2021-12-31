@@ -101,12 +101,17 @@ button.navbar-toggler {
 
 #SuccessAlert, #DangerAlert {
     position: relative;
-    top: 4rem;
+    top: -1rem;
+    border-radius: 1rem;
 }
 
 
 .display-4 {
     font-size: 8rem;
+}
+
+.my-4 {
+    border-bottom: solid #fff;
 }
 
 .row-content {
@@ -119,6 +124,7 @@ button.navbar-toggler {
 /* Form */
 .container-form {
    position: relative;
+    top: -4rem;
 }
 
 form {
@@ -243,9 +249,9 @@ footer {
     font-size: 1.2rem;
     line-height: 5rem;
     background-color: #fff;
-    position: fixed;
+    position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -5px;
     width: 100%;
 }
 
