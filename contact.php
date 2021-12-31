@@ -56,6 +56,8 @@
             </form>
         </div>
     </div>
+
+    <div class="row row-content"></div>
     <!-- Footer -->
     <?php include_once 'footer.php' ?>
 	<!-- JQuery	-->

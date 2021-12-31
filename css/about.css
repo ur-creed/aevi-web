@@ -217,9 +217,22 @@ footer hr.small {
 }
 
 
+@media only screen and (max-width: 1024px){
+    img.animate__animated.animate__slideInRight.img-fluid{
+        height: 38rem;
+    }
+}
+
 @media only screen and (max-width: 991px) {
-    h1.display-3.text-black {
-        margin: -8rem 1rem 0rem 2rem;
+    .Creed {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 577px) {
+    .copyright-text, .foot-links  {
+        text-align: center !important;
+        overflow-x: hidden;
     }
 }
 

@@ -379,6 +379,11 @@ justify-content: center !important;
     min-height: 400px;
 }
 
+.my-4 {
+    color: #fff;
+    border-bottom: solid white;
+}
+
 /*!* Form *!*/
 .container-h1, .container-form {
     position: relative;

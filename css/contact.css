@@ -241,7 +241,7 @@ strong {
 footer {
     /*padding: 4rem 0 2rem;*/
     font-size: 1.2rem;
-    line-height: 6.5rem;
+    line-height: 5rem;
     background-color: #fff;
     position: relative;
     top: 1rem;
@@ -296,9 +296,6 @@ footer hr.small {
         overflow-y: scroll;
     }
 
-    .copyright ul {
-        text-align: center;
-    }
 }
 
 /* Particle CSS START */
