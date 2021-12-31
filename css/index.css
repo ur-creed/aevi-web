@@ -57,6 +57,14 @@ body {
     height: 3.5em !important;
 }
 
+button.navbar-toggler {
+    background: #fff;
+}
+
+button.navbar-toggler {
+    border-radius: 1rem;
+}
+
 #Home {
     display: none;
 }

@@ -159,6 +159,28 @@ h1.display-3.text-black.text-center.h1.mt-0.mb-4 {
     min-height: 40rem;
 }
 
+.row_1 {
+    position: relative;
+    top: 2rem;
+}
+
+.row_2 {
+    position: relative;
+    top: -3rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .row_1 {
+        position: relative;
+        top: 0rem;
+    }
+
+    .row_2 {
+        position: relative;
+        top: 0rem
+    }
+}
+
 img.animate__animated.animate__slideInRight.img-fluid {
     border-radius: 3rem;
 }
@@ -171,6 +193,10 @@ footer {
     font-size: 1.2rem;
     line-height: 5rem;
     background-color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer hr {

@@ -54,7 +54,7 @@
             <h1 class="display-3 text-black text-center h1 mt-0 mb-4">Our Founders</h1>
             <div class="container">
                 <!--  image left  -->
-                <div class="row">
+                <div class="row row_1">
                     <div class="col-md-6">
                         <img src="images/creed.png" alt="" class="img-fluid w-100" />
                     </div>
@@ -75,7 +75,7 @@
                 <!-- /.row -->
 
                 <!--  image right  -->
-                <div class="row">
+                <div class="row row_2">
                     <div class="col-md-6 order-md-1">
                         <img src="images/chris.png" alt="" class="img-fluid w-100" />
                     </div>
