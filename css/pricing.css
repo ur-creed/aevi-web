@@ -558,6 +558,13 @@ footer hr.small {
     }
 }
 
+@media only screen and (max-width: 577px) {
+    .copyright-text, .foot-links  {
+        text-align: center !important;
+    }
+}
+
+
 /* Particle CSS START */
 .particle {
     position: absolute;

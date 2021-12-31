@@ -251,7 +251,6 @@ footer {
     background-color: #fff;
     position: absolute;
     left: 0;
-    bottom: -5px;
     width: 100%;
 }
 
@@ -298,6 +297,8 @@ footer hr.small {
     color: #C93030;
 }
 
+
+
 @media only screen and (max-width: 991px) {
 
     body {
@@ -305,6 +306,13 @@ footer hr.small {
     }
 
 }
+
+@media only screen and (max-width: 577px) {
+    .copyright-text, .foot-links  {
+        text-align: center !important;
+    }
+}
+
 
 /* Particle CSS START */
 .particle {
