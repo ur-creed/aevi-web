@@ -249,9 +249,7 @@ footer {
     font-size: 1.2rem;
     line-height: 5rem;
     background-color: #fff;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
+    position: relative;
     width: 100%;
 }
 
@@ -300,6 +298,7 @@ footer hr.small {
 /* iPad */
 @media only screen and (max-width: 1024px) {
     footer {
+        position: absolute;
         bottom: -5px;
     }
 }
