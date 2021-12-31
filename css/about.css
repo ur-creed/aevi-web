@@ -193,10 +193,6 @@ footer {
     font-size: 1.2rem;
     line-height: 5rem;
     background-color: #fff;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 footer hr {
