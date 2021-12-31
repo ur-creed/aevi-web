@@ -26,8 +26,9 @@
 		$subject = $subject . " - " . $client_full_name;
 		
 		$headers = array(
-			'From'    => 'inquire@aeviweb.com',
-			'ReplyTo' => $client_email
+			'From'     => $from,
+			'Reply-To' => $client_email,
+			'X-Mailer' => 'PHP/' . phpversion()
 		);
 		
 		if (mail($to, $subject, $message, $headers)) {
