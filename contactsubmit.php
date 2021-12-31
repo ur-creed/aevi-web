@@ -30,10 +30,9 @@
 			'ReplyTo' => $client_email
 		);
 		
-		echo 200;
-//		if (mail($to, $subject, $message, $headers)) {
-//			echo 200;
-//		} else {
-//			echo 500;
-//		}
+		if (mail($to, $subject, $message, $headers)) {
+			echo 200;
+		} else {
+			echo 500;
+		}
 	}
