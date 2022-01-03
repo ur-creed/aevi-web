@@ -10,6 +10,9 @@ let $contactForm,
 function handleNewProjectButtonClick() {
     $newProjectButton.click(function() {
         $packageSelect.value = "new"
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#PricingContactForm").offset().top
+        }, 250);
     });
 }
 
@@ -17,6 +20,9 @@ function handleNewProjectButtonClick() {
 function handleExistingProjectButtonClick() {
     $existingProjectButton.click(function() {
         $packageSelect.value = "existing"
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#PricingContactForm").offset().top
+        }, 250);
     });
 }
 
