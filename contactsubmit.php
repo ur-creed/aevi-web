@@ -26,9 +26,10 @@
 		$subject = $subject . " - " . $client_full_name;
 		
 		$headers = array(
-			'From'     => $from,
-			'Reply-To' => $client_email,
-			'X-Mailer' => 'PHP/' . phpversion()
+			'From'         => $from,
+			'Reply-To'     => $client_email,
+			'X-Mailer'     => 'PHP/' . phpversion(),
+			'Content-Type' => 'text/html; charset=iso-8859-1'
 		);
 		
 		if (mail($to, $subject, $message, $headers)) {
