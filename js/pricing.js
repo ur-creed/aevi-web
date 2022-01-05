@@ -4,7 +4,8 @@ let $contactForm,
     $packageSelect,
     $pricingNavLink,
     $successAlert,
-    $dangerAlert;
+    $dangerAlert,
+    $loadingIndicator;
 
 // Handle what happens when "New" button is click
 function handleNewProjectButtonClick() {
@@ -28,6 +29,7 @@ function handleExistingProjectButtonClick() {
 
 // Handle form submission
 function handleFormSubmission(formData) {
+    $loadingIndicator.removeClass('visually-hidden');
     $.ajax({
         url: 'contactsubmit.php',
         method: 'POST',
@@ -39,6 +41,8 @@ function handleFormSubmission(formData) {
         } else {
             $dangerAlert.removeClass('visually-hidden');
         }
+    }).always(function () {
+        $loadingIndicator.addClass('visually-hidden');
     });
 }
 
@@ -51,6 +55,7 @@ $(document).ready(function(){
     $packageSelect = $('#PackageSelect')[0];
     $successAlert = $('#SuccessAlert');
     $dangerAlert = $('#DangerAlert');
+    $loadingIndicator = $('#SubmitSpinner')
 
     // Make the current page active.
     $pricingNavLink.addClass('active');

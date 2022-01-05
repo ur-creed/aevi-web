@@ -60,9 +60,13 @@
                             <span class="list-name">One Contact Form</span>
                             <span class="icon check"><i class="fas fa-check"></i></span>
                         </li>
+	                    <li>
+		                    <span class="list-name">Accessibility</span>
+		                    <span class="icon check"><i class="fas fa-check"></i></span>
+	                    </li>
                     </ul>
                     <div class="btn">
-	                    <button id="NewProjectButton">Learn More</button>
+	                    <button id="NewProjectButton" aria-label="">Learn More</button>
                     </div>
                 </div>
                 <div class="table maintenance">
@@ -93,9 +97,13 @@
                             <span class="list-name">Lifetime Site Updates</span>
                             <span class="icon cross"><i class="fas fa-times"></i></span>
                         </li>
+	                    <li>
+		                    <span class="list-name">Support</span>
+		                    <span class="icon check"><i class="fas fa-check"></i></span>
+	                    </li>
                     </ul>
                     <div class="btn">
-                        <button id="ExistingProjectButton">Learn More</button>
+                        <button id="ExistingProjectButton" aria-label="Website Maintenance Learn More Button">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -134,8 +142,11 @@
 	                <textarea id="Message" name="message" class="form-control message formEntry" placeholder="Tell us a little bit about your project and vision..." required></textarea>
 	            </div>
 	            <div class="d-grid gap-1 col-6 mx-auto mt-4 mb-3">
-	                <button type="submit" class="btn btn-success">Submit</button>
+	                <button type="submit" class="btn btn-success" aria-label="Pricing Submit Button">Submit</button>
 	            </div>
+		        <div class="spinner-grow text-success" role="status">
+			        <span class="sr-only">Loading...</span>
+		        </div>
 	        </form>
 	    </div>
 	</div>
