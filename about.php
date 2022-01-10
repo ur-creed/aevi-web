@@ -62,7 +62,7 @@
                 <!--  image left  -->
                 <div class="row row_1">
                     <div class="col-md-6">
-                        <img src="images/creed.png" alt="Creed Polen" class="img-fluid w-100" />
+                        <img src="images/creed.png" alt="Creed Polen - CEO" class="img-fluid w-100" />
                     </div>
                     <!-- /.col-md-6 -->
                     <div class="col-md-6">
@@ -83,7 +83,7 @@
                 <!--  image right  -->
                 <div class="row row_2">
                     <div class="col-md-6 order-md-1">
-                        <img src="images/chris.png" alt="Christopher Polen" class="img-fluid w-100" />
+                        <img src="images/chris.png" alt="Christopher Polen - CDO" class="img-fluid w-100" />
                     </div>
                     <!-- /.col-md-6 -->
                     <div class="col-md-6 order-md-6">
