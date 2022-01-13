@@ -18,6 +18,9 @@
 				<li class="nav-item">
 					<a class="nav-link" id="Contact" href="contact.php">Contact</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="Portfolio" href="portfolio.php">Portfolio</a>
+				</li>
 			</ul>
 		</div>
 	</div>

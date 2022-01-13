@@ -149,9 +149,9 @@
 	            <div class="d-grid gap-1 col-6 mx-auto mt-4 mb-3">
 	                <button type="submit" class="btn btn-success" aria-label="Pricing Submit Button">Submit</button>
 	            </div>
-		        <div class="spinner-grow text-success" role="status">
-			        <span class="sr-only">Loading...</span>
-		        </div>
+<!--		        <div class="spinner-grow text-success" role="status">-->
+<!--			        <span class="sr-only">Loading...</span>-->
+<!--		        </div>-->
 	        </form>
 	    </div>
 	</div>
