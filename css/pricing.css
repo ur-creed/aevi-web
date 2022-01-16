@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #26d985;
+    background-color: rgb(16, 101, 61);
     z-index: 0;
     font-family: "laca Text", sans-serif;
     overflow-x: hidden;
@@ -65,7 +65,7 @@ color: #d96b26 !important;
     border: 1px solid;
     border-radius: 1.5rem;
     background-color: #fff;
-    color: #26d985 !important;
+    color: rgb(16, 101, 61) !important;
     font-size: 3.5rem;
     box-shadow: 1px 1px 2px #000;
 }
@@ -263,34 +263,34 @@ button.navbar-toggler {
     border-radius: 5px;
 }
 .new .features li::selection{
-    background: #ffd861;
+    background: rgb(0, 89, 153);
 }
 .new ::selection,
 .new .price-area,
 .new .inside{
-    background: #ffd861;
+    background: rgb(0, 89, 153);
 }
 .new .btn button{
-    border: 2px solid #ffd861;
-    background: #ffd861;
+    border: 2px solid rgb(0, 89, 153);
+    background: rgb(0, 89, 153);
     color: #fff;
 }
 .new .btn button:hover{
-    background: #ffd861;
+    background: rgb(0, 89, 153);
     color: #fff;
 }
 .maintenance ::selection,
 .maintenance .price-area,
 .maintenance .inside,
 .maintenance .btn button{
-    background: #a26bfa;
+    background: rgb(104, 16, 244);
 }
 .maintenance .btn button:hover{
-    background: #833af8;
+    background: rgb(104, 16, 244);
 }
 
 .new .package-name{
-    background: #ffecb3;
+    background: rgb(0, 89, 153);
 }
 .maintenance .package-name{
     background: #d0b3ff;
@@ -348,7 +348,7 @@ button.navbar-toggler {
     right: 0;
     transform: rotate(-45deg);
     width: 200px;
-    background: #ffd861;
+    background: rgb(0, 89, 153);
     padding: 10px 0;
     color: #fff;
     text-align: center;
@@ -358,7 +358,7 @@ button.navbar-toggler {
 }
 
 .table .ribbon_maintenance span {
-    background: #a26bfa;
+    background: rgb(104, 16, 244);
 }
 
 /* End Card*/
@@ -404,13 +404,13 @@ form {
 }
 
 .secondaryTitle {
-    color: #26d985;
+    color: rgb(16, 101, 61);
     text-align: center;
     font-size: 2rem;
 }
 
 form label {
-    color: #26d985;
+    color: rgb(16, 101, 61);
     font-size: 2.5rem;
 }
 
@@ -468,7 +468,7 @@ textarea {
     background-color: #fff;
 }
 .name:hover {
-    border-bottom: 5px solid  #26d985;
+    border-bottom: 5px solid  rgb(16, 101, 61);
     height: 3.5em;
     transition: ease 0.5s;
 }
@@ -478,7 +478,7 @@ textarea {
 }
 
 .email:hover {
-    border-bottom: 5px solid  #26d985;
+    border-bottom: 5px solid  rgb(16, 101, 61);
     height: 3.5em;
     transition: ease 0.5s;
 }
@@ -494,7 +494,7 @@ textarea {
 }
 
 .message:hover {
-    border-bottom: 5px solid #26d985;
+    border-bottom: 5px solid rgb(16, 101, 61);
     height: 12.5rem;
     transition: ease 0.5s;
 }
@@ -520,11 +520,11 @@ footer hr.small {
 
 .copyright-text, .copyright-text a {
     margin: 0;
-    color: #26d985;
+    color: rgb(16, 101, 61);
 }
 
 .copyright-text a:hover {
-    color: #26d985;
+    color: rgb(16, 101, 61);
 }
 
 .foot-links {
@@ -544,12 +544,12 @@ footer hr.small {
     line-height: 4rem;
     margin-left: 6px;
     margin-right: 0;
-    color: #26d985;
+    color: rgb(16, 101, 61);
 
 }
 
 .foot-links a:hover {
-    color: #26d985;
+    color: rgb(16, 101, 61);
 }
 
 @media only screen and (max-width: 991px) {
