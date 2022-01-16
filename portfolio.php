@@ -42,6 +42,6 @@
 	<!-- Bootstrap JS. -->
 	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 	<!-- Local JS -->
-	<script src="js/about.js" type="text/javascript"></script>
+	<script src="js/portfolio.js" type="text/javascript"></script>
 </body>
 </html>
