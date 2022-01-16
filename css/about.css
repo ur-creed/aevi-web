@@ -186,10 +186,13 @@ img.animate__animated.animate__slideInRight.img-fluid {
 /* ==== SIMPLE FOOTER ==== */
 
 footer {
-    /*padding: 4rem 0 2rem;*/
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
     font-size: 1.2rem;
     line-height: 5rem;
-    background-color: #fff;
 }
 
 footer hr {
