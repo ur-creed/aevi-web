@@ -28,6 +28,10 @@
 	<?php include_once 'navigation.php' ?>
 	<!-- Particles -->
 	<?php include_once 'particles.php' ?>
+	<div class="container container-h1">
+		<h1 class="display-4 text-center text-white h1 mt-0">Portfolio</h1>
+		<hr class="my-4">
+	</div>
 	<div class="image-wrapper">
 		<img class="image-1" src="images/clients/dare_angel_logo_new.png" height="500" width="500" alt="Dare Angel Productions"/>
 		<a href="https://dareangel.com" target="_blank"><strong>Dare Angel</strong></a>
