@@ -29,7 +29,19 @@
 	<?php include_once 'particles.php' ?>
 	<div class="image-wrapper">
 		<img class="image-1" src="images/clients/dare_angel_logo_new.png" height="500" width="500" alt="Dare Angel Productions"/>
-		<a href="https://dareangel.com">Dare Angel</a>
+		<a href="https://dareangel.com" target="_blank"><strong>Dare Angel</strong></a>
 	</div>
+	<div>
+		<h2>More projects coming soon!</h2>
+	</div>
+	
+	<!-- Footer -->
+	<?php include_once 'footer.php' ?>
+	<!-- JQuery	-->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<!-- Bootstrap JS. -->
+	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Local JS -->
+	<script src="js/about.js" type="text/javascript"></script>
 </body>
 </html>
