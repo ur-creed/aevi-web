@@ -52,7 +52,7 @@ body {
 }
 
 .nav-link#Pricing:hover {
-    color: #26d985 !important;
+    color: rgb(16, 101, 61) !important;
 }
 
 .active {
