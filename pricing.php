@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/pricing.css" type="text/css">
+	<link rel="stylesheet" href="css/particles.css" type="text/css">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">

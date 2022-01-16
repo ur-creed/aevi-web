@@ -14,8 +14,9 @@
 	<meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
 	<meta property="og:description" content="A simple HTML5 Template for new projects.">
 	<meta property="og:image" content="image.png">
-	
+	<!-- Local CSS -->
 	<link rel="stylesheet" href="css/portfolio.css">
+	<link rel="stylesheet" href="css/particles.css" type="text/css">
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
