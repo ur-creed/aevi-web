@@ -131,7 +131,7 @@
 	                <input id="FullName" type="text" name="full_name" class="form-control name formEntry" placeholder="Ragnar Lothbrok" required>
 	            </div>
 	            <div class="mb-5">
-	                <label for="Email" class="form-label">Email</label>
+	                <label for="ClientEmail" class="form-label">Email</label>
 	                <input id="ClientEmail" type="email" name="client_email" class="form-control email formEntry" placeholder="Ragnar.Lothbrok@email.com" required>
 	                <div id="emailHelp" class="form-text">We'll never share your email with anyone else!</div>
 	            </div>
