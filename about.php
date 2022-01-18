@@ -57,7 +57,7 @@
 	    </div>
 		<!-- Founders -->
 		<div class="row row-content1">
-            <h1 class="display-3 text-black text-center h1 mt-0 mb-4">Our Founders</h1>
+            <h1 class="display-3 text-center h1 mt-0 mb-4">Our Founders</h1>
             <div class="container">
                 <!--  image left  -->
                 <div class="row row_1">
@@ -68,7 +68,7 @@
                     <div class="col-md-6">
                         <div class="row align-items-center h-100">
                             <div class="col">
-                                <h1 class="display-3 Creed">Creed Polen <span class="divider">|</span> Chief Executive Officer</h1>
+                                <h2 class="display-3 Creed">Creed Polen <span class="divider">|</span> Chief Executive Officer</h2>
 <!--                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj-->
 <!--                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l-->
 <!--                                    <br /><br />-->
@@ -89,7 +89,7 @@
                     <div class="col-md-6 order-md-6">
                         <div class="row align-items-center h-100">
                             <div class="col">
-                                <h1 class="display-3 text-center">Chris Polen <span class="divider">|</span> Chief Design Officer</h1>
+                                <h2 class="display-3 text-center">Chris Polen <span class="divider">|</span> Chief Design Officer</h2>
 <!--                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj-->
 <!--                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l-->
 <!--                                    <br /><br />-->

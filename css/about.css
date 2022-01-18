@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #d96b26;
+    background-color: rgb(106, 13, 173);
     font-family: "laca Text", sans-serif;
     z-index: 0;
     overflow-y: scroll;
@@ -18,7 +18,7 @@ body {
     scroll-behavior: smooth;
 }
 
-h1 {
+h1, h2 {
     color: rgb(240, 204, 0);
 }
 
@@ -63,7 +63,7 @@ h1 {
 }
 
 .nav-link#Portfolio:hover {
-    color: rgb(0, 128, 128) !important;
+    color: rgb(137, 56, 93) !important;
 }
 
 .active {
@@ -71,7 +71,7 @@ h1 {
     border: 1px solid;
     border-radius: 1.5rem;
     background-color: #fff;
-    color: #d96b26 !important;
+    color: rgb(106, 13, 173) !important;
     font-size: 3.5rem;
     box-shadow: 1px 1px 2px #000;
 }
@@ -110,7 +110,7 @@ button.navbar-toggler {
 /* ==== GENERAL STYLES ==== */
 strong {
     font-weight: 700;
-    color: #000000;
+    color: rgb(240, 204, 0);
 }
 
 .display-4 {
@@ -140,7 +140,7 @@ strong {
     font-weight: 400;
 }
 
-h1.display-3.text-black.text-center.h1.mt-0.mb-4 {
+h1.display-3.text-center.h1.mt-0.mb-4 {
     font-size: 8rem;
     font-weight: 350;
 }
@@ -217,11 +217,11 @@ footer hr.small {
 
 .copyright-text, .copyright-text a {
     margin: 0;
-    color: #d96b26;
+    color: rgb(106, 13, 173);
 }
 
 .copyright-text a:hover {
-    color: #d96b26;
+    color: rgb(240, 204, 0);
 }
 
 .foot-links {
@@ -241,12 +241,12 @@ footer hr.small {
     line-height: 4rem;
     margin-left: 6px;
     margin-right: 0;
-    color: #d96b26;
+    color: rgb(106, 13, 173);
 
 }
 
 .foot-links a:hover {
-    color: #d96b26;
+    color: rgb(240, 204, 0);
 }
 
 

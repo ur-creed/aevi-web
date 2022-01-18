@@ -48,7 +48,7 @@ body {
 }
 
 .nav-link#About:hover {
-    color: #d96b26 !important;
+    color: rgb(106, 13, 173) !important;
 }
 
 .nav-link#Pricing:hover {
@@ -56,7 +56,7 @@ body {
 }
 
 .nav-link#Portfolio:hover {
-    color: rgb(0, 128, 128) !important;
+    color: rgb(137, 56, 93) !important;
 }
 
 .active {
