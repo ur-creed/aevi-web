@@ -10,12 +10,16 @@ html {
 }
 
 body {
-    background-color: #840ECD;
+    background-color: #d96b26;
     font-family: "laca Text", sans-serif;
     z-index: 0;
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+
+h1 {
+    color: rgb(240, 204, 0);
 }
 
 /* Nav bar Start */
@@ -51,11 +55,15 @@ body {
 }
 
 .nav-link#Pricing:hover {
-    color: rgb(16, 101, 61) !important;
+    color: rgb(66, 130, 53) !important;
 }
 
 .nav-link#Contact:hover {
     color: #c93030 !important;
+}
+
+.nav-link#Portfolio:hover {
+    color: rgb(0, 128, 128) !important;
 }
 
 .active {
@@ -63,7 +71,7 @@ body {
     border: 1px solid;
     border-radius: 1.5rem;
     background-color: #fff;
-    color: #840ECD !important;
+    color: #d96b26 !important;
     font-size: 3.5rem;
     box-shadow: 1px 1px 2px #000;
 }
@@ -100,20 +108,14 @@ button.navbar-toggler {
 /* Navbar End */
 
 /* ==== GENERAL STYLES ==== */
+strong {
+    font-weight: 700;
+    color: #000000;
+}
+
 .display-4 {
     font-size: 8rem;
     font-weight: 350;
-    color: rgb(240, 204, 0);
-}
-
-.display-3 {
-    font-weight: 400;
-    color: rgb(240, 204, 0);
-}
-
-strong {
-    font-weight: 700;
-    color: rgb(240, 204, 0);
 }
 
 .col-sm {
@@ -132,6 +134,15 @@ strong {
 
 .container-about {
     position: relative;
+}
+
+.display-3 {
+    font-weight: 400;
+}
+
+h1.display-3.text-black.text-center.h1.mt-0.mb-4 {
+    font-size: 8rem;
+    font-weight: 350;
 }
 
 .divider {
@@ -186,10 +197,13 @@ img.animate__animated.animate__slideInRight.img-fluid {
 /* ==== SIMPLE FOOTER ==== */
 
 footer {
-    /*padding: 4rem 0 2rem;*/
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
     font-size: 1.2rem;
     line-height: 5rem;
-    background-color: #fff;
 }
 
 footer hr {
@@ -203,11 +217,11 @@ footer hr.small {
 
 .copyright-text, .copyright-text a {
     margin: 0;
-    color: #840ECD;
+    color: #d96b26;
 }
 
 .copyright-text a:hover {
-    color: #840ECD;
+    color: #d96b26;
 }
 
 .foot-links {
@@ -227,12 +241,12 @@ footer hr.small {
     line-height: 4rem;
     margin-left: 6px;
     margin-right: 0;
-    color: #840ECD;
+    color: #d96b26;
 
 }
 
 .foot-links a:hover {
-    color: #840ECD;
+    color: #d96b26;
 }
 
 

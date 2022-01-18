@@ -30,15 +30,19 @@ body {
 }
 
 .nav-link#About:hover {
-    color: #d96b26 !important;
+    color: rgb(106, 13, 173) !important;
 }
 
 .nav-link#Contact:hover {
-    color: #c93030 !important;
+    color: rgb(201, 48, 48) !important;
 }
 
 .nav-link#Pricing:hover {
-    color: rgb(16, 101, 61) !important;
+    color: rgb(66, 130, 53) !important;
+}
+
+.nav-link#Portfolio:hover {
+    color: rgb(0, 128, 128) !important;
 }
 
 .nav-link {

@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #c93030;
+    background-color: rgb(201, 48, 48);
     z-index: 0;
     font-family: "laca Text", sans-serif;
     overflow-x: hidden;
@@ -48,11 +48,15 @@ body {
 }
 
 .nav-link#About:hover {
-    color: #840ECD !important;
+    color: #d96b26 !important;
 }
 
 .nav-link#Pricing:hover {
-    color: rgb(16, 101, 61) !important;
+    color: rgb(66, 130, 53) !important;
+}
+
+.nav-link#Portfolio:hover {
+    color: rgb(0, 128, 128) !important;
 }
 
 .active {
@@ -60,7 +64,7 @@ body {
     border: 1px solid;
     border-radius: 1.5rem;
     background-color: #fff;
-    color: #c93030 !important;
+    color: rgb(201, 48, 48) !important;
     font-size: 3.5rem;
     box-shadow: 1px 1px 2px #000;
 }
@@ -141,13 +145,13 @@ form {
 }
 
 .secondaryTitle{
-    color: #C93030;
+    color: rgb(201, 48, 48);
     text-align: center;
     font-size: 2rem;
 }
 
 form label {
-    color: #C93030;
+    color: rgb(201, 48, 48);
     font-size: 2rem;
 }
 
@@ -178,7 +182,7 @@ form .form-text {
 }
 
 .name:hover {
-    border-bottom: 5px solid #c93030;
+    border-bottom: 5px solid rgb(201, 48, 48);
     height: 3.5em;
     transition: ease 0.5s;
 }
@@ -188,7 +192,7 @@ form .form-text {
 }
 
 .email:hover {
-    border-bottom: 5px solid #c93030;
+    border-bottom: 5px solid rgb(201, 48, 48);
     height: 3.5em;
     transition: ease 0.5s;
 }
@@ -200,7 +204,7 @@ form .form-text {
 }
 
 .message:hover {
-    border-bottom: 5px solid #c93030;
+    border-bottom: 5px solid rgb(201, 48, 48);
     height: 12.5rem;
     transition: ease 0.5s;
 }
@@ -217,9 +221,9 @@ textarea {
 
 .btn-danger:hover {
     transform: translateY(-3px);
-    border-top: 5px solid #C93030;
+    border-top: 5px solid rgb(201, 48, 48);
     background: #ffffff;
-    color: #C93030;
+    color: rgb(201, 48, 48);
 }
 
 /*@keyframes bounce {*/
@@ -244,31 +248,41 @@ strong {
 }
 
 /* ==== SIMPLE FOOTER ==== */
+/*footer {*/
+/*    !*padding: 4rem 0 2rem;*!*/
+/*    font-size: 1.2rem;*/
+/*    line-height: 5rem;*/
+/*    background-color: #fff;*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*}*/
+
+/*footer hr {*/
+/*    border-top-color: #bbb;*/
+/*    opacity: 0.5;*/
+/*}*/
+
+/*footer hr.small {*/
+/*    margin: 2rem 0;*/
+/*}*/
+
 footer {
-    /*padding: 4rem 0 2rem;*/
-    font-size: 1.2rem;
-    line-height: 5rem;
-    background-color: #fff;
     position: relative;
     width: 100%;
-}
-
-footer hr {
-    border-top-color: #bbb;
-    opacity: 0.5;
-}
-
-footer hr.small {
-    margin: 2rem 0;
+    left: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    font-size: 1.2rem;
+    line-height: 5rem;
 }
 
 .copyright-text, .copyright-text a {
     margin: 0;
-    color: #C93030;
+    color: rgb(201, 48, 48);
 }
 
 .copyright-text a:hover {
-    color: #C93030;
+    color: rgb(0, 128, 128);
 }
 
 .foot-links {
@@ -288,27 +302,25 @@ footer hr.small {
     line-height: 4rem;
     margin-left: 6px;
     margin-right: 0;
-    color: #C93030;
+    color: rgb(201, 48, 48);
 
 }
 
 .foot-links a:hover {
-    color: #C93030;
+    color: rgb(0, 128, 128);
 }
 /* iPad */
-@media only screen and (device-width: 1024px) and (device-height: 1366px) {
-    footer {
-        position: absolute;
-        bottom: -5px;
-    }
-}
+/*@media only screen and (device-width: 1024px) and (device-height: 1366px) {*/
+/*    footer {*/
+/*        position: absolute;*/
+/*        bottom: -5px;*/
+/*    }*/
+/*}*/
 
 @media only screen and (max-width: 991px) {
-
     body {
         overflow-y: scroll;
     }
-
 }
 
 @media only screen and (max-width: 577px) {
