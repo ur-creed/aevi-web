@@ -1,5 +1,51 @@
+html {
+    /* this defines what 1 rem is */
+    font-size: 62.5%; /* 1rem = 10px; 10/16px = 62.5% */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(137, 56, 93);
+    font-family: "laca Text", sans-serif;
+    overflow: hidden;
+}
+
+/* NavBar Start */
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-brand img {
+    position: relative;
+    top: 2rem;
+    left:2rem;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    padding: 10px;
+    margin: 4px;
+    width: auto;
+    border-radius: 10px;
+}
+
+
+.nav-link {
+    font-size: 3rem;
+    color: white !important;
+    /*font-family: "Marshland Beauty";*/
+    font-family: 'laca Text' , sans-serif;
+    font-weight: 350;
+    /*text-shadow: 1px 1px 2px #000;*/
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 .nav-link#About:hover {
@@ -14,20 +60,82 @@ body {
     color: rgb(66, 130, 53) !important;
 }
 
-footer {
-    position: relative;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: #FFFFFF;
-    font-size: 1.2rem;
-    line-height: 5rem;
+.active {
+    text-decoration: underline;
+    border: 1px solid;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    color: rgb(137, 56, 93) !important;
+    font-size: 3.5rem;
+    box-shadow: 1px 1px 2px #000;
+}
+
+#Home {
+    display: none;
+}
+
+/*!* Nav toggler */
+.navbar-toggler-icon {
+    width: 3.5em !important;
+    height: 3.5em !important;
+}
+
+button.navbar-toggler {
+    background: #fff;
+}
+
+button.navbar-toggler {
+    border-radius: 1rem;
+}
+
+/* logo mobile */
+@media only screen and (max-width: 991px) {
+    .navbar-brand img {
+        display: none !important;
+    }
+
+    #Home {
+        display: block;
+    }
+}
+
+/* Navbar End */
+
+/* Card Styling */
+.card {
+    width: 44rem !important;
+}
+
+.card-title {
+    font-size: 2.5rem;
+}
+
+.card-text.lead {
+    font-size: 1.5rem;
+}
+
+.dare_angel {
+    font-size: 1.5rem;
+}
+/* End Card Styles */
+
+/* General Styles */
+.display-4 {
+    font-size: 8rem;
+    font-weight: 350;
+}
+
+.display-3 {
+    font-weight: bold;
+
+    animation: pulse infinite;
+    animation-duration: 2s;
 }
 
 /* ==== SIMPLE FOOTER ==== */
 
 footer {
-    position: relative;
+    position: fixed;
     width: 100%;
     left: 0;
     bottom: 0;

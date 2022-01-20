@@ -186,7 +186,7 @@ img.animate__animated.animate__slideInRight.img-fluid {
 /* ==== SIMPLE FOOTER ==== */
 
 footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     left: 0;
     bottom: 0;
