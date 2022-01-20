@@ -45,8 +45,8 @@
             <img class="card-img-top" src="images/clients/dare_angel_logo_new.png" alt="Dare Angel Productions">
             <div class="card-body">
                 <h5 class="card-title">Dare Angel</h5>
-                <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a class="btn btn-primary bg-dark dare_angel" href="https://dareangel.com" target="_blank">Dare Angel</a>
+                <p class="card-text lead">A film production company based in California taking the industry by storm!</p>
+                <a class="btn btn-primary bg-dark dare_angel" href="https://dareangel.com" target="_blank">Website</a>
             </div>
         </div>
     </div>
