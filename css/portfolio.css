@@ -131,6 +131,7 @@ button.navbar-toggler {
 
 .display-3 {
     font-weight: bold;
+    color: rgb(255, 255, 255);
 
     animation: pulse infinite;
     animation-duration: 2s;
