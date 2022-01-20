@@ -1,3 +1,80 @@
 body {
-    background-color: rgb(255,215,0);
+    background-color: rgb(137, 56, 93);
+}
+
+.nav-link#About:hover {
+    color: rgb(106, 13, 173) !important;
+}
+
+.nav-link#Contact:hover {
+    color: rgb(201, 48, 48) !important;
+}
+
+.nav-link#Pricing:hover {
+    color: rgb(66, 130, 53) !important;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    font-size: 1.2rem;
+    line-height: 5rem;
+}
+
+/* ==== SIMPLE FOOTER ==== */
+
+footer {
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    font-size: 1.2rem;
+    line-height: 5rem;
+}
+
+footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+
+footer hr.small {
+    margin: 2rem 0;
+}
+
+.copyright-text, .copyright-text a {
+    margin: 0;
+    color: rgb(137, 56, 93);
+}
+
+.copyright-text a:hover {
+    color: rgb(66, 130, 53);
+}
+
+.foot-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.foot-links li {
+    display: inline;
+}
+
+.foot-links {
+    text-align: right;
+}
+
+.foot-links a {
+    line-height: 4rem;
+    margin-left: 6px;
+    margin-right: 0;
+    color: rgb(137, 56, 93);
+
+}
+
+.foot-links a:hover {
+    color: rgb(66, 130, 53);
 }

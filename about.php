@@ -29,15 +29,14 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
-<!-- About Header -->
+	<!-- About Header -->
 	<div class="container container-header bg-transparent p-5">
 		<h1 class="display-4 text-center h-1 mt-0">A Little About Who We Are</h1>
 		<hr class="my-4">
 	</div>
-<!-- About Content -->
+	<!-- About Content -->
 	<div class="container container-about">
 		<div class="row row-content">
-<!--            <h1 class="display-3 h1 mt-0">A Little About Who We Are</h1>-->
 			<p class="display-6 text-center text-white col-lg-6 col-sm-12 lead">
 				At Aevi Web, we believe every human being deserves to have their website dream come to life!
 				Whether you have an existing idea or project in place and need updates or want a brand spanking new project built, we can help with that!
@@ -48,7 +47,7 @@
 	            <strong class="h1 mt-0">Creating</strong> | <strong class="h1 mt-0">Maintaining</strong> | <strong class="h1 mt-0">Consulting</strong>
             </p>
 	        <div class="col-sm d-none d-lg-block">
-	                <img src="images/shenandoah-national-park.png"  class="animate__animated animate__slideInRight img-fluid" height="750" width="750" alt="Shenandoah National Park">
+		        <img src="images/shenandoah-national-park.png"  class="animate__animated animate__slideInRight img-fluid" height="750" width="750" alt="Shenandoah National Park">
 	        </div>
             <p class="p-3 display-6 text-center text-white col-12">
 	            We are experienced developers based out of Shenandoah, Virginia, with a fiery passion for creating web solutions, helping others, and saving the Earth.
@@ -58,7 +57,7 @@
 	    </div>
 		<!-- Founders -->
 		<div class="row row-content1">
-            <h1 class="display-4 text-center h1 mt-0 mb-4">Our Founders</h1>
+            <h1 class="display-3 text-center h1 mt-0 mb-4">Our Founders</h1>
             <div class="container">
                 <!--  image left  -->
                 <div class="row row_1">
@@ -69,7 +68,7 @@
                     <div class="col-md-6">
                         <div class="row align-items-center h-100">
                             <div class="col">
-                                <h1 class="display-3 Creed">Creed Polen <span class="divider">|</span> Chief Executive Officer</h1>
+                                <h2 class="display-3 Creed">Creed Polen <span class="divider">|</span> Chief Executive Officer</h2>
 <!--                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj-->
 <!--                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l-->
 <!--                                    <br /><br />-->
@@ -90,7 +89,7 @@
                     <div class="col-md-6 order-md-6">
                         <div class="row align-items-center h-100">
                             <div class="col">
-                                <h1 class="display-3 text-center">Chris Polen <span class="divider">|</span> Chief Design Officer</h1>
+                                <h2 class="display-3 text-center">Chris Polen <span class="divider">|</span> Chief Design Officer</h2>
 <!--                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj-->
 <!--                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l-->
 <!--                                    <br /><br />-->
