@@ -100,7 +100,7 @@
                             <span class="icon check"><i class="fas fa-check"></i></span>
                         </li>
                         <li>
-                            <span class="list-name">Lifetime Site Updates</span>
+                            <span class="list-name">Site Hosting</span>
                             <span class="icon cross"><i class="fas fa-times"></i></span>
                         </li>
 	                    <li>

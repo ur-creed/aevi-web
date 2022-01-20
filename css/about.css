@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: #840ECD;
+    background-color: rgb(132, 14, 205);
     font-family: "laca Text", sans-serif;
     z-index: 0;
     overflow-y: scroll;
@@ -39,7 +39,7 @@ body {
 
 .nav-link {
     font-size: 3rem;
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
     /*font-family: "Marshland Beauty";*/
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
@@ -55,15 +55,19 @@ body {
 }
 
 .nav-link#Contact:hover {
-    color: #c93030 !important;
+    color: rgb(201, 48, 48) !important;
+}
+
+.nav-link#Portfolio:hover {
+    color: rgb(137, 56, 93) !important;
 }
 
 .active {
     text-decoration: underline;
     border: 1px solid;
     border-radius: 1.5rem;
-    background-color: #fff;
-    color: #840ECD !important;
+    background-color: rgb(255, 255, 255);
+    color: rgb(132, 14, 205) !important;
     font-size: 3.5rem;
     box-shadow: 1px 1px 2px #000;
 }
@@ -79,7 +83,7 @@ body {
 }
 
 button.navbar-toggler {
-    background: #fff;
+    background: rgb(255, 255, 255);
 }
 
 button.navbar-toggler {
@@ -121,7 +125,7 @@ strong {
 }
 
 .my-4 {
-    color: #fff !important;
+    color: rgb(255, 255, 255) !important;
     opacity: 100;
 }
 
@@ -135,7 +139,7 @@ strong {
 }
 
 .divider {
-    color: #fff !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .founderP {
@@ -145,7 +149,7 @@ strong {
 .row-content {
     margin: 0px auto;
     padding: 2rem 0px 2rem 0px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgb(255, 255, 255);
     min-height: 40rem;
 }
 
@@ -190,7 +194,7 @@ footer {
     width: 100%;
     left: 0;
     bottom: 0;
-    background-color: #FFFFFF;
+    background-color: rgb(255, 255, 255);
     font-size: 1.2rem;
     line-height: 5rem;
 }
@@ -206,11 +210,11 @@ footer hr.small {
 
 .copyright-text, .copyright-text a {
     margin: 0;
-    color: #840ECD;
+    color: rgb(132, 14, 205);
 }
 
 .copyright-text a:hover {
-    color: #840ECD;
+    color: rgb(240, 204, 0);
 }
 
 .foot-links {
@@ -230,12 +234,12 @@ footer hr.small {
     line-height: 4rem;
     margin-left: 6px;
     margin-right: 0;
-    color: #840ECD;
+    color: rgb(132, 14, 205);
 
 }
 
 .foot-links a:hover {
-    color: #840ECD;
+    color: rgb(240, 204, 0);
 }
 
 

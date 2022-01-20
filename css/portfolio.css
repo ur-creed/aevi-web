@@ -37,7 +37,7 @@ body {
 
 .nav-link {
     font-size: 3rem;
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
     /*font-family: "Marshland Beauty";*/
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
@@ -64,10 +64,10 @@ body {
     text-decoration: underline;
     border: 1px solid;
     border-radius: 1.5rem;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     color: rgb(137, 56, 93) !important;
     font-size: 3.5rem;
-    box-shadow: 1px 1px 2px #000;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0)
 }
 
 #Home {
@@ -144,7 +144,7 @@ footer {
     width: 100%;
     left: 0;
     bottom: 0;
-    background-color: #FFFFFF;
+    background-color: rgb(255, 255, 255);
     font-size: 1.2rem;
     line-height: 5rem;
 }
@@ -164,7 +164,7 @@ footer hr.small {
 }
 
 .copyright-text a:hover {
-    color: rgb(66, 130, 53);
+    color: rgb(16, 101, 61);
 }
 
 .foot-links {
@@ -189,5 +189,5 @@ footer hr.small {
 }
 
 .foot-links a:hover {
-    color: rgb(66, 130, 53);
+    color: rgb(16, 101, 61);
 }

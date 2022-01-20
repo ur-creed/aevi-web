@@ -47,7 +47,7 @@ body {
 
 .nav-link {
     font-size: 3rem;
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
     /*font-family: "Marshland Beauty";*/
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
@@ -62,7 +62,7 @@ body {
 }
 
 button.navbar-toggler {
-    background: #fff;
+    background: rgb(255, 255, 255);
 }
 
 button.navbar-toggler {
@@ -96,8 +96,8 @@ button.navbar-toggler {
 
 .container h1 {
     font-size: 30rem;
-    color: white;
-    text-shadow: 1px 1px 2px #000;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
     position: relative;
     top: 5rem;
 }
@@ -123,7 +123,7 @@ hr:before {
 
 .container p {
     font-size: 5rem;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Marshland Beauty';
-    text-shadow: 1px 1px 2px #000;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }

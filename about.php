@@ -57,7 +57,7 @@
 	    </div>
 		<!-- Founders -->
 		<div class="row row-content1">
-            <h1 class="display-3 text-center h1 mt-0 mb-4">Our Founders</h1>
+            <h1 class="display-4 text-center h-1 mt-0 mb-4">Our Founders</h1>
             <div class="container">
                 <!--  image left  -->
                 <div class="row row_1">
