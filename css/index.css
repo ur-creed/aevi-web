@@ -2,8 +2,6 @@
 html {
     /* this defines what 1 rem is */
     font-size: 62.5%; /* 1rem = 10px; 10/16px = 62.5% */
-
-
 }
 
 body {
@@ -11,22 +9,42 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
+    font-family: 'laca Text' , sans-serif;
 }
 
 /* Nav bar Start */
-.navbar-nav {
-    text-align: center;
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+.navbar-brand img {
+    position: relative;
+    top: 2rem;
+    left:2rem;
+}
+
+.navbar-nav li {
+    display:inline-block;
+    padding: 1rem;
+    margin: 4px;
+    width:auto;
+    border-radius: 1rem;
+}
+
+.nav-link {
+    font-size: 3rem;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 350;
+
 }
 
 .nav-link:hover {
     text-decoration: underline;
-    font-size: 3.5rem;
 }
 
-.navbar-brand img {
-    position: relative;
-    top: 2rem;
-    left: 2rem;
+.nav-link#Home:hover {
+    color: rgb(38, 113, 217);
 }
 
 .nav-link#About:hover {
@@ -45,17 +63,7 @@ body {
     color: rgb(137, 56, 93) !important;
 }
 
-.nav-link {
-    font-size: 3rem;
-    color: rgb(255, 255, 255) !important;
-    /*font-family: "Marshland Beauty";*/
-    font-family: 'laca Text' , sans-serif;
-    font-weight: 350;
-    /*text-shadow: 1px 1px 2px #000;*/
-    padding-right: 3.5rem !important;
-}
-
-/*!* Nav toggler */
+/*!*!* Nav toggler *!*/
 .navbar-toggler-icon {
     width: 3.5em !important;
     height: 3.5em !important;
@@ -67,6 +75,16 @@ button.navbar-toggler {
 
 button.navbar-toggler {
     border-radius: 1rem;
+}
+
+.active {
+    text-decoration: underline;
+    border: 1px solid;
+    border-radius: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(38, 113, 217) !important;
+    font-size: 3.5rem;
+    box-shadow: 1px 1px 2px #000;
 }
 
 #Home {
@@ -84,15 +102,59 @@ button.navbar-toggler {
     }
 }
 
-/* Navbar End */
 
-.container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+/* Navbar End */
+.centered {
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70rem;
+    position: relative;
 }
+
+.centered img {
+    width: 70%;
+    /*display: block;*/
+    /*margin: auto;*/
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 600px)  {
+    .centered {
+        height: 50rem;
+    }
+}
+
+@media only screen and (device-width: 820px) and (device-height: 1180px)  {
+    .centered {
+        height: 106rem;
+    }
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px)  {
+    .centered {
+        height: 88rem;
+    }
+}
+
+@media only screen and (device-width: 912px) and (device-height: 1368px)  {
+    .centered {
+        height: 126rem;
+    }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px)  {
+    .centered {
+        height: 56rem;
+    }
+}
+@media only screen and (device-width: 280px) and (device-height: 653px)  {
+    .centered {
+        height: 56rem;
+    }
+}
+
+
 
 .container h1 {
     font-size: 30rem;

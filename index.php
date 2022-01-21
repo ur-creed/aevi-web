@@ -28,11 +28,13 @@
 	<!-- Navigation -->
 	<?php include_once 'navigation.php' ?>
 	<!-- Particles -->
-	<?php include_once 'particles.php' ?>
+    <?php include_once 'particles.php' ?>
 
-	<div class="container">
-	    <img src="images/AeviWeb.png" height="1250" width="1250" class="img-fluid logo animate__animated animate__pulse" alt="Aevi Web Development and Design">
-	</div>
+    <div class="centered">
+        <img src="images/AeviWeb.png" alt="Aevi Web Developing Dreams">
+    </div>
+
+
 	
 	<!-- JQuery	-->
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>

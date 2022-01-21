@@ -1,14 +1,18 @@
 html {
     /* this defines what 1 rem is */
     font-size: 62.5%; /* 1rem = 10px; 10/16px = 62.5% */
+}
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: rgb(201, 48, 48);
     z-index: 0;
-    font-family: "laca Text", sans-serif;
+    font-family: "laca Text", sans-serif !important;
     overflow: hidden;
     scroll-behavior: smooth;
 }
@@ -108,7 +112,7 @@ button.navbar-toggler {
     border-radius: 1rem;
 }
 
-
+/* General Styles */
 .display-4 {
     font-size: 8rem;
 }
@@ -122,6 +126,13 @@ button.navbar-toggler {
     padding: 4rem 0rem 5rem 0rem;
     min-height: 400px;
 }
+
+.container-header {
+    border-radius: 2rem;
+    position: relative;
+}
+
+/* End General Styles */
 
 
 /* Form */

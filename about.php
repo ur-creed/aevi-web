@@ -30,7 +30,9 @@
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
 	<!-- About Header -->
-	<div class="container container-header bg-transparent p-5">
+
+<!-- Top Btn -->
+	<div class="container container-h1">
 		<h1 class="display-4 text-center h-1 mt-0">A Little About Who We Are</h1>
 		<hr class="my-4">
 	</div>

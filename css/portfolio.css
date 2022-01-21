@@ -121,6 +121,12 @@ button.navbar-toggler {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255) !important;
 }
+
+@media only screen and (max-width: 460px) {
+    .card {
+        width: 100% !important;
+    }
+}
 /* End Card Styles */
 
 /* General Styles */
@@ -135,6 +141,10 @@ button.navbar-toggler {
 
     animation: pulse infinite;
     animation-duration: 2s;
+}
+
+.my-4 {
+    border-bottom: solid rgb(255, 255, 255);
 }
 
 /* ==== SIMPLE FOOTER ==== */
@@ -191,3 +201,26 @@ footer hr.small {
 .foot-links a:hover {
     color: rgb(16, 101, 61);
 }
+
+/* iPad */
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+    footer {
+        position: absolute;
+        bottom: -5px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    body {
+        overflow-y: scroll;
+    }
+
+}
+
+@media only screen and (max-width: 577px) {
+    .copyright-text, .foot-links  {
+        text-align: center !important;
+    }
+}
+/* End Footer */

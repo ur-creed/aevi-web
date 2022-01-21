@@ -31,7 +31,7 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
    <?php include_once 'particles.php' ?>
-    <div class="container container-header bg-transparent p-5">
+    <div class="container container-h1">
         <h1 class="display-4 text-center text-white h-1 mt-0">Contact Us!</h1>
         <hr class="my-4">
     </div>

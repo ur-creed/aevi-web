@@ -51,7 +51,7 @@
         </div>
     </div>
 	<div class="container text-center">
-		<h2 class="display-3 mt-3 animate__animated animate__pulse">More projects coming soon!</h2>
+		<h2 class="display-3 mt-5 animate__animated animate__pulse">More projects coming soon!</h2>
 	</div>
 	
 	<!-- Footer -->
