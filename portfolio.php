@@ -5,11 +5,6 @@
     <!-- Meta First!!   -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A simple HTML5 Template for new projects.">
-    <meta name="author" content="AeviWeb">
-    <meta property="og:title" content="Aevi Web website">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="image.png">
     <!-- Title -->
 	<title>Aevi Web | Portfolio</title>
     <!-- Google Font -->
