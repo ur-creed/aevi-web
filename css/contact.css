@@ -115,6 +115,8 @@ button.navbar-toggler {
 /* General Styles */
 .display-4 {
     font-size: 8rem;
+    letter-spacing: .2rem;
+    font-weight: 350;
 }
 
 .my-4 {
