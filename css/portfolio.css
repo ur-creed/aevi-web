@@ -102,25 +102,99 @@ button.navbar-toggler {
 /* Navbar End */
 
 /* Card Styling */
+.da {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middleTextDA {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.card:hover .da {
+    opacity: 0.3;
+}
+
+.card:hover .middleTextDA {
+    opacity: 1;
+}
+
+.rw {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middleTextRW {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.card:hover .rw {
+    opacity: 0.3;
+}
+
+.card:hover .middleTextRW {
+    opacity: 1;
+}
+
+#rwa {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+#rwa:hover {
+    text-decoration: underline;
+}
+
+#daa {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+#daa:hover {
+    text-decoration: underline;
+}
+
+
 .card {
-    width: 44rem !important;
+    background-color: transparent;
+    border: none;
 }
 
 .card-title {
-    font-size: 2.5rem;
+    font-size: 2.9rem;
 }
 
 .card-text.lead {
     font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
-.dare_angel {
-    font-size: 1.5rem;
+.card-img-top {
+    height: 30rem;
 }
-.dare_angel:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255) !important;
-}
+
 
 @media only screen and (max-width: 460px) {
     .card {
@@ -200,6 +274,12 @@ footer hr.small {
 
 .foot-links a:hover {
     color: rgb(16, 101, 61);
+}
+
+@media only screen and (max-width: 770px) {
+    footer {
+        position: static;
+    }
 }
 
 /* iPad */

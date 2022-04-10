@@ -13,8 +13,6 @@
     <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 	<!-- Local CSS -->
@@ -36,13 +34,29 @@
 		<hr class="my-4">
 	</div>
     <div class="container justify-content-center">
-        <div class="card mx-auto">
-            <img class="card-img-top" src="images/clients/dare_angel_logo_new.png" alt="Dare Angel Productions">
-            <div class="card-body">
-                <h5 class="card-title">Dare Angel</h5>
-                <p class="card-text lead">A film production company based in California taking the industry by storm!</p>
-                <a class="btn btn-primary bg-dark dare_angel" href="https://dareangel.com" target="_blank">Website</a>
-            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/clients/dare_angel_logo_new.png" class="card-img-top img-fluid da" alt="...">
+                        <div class="card-body">
+                            <div class="middleTextDA">
+                                <a href="https://www.dareangel.com/" id="daa"><h5 class="card-title">Dare Angel</h5></a>
+                                <p class="card-text lead">A film production company based in California taking the industry by storm!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/clients/ReneeMWagnerPolen.png" class="card-img-top img-fluid rw" alt="...">
+                        <div class="card-body">
+                            <div class="middleTextRW">
+                                <a href="https://www.reneemwpolen.art/" id="rwa"><h5 class="card-title">Renee M Wagner-Polen Fine Art</h5></a>
+                                <p class="card-text lead">Do you love abstract art as much as we do?! Check out our latest project for Renee Wagner-Polen, an amazing abstract artist.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 	<div class="container text-center">
