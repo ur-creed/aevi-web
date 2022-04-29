@@ -72,7 +72,7 @@
 	                    </li>
                     </ul>
                     <div class="btn">
-	                    <button id="NewProjectButton" aria-label="">Learn More</button>
+	                    <button id="NewProjectButton" aria-label="">Select</button>
                     </div>
                 </div>
                 <div class="table maintenance">
@@ -109,7 +109,7 @@
 	                    </li>
                     </ul>
                     <div class="btn">
-                        <button id="ExistingProjectButton" aria-label="Website Maintenance Learn More Button">Learn More</button>
+                        <button id="ExistingProjectButton" aria-label="Website Maintenance Learn More Button">Select</button>
                     </div>
                 </div>
             </div>
