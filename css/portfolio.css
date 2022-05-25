@@ -12,7 +12,8 @@ html {
 body {
     background-color: rgb(137, 56, 93);
     font-family: "laca Text", sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 /* NavBar Start */
@@ -224,7 +225,7 @@ button.navbar-toggler {
 /* ==== SIMPLE FOOTER ==== */
 
 footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     left: 0;
     bottom: 0;

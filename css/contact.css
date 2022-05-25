@@ -13,7 +13,8 @@ body {
     background-color: rgb(201, 48, 48);
     z-index: 0;
     font-family: "laca Text", sans-serif !important;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     scroll-behavior: smooth;
 }
 
@@ -261,7 +262,7 @@ strong {
 
 /* ==== SIMPLE FOOTER ==== */
 footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     left: 0;
     bottom: 0;

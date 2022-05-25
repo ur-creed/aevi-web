@@ -8,7 +8,8 @@ body {
     background-image: url("../images/bluebg.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     font-family: 'laca Text' , sans-serif;
 }
 
@@ -109,7 +110,7 @@ button.navbar-toggler {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70rem;
+    height: 50rem;
     position: relative;
 }
 
