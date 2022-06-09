@@ -31,7 +31,7 @@
     <?php include_once 'particles.php' ?>
 
     <div class="centered">
-        <img src="images/AeviWeb.png" alt="Aevi Web Developing Dreams">
+        <img src="images/AeviWeb.png" alt="Website DevelopAevi Web Developing Dreams">
     </div>
 
 

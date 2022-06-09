@@ -21,8 +21,7 @@ body {
 }
 .navbar-brand img {
     position: relative;
-    top: 2rem;
-    left:2rem;
+    margin-left: 2rem;
 }
 
 .navbar-nav li {
@@ -34,7 +33,7 @@ body {
 }
 
 .nav-link {
-    font-size: 3rem;
+    font-size: 3rem !important;
     color: rgb(255, 255, 255) !important;
     font-weight: 350;
 
@@ -94,17 +93,14 @@ button.navbar-toggler {
 
 /* logo mobile */
 @media only screen and (max-width: 991px) {
-    .navbar-brand img {
-        display: none !important;
-    }
 
-    #Home {
-        display: block;
-    }
 }
 
 
 /* Navbar End */
+.container-fluid {
+    padding: 2rem;
+}
 .centered {
     /*text-align: center;*/
     display: flex;
@@ -116,10 +112,42 @@ button.navbar-toggler {
 
 .centered img {
     width: 70%;
-    /*display: block;*/
-    /*margin: auto;*/
+    display: block;
+    margin: auto;
+}
+.container h1 {
+    font-size: 30rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    position: relative;
+    top: 5rem;
 }
 
+/* Hr Style */
+hr {
+    height: 3rem !important;
+    border-style: solid;
+    border-color: #8c8b8b;
+    border-width: 1px 0 0 0;
+    border-radius: 2rem;
+}
+hr:before {
+    display: block;
+    content: "";
+    height: 3rem;
+    margin-top: -3rem;
+    border-style: solid;
+    border-color: #8c8b8b;
+    border-width: 0 0 1px 0;
+    border-radius: 2rem;
+}
+
+.container p {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Marshland Beauty';
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
 @media only screen and (device-width: 1024px) and (device-height: 600px)  {
     .centered {
         height: 50rem;
@@ -157,36 +185,3 @@ button.navbar-toggler {
 
 
 
-.container h1 {
-    font-size: 30rem;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
-    position: relative;
-    top: 5rem;
-}
-
-/* Hr Style */
-hr {
-    height: 3rem !important;
-    border-style: solid;
-    border-color: #8c8b8b;
-    border-width: 1px 0 0 0;
-    border-radius: 2rem;
-}
-hr:before {
-    display: block;
-    content: "";
-    height: 3rem;
-    margin-top: -3rem;
-    border-style: solid;
-    border-color: #8c8b8b;
-    border-width: 0 0 1px 0;
-    border-radius: 2rem;
-}
-
-.container p {
-    font-size: 5rem;
-    color: rgb(255, 255, 255);
-    font-family: 'Marshland Beauty';
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
-}

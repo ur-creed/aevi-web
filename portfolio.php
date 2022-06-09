@@ -37,7 +37,7 @@
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card">
-                        <img src="images/clients/dare_angel_logo_new.png" class="card-img-top img-fluid da" alt="...">
+                        <img src="images/clients/dare_angel_logo_new.png" class="card-img-top img-fluid da" alt="Dare Angle website developed site by Aevi Web">
                         <div class="card-body">
                             <div class="middleTextDA">
                                 <a href="https://www.dareangel.com/" id="daa" target="_blank"><h5 class="card-title">Dare Angel</h5></a>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/clients/ReneeMWagnerPolen.png" class="card-img-top img-fluid rw" alt="...">
+                        <img src="images/clients/ReneeMWagnerPolen.png" class="card-img-top img-fluid rw" alt="Art website developed site by Aevi Web">
                         <div class="card-body">
                             <div class="middleTextRW">
                                 <a href="https://www.reneemwpolen.art/" id="rwa" target="_blank"><h5 class="card-title">Renee M Wagner-Polen Fine Art</h5></a>
@@ -60,7 +60,7 @@
         </div>
     </div>
 	<div class="container text-center">
-		<h2 class="display-3 mt-5 animate__animated animate__pulse">More projects coming soon!</h2>
+		<h2 class="display-3 mt-5 mb-5 animate__animated animate__pulse">More projects coming soon!</h2>
 	</div>
 	
 	<!-- Footer -->

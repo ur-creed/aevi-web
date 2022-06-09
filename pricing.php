@@ -114,8 +114,9 @@
                 </div>
             </div>
         </div>
+        <hr class="my-4">
+
     </div>
-	
 	<!-- Alerts	-->
 	<?php include_once 'alert.php'?>
 	

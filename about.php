@@ -32,12 +32,10 @@
 	<!-- About Header -->
 
 <!-- Top Btn -->
-	<div class="container container-h1">
-		<h1 class="display-4 text-center h-1 mt-0">A Little About Who We Are</h1>
-		<hr class="my-4">
-	</div>
 	<!-- About Content -->
 	<div class="container container-about">
+        <h1 class="display-4 text-center h-1 mt-3">About Aevi Web</h1>
+        <hr class="my-4">
 		<div class="row row-content">
 			<p class="display-6 text-center text-white col-lg-6 col-sm-12 lead">
 				At Aevi Web, we believe every human being deserves to have their website dream come to life!
@@ -46,7 +44,7 @@
 				Let us be your guide on your web journey!
 	            <br>
 				<br>
-	            <strong class="h1 mt-0">Creating</strong> | <strong class="h1 mt-0">Maintaining</strong> | <strong class="h1 mt-0">Consulting</strong>
+                <strong class="h1 mt-0">Creating</strong> | <strong class="h1 mt-0">Maintaining</strong> | <strong class="h1 mt-0">Consulting</strong>
             </p>
 	        <div class="col-sm d-none d-lg-block">
 		        <img src="images/shenandoah-national-park.png"  class="animate__animated animate__slideInRight img-fluid" height="750" width="750" alt="Shenandoah National Park">
@@ -57,9 +55,10 @@
 	            Oh, and did we mention that we will donate 10% of all sales to help protect this beautiful planet!
             </p>
 	    </div>
+        <hr class="my-4">
 		<!-- Founders -->
 		<div class="row row-content1">
-            <h1 class="display-4 text-center h-1 mt-0 mb-4">Our Founders</h1>
+            <h2 class="text-center h-1 mt-0">Our Founders</h2>
             <div class="container">
                 <!--  image left  -->
                 <div class="row row_1">
@@ -70,7 +69,7 @@
                     <div class="col-md-6">
                         <div class="row align-items-center h-100">
                             <div class="col">
-                                <h2 class="display-3 Creed">Creed Polen <span class="divider">|</span> Chief Executive Officer</h2>
+                                <h2 class="display-3 Creed" style="width: 110%">Creed Polen <span class="divider">|</span> Chief Executive Officer</h2>
 <!--                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj-->
 <!--                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l-->
 <!--                                    <br /><br />-->
@@ -85,7 +84,7 @@
                 <!--  image right  -->
                 <div class="row row_2">
                     <div class="col-md-6 order-md-1">
-                        <img src="images/chris.png" alt="Christopher Polen - CDO" class="img-fluid w-100" />
+                        <img src="images/chris.png" alt="Christopher Polen - CDO" class="img-fluid w-100 chris" />
                     </div>
                     <!-- /.col-md-6 -->
                     <div class="col-md-6 order-md-6">

@@ -26,8 +26,7 @@ body {
 
 .navbar-brand img {
     position: relative;
-    top: 2rem;
-    left:2rem;
+    margin-left: 2rem;
 }
 
 .navbar-nav li {
@@ -39,7 +38,7 @@ body {
 }
 
 .nav-link {
-    font-size: 3rem;
+    font-size: 3rem !important;
     color: white !important;
     /*font-family: "Marshland Beauty";*/
     font-family: 'laca Text' , sans-serif;
@@ -94,13 +93,9 @@ button.navbar-toggler {
 
 /* logo mobile */
 @media only screen and (max-width: 991px) {
-    .navbar-brand img {
-        display: none !important;
-    }
-    #Home {
-        display: block;
-    }
+
 }
+
 
 /* Navbar End */
 
@@ -151,6 +146,12 @@ button.navbar-toggler {
     font-size: 8rem;
     letter-spacing: .2rem;
     font-weight: 350;
+    text-shadow: 1px 1px 2px #000;
+    margin-top: 3rem !important;
+}
+
+.container-fluid {
+padding: 2rem !important;
 }
 /* Card */
 .wrapper{
@@ -372,7 +373,6 @@ justify-content: center !important;
 }
 
 .row-content1 {
-    border-bottom: 1px ridge;
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
     min-height: 400px;
@@ -380,7 +380,7 @@ justify-content: center !important;
 
 .row-content {
     margin: 0px auto;
-    padding: 50px 0px 50px 0px;
+    padding: 30px 0px 40px 0px;
     min-height: 400px;
 }
 
@@ -431,6 +431,7 @@ select.form-select {
     font-size: 1.5rem !important;
     box-shadow: 1px 1px 2px rgb(0, 0, 0);
     color: #636c72;
+    height: 4.5rem;
 }
 
 

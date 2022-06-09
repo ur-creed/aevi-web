@@ -23,8 +23,7 @@ body {
 
 .navbar-brand img {
     position: relative;
-    top: 2rem;
-    left:2rem;
+   margin-left: 2rem;
 }
 
 .navbar-nav li {
@@ -37,7 +36,7 @@ body {
 
 
 .nav-link {
-    font-size: 3rem;
+    font-size: 3rem !important;
     color: rgb(255, 255, 255) !important;
     /*font-family: "Marshland Beauty";*/
     font-family: 'laca Text' , sans-serif;
@@ -89,20 +88,16 @@ button.navbar-toggler {
     border-radius: 1rem;
 }
 
-/* logo mobile */
-@media only screen and (max-width: 991px) {
-    .navbar-brand img {
-        display: none !important;
-    }
-
-    #Home {
-        display: block;
-    }
-}
 
 /* Navbar End */
-
+.container-fluid {
+    padding: 2rem;
+}
 /* Card Styling */
+img.card-img-top.img-fluid.da, img.card-img-top.img-fluid.rw{
+    border: 2px solid white;
+    box-shadow: 1px 1px 15px #000;
+}
 .da {
     opacity: 1;
     display: block;
@@ -208,11 +203,13 @@ button.navbar-toggler {
 .display-4 {
     font-size: 8rem;
     font-weight: 350;
+    text-shadow: 1px 1px 2px #000;
 }
 
 .display-3 {
     font-weight: bold;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #000;
 
     animation: pulse infinite;
     animation-duration: 2s;
@@ -225,7 +222,7 @@ button.navbar-toggler {
 /* ==== SIMPLE FOOTER ==== */
 
 footer {
-    position: relative;
+    position: absolute;
     width: 100%;
     left: 0;
     bottom: 0;

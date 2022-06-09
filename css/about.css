@@ -28,8 +28,7 @@ body {
 
 .navbar-brand img {
     position: relative;
-    top: 2rem;
-    left:2rem;
+   margin-left: 2rem;
 }
 
 .navbar-nav li {
@@ -41,7 +40,7 @@ body {
 }
 
 .nav-link {
-    font-size: 3rem;
+    font-size: 3rem !important;
     color: rgb(255, 255, 255) !important;
     /*font-family: "Marshland Beauty";*/
     font-family: 'laca Text' , sans-serif;
@@ -95,13 +94,7 @@ button.navbar-toggler {
 
 /* logo mobile */
 @media only screen and (max-width: 991px) {
-    .navbar-brand img {
-        display: none !important;
-    }
 
-    #Home {
-        display: block;
-    }
 }
 
 /* Navbar End */
@@ -111,16 +104,26 @@ button.navbar-toggler {
     font-size: 8rem;
     font-weight: 350;
     color: rgb(240, 204, 0);
+    text-shadow: 1px 1px 2px #000;
 }
-
+h2.text-center.h-1.mt-0 {
+    color: rgb(240, 204, 0);
+    text-shadow: 1px 1px 2px #000;
+    font-size: 6rem;
+}
 .display-3 {
     font-weight: 400;
     color: rgb(240, 204, 0);
+    text-shadow: 1px 1px 1px #000;
+}
+p {
+    text-shadow: 1px 1px 2px #000;
 }
 
-strong {
-    font-weight: 700;
+strong.h1.mt-0 {
+    font-weight: 500;
     color: rgb(240, 204, 0);
+    text-shadow: 1px 1px 1px #000;
 }
 
 .col-sm {
@@ -133,8 +136,13 @@ strong {
 }
 
 
-.container-h1, .container-about {
+.container-about {
     position: relative;
+    margin-top: 6rem;
+}
+
+.container-fluid  {
+    padding: 2rem;
 }
 
 .divider {
@@ -148,7 +156,6 @@ strong {
 .row-content {
     margin: 0px auto;
     padding: 2rem 0px 2rem 0px;
-    border-bottom: 1px solid rgb(255, 255, 255);
     min-height: 40rem;
 }
 
@@ -182,7 +189,8 @@ strong {
 }
 
 img.animate__animated.animate__slideInRight.img-fluid {
-    border-radius: 3rem;
+    border: 2px solid #ffffff;
+    box-shadow: 1px 1px 4px #000000;
 }
 
 /* ==== SIMPLE FOOTER ==== */
@@ -209,6 +217,7 @@ footer hr.small {
 .copyright-text, .copyright-text a {
     margin: 0;
     color: rgb(132, 14, 205);
+    text-shadow: none !important;
 }
 
 .copyright-text a:hover {
@@ -253,9 +262,24 @@ footer hr.small {
     }
 }
 
+@media only screen and (max-width: 767px) {
+    img.img-fluid.w-100 {
+        margin-bottom: -9rem;
+    }
+    h2.display-3.Creed {
+        width: 100% !important;
+    }
+}
+
 @media only screen and (max-width: 577px) {
     .copyright-text, .foot-links  {
         text-align: center !important;
         overflow-x: hidden;
     }
+}
+
+@media only screen and (max-width: 400px) {
+.chris {
+    margin-bottom: -7.5rem !important;
+}
 }
