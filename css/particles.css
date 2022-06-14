@@ -1,6 +1,6 @@
 /* Particle CSS START */
 .particle {
-    position: absolute;
+    position: fixed;
     border-radius: 50%;
 }
 
