@@ -4,7 +4,15 @@
     <!-- Meta FIRST -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A simple HTML5 Template for new projects.">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7KVJBNBW11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7KVJBNBW11');
+    </script>
     <meta name="author" content="AeviWeb">
     <title>Aevi Web | Contact</title>
     <!-- Google Font -->
