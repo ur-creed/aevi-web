@@ -55,10 +55,11 @@
         <hr class="my-4">
 		<div class="row row-content">
 			<p class="display-6 text-center text-white col-lg-6 col-sm-12 lead">
-				At Aevi Web, we believe every human being deserves to have their website dream come to life!
-				Whether you have an existing idea or project in place and need updates or want a brand spanking new project built, we can help with that!
-				We work with custom websites, WordPress, Squarespace, WIX, or just about any other CMS (Content Management System).
-				Let us be your guide on your web journey!
+				At Aevi Web, we are dedicated to helping our clients bring their website dreams to life.
+				We offer a range of services, including website design, development, and maintenance, as well as consulting services to help our clients achieve their goals.
+				Whether you need updates to an existing project or want to start from scratch, we have the skills and expertise to help.
+				We are proficient in custom website development, as well as WordPress, Squarespace, WIX, and other content management systems.
+				Let us guide you on your web journey.
 	            <br>
 				<br>
                 <strong class="h1 mt-0">Creating</strong> | <strong class="h1 mt-0">Maintaining</strong> | <strong class="h1 mt-0">Consulting</strong>
@@ -67,9 +68,10 @@
 		        <img src="images/shenandoah-national-park.png"  class="animate__animated animate__slideInRight img-fluid" height="750" width="750" alt="Shenandoah National Park">
 	        </div>
             <p class="p-3 display-6 text-center text-white col-12">
-	            We are experienced developers based out of Shenandoah, Virginia, with a fiery passion for creating web solutions, helping others, and saving the Earth.
-	            Help us change the world for the better, one website at a time.
-	            Oh, and did we mention that we will donate 10% of all sales to help protect this beautiful planet!
+	            We are a team of experienced developers based in Shenandoah, Virginia.
+	            We are passionate about creating web solutions, helping others, and protecting the environment.
+	            With Aevi Web, you can not only get a top-quality website, but you can also contribute to making the world a better place.
+	            That's because we donate 12% of all sales to environmental causes.
             </p>
 	    </div>
         <hr class="my-4">
