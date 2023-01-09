@@ -9,6 +9,11 @@ html {
     box-sizing: border-box;
 }
 
+.light-mode {
+    background: white !important;
+    color: black !important;
+}
+
 body {
     background-color: rgb(132, 14, 205);
     font-family: "laca Text", sans-serif;
@@ -16,7 +21,14 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    color: white;
 }
+
+.card.rounded {
+    box-shadow: 8px 8px 10px #000000 !important;
+}
+
+
 
 /* Nav bar Start */
 @media only screen and (max-width: 991px) {
@@ -116,7 +128,8 @@ h2.text-center.h-1.mt-0 {
     color: rgb(240, 204, 0);
     text-shadow: 1px 1px 1px #000;
 }
-p {
+p.display-6.text-center.col-lg-6.col-sm-12.lead,
+p.p-3.display-6.text-center.col-12 {
     text-shadow: 1px 1px 2px #000;
 }
 
