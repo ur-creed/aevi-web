@@ -13,11 +13,7 @@ function lightMode() {
     element.classList.toggle("light-mode");
 }
 
-function changeText() {
-    var elem = document.getElementById("myButton")
-    if(elem.value==="Light Mode") elem.value = "Dark Mode";
-    else elem.value = "Light Mode";
-}
+
 
 const darkButton = document.getElementById("myButton");
 

@@ -82,7 +82,7 @@
                <div class="card rounded mb-5 border-0" style="max-width: 750px;">
                    <div class="row g-0">
                        <div class="col-md-4">
-                           <img src="images/Creed.JPG" class="img-fluid rounded-start" alt="...">
+                           <img src="images/Creed.JPG" class="img-fluid rounded-start" alt="creed CEO">
                        </div>
                        <div class="col-md-8">
                            <div class="card-body">
