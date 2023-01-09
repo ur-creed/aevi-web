@@ -9,9 +9,51 @@ html {
     box-sizing: border-box;
 }
 
-.light-mode {
+body.light-mode {
     background: white !important;
     color: black !important;
+}
+
+body.light-mode p.display-6.text-center.col-lg-6.col-sm-12.lead,
+p.p-3.display-6.text-center.col-12 {
+    text-shadow: none !important;
+}
+
+body.light-mode a {
+    color: black !important;
+}
+
+body.light-mode .active {
+    background: rgb(132, 14, 205) !important;
+    color: white !important;
+}
+
+body.light-mode .card.rounded {
+    background: rgb(132, 14, 205) !important;
+    color: white !important;
+}
+
+body.light-mode i.fa-brands.fa-linkedin {
+    color: white !important;
+}
+
+body.light-mode .display-4 {
+    color: rgb(132, 14, 205) !important;
+}
+
+body.light-mode strong.h1.mt-0 {
+    color: rgb(132, 14, 205) !important;
+    text-shadow: none !important;
+}
+
+body.light-mode h2.text-center.h-1.mt-0 {
+    color: rgb(132, 14, 205) !important;
+    text-shadow: none !important;
+}
+
+body.light-mode hr.my-4 {
+    color: black !important;
+    border-bottom-color: black !important;
 }
 
 body {
@@ -26,6 +68,7 @@ body {
 
 .card.rounded {
     box-shadow: 8px 8px 10px #000000 !important;
+    color: black !important;
 }
 
 
@@ -40,7 +83,7 @@ body {
 
 .navbar-brand img {
     position: relative;
-   margin-left: 2rem;
+    margin-left: 2rem;
 }
 
 .navbar-nav li {
@@ -202,8 +245,7 @@ strong.h1.mt-0 {
 }
 
 img.animate__animated.animate__slideInRight.img-fluid {
-    border: 2px solid #ffffff;
-    box-shadow: 1px 1px 4px #000000;
+    box-shadow: 8px 8px 10px #000000;
 }
 
 /* ==== SIMPLE FOOTER ==== */

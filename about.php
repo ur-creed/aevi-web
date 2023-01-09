@@ -50,7 +50,7 @@
 	<!-- About Header -->
 
 <!-- Top Btn -->
-    <button class="btn btn-dark" onclick="lightMode()">Light Mode</button>
+    <button class="btn btn-dark" id="myButton" onclick="lightMode()">Light Mode</button>
 	<!-- About Content -->
 	<div class="container container-about">
         <h1 class="display-4 text-center h-1 mt-3">About Aevi Web</h1>
