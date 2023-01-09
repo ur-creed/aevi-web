@@ -13,10 +13,6 @@ function lightMode() {
     element.classList.toggle("light-mode");
 }
 
-
-
-const darkButton = document.getElementById("myButton");
-
 const btn = document.getElementById("myButton");
 
 btn.addEventListener('click', function handleClick () {
