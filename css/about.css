@@ -9,52 +9,52 @@ html {
     box-sizing: border-box;
 }
 
-body.light-mode {
-    background: white !important;
-    color: black !important;
-}
+    body.light-mode {
+        background: white !important;
+        color: black !important;
+    }
 
-body.light-mode p.display-6.text-center.col-lg-6.col-sm-12.lead,
-p.p-3.display-6.text-center.col-12 {
-    text-shadow: none !important;
-}
+    body.light-mode p.display-6.text-center.col-lg-6.col-sm-12.lead,
+    p.p-3.display-6.text-center.col-12 {
+        text-shadow: none !important;
+    }
 
-body.light-mode a {
-    color: black !important;
-}
+    body.light-mode a {
+        color: black !important;
+    }
 
-body.light-mode .active {
-    background: rgb(132, 14, 205) !important;
-    color: white !important;
-}
+    body.light-mode .active {
+        background: rgb(132, 14, 205) !important;
+        color: white !important;
+    }
 
-body.light-mode .card.rounded {
-    background: rgb(132, 14, 205) !important;
-    color: white !important;
-}
+    body.light-mode .card.rounded {
+        background: rgb(132, 14, 205) !important;
+        color: white !important;
+    }
 
-body.light-mode i.fa-brands.fa-linkedin {
-    color: white !important;
-}
+    body.light-mode i.fa-brands.fa-linkedin {
+        color: white !important;
+    }
 
-body.light-mode .display-4 {
-    color: rgb(132, 14, 205) !important;
-}
+    body.light-mode .display-4 {
+        color: rgb(132, 14, 205) !important;
+    }
 
-body.light-mode strong.h1.mt-0 {
-    color: rgb(132, 14, 205) !important;
-    text-shadow: none !important;
-}
+    body.light-mode strong.h1.mt-0 {
+        color: rgb(132, 14, 205) !important;
+        text-shadow: none !important;
+    }
 
-body.light-mode h2.text-center.h-1.mt-0 {
-    color: rgb(132, 14, 205) !important;
-    text-shadow: none !important;
-}
+    body.light-mode h2.text-center.h-1.mt-0 {
+        color: rgb(132, 14, 205) !important;
+        text-shadow: none !important;
+    }
 
-body.light-mode hr.my-4 {
-    color: black !important;
-    border-bottom-color: black !important;
-}
+    body.light-mode hr.my-4 {
+        color: black !important;
+        border-bottom-color: black !important;
+    }
 
 body {
     background-color: rgb(132, 14, 205);
