@@ -21,7 +21,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <!-- Local CSS -->
@@ -49,6 +49,7 @@
 	<!-- About Header -->
 
 <!-- Top Btn -->
+    <button class="btn btn-dark" id="myButton" onclick="lightMode()">Light Mode</button>
 	<!-- About Content -->
 	<div class="container container-about">
         <h1 class="display-4 text-center h-1 mt-3">About Aevi Web</h1>
@@ -78,49 +79,38 @@
 		<!-- Founders -->
 		<div class="row row-content1">
             <h2 class="text-center h-1 mt-0">Our Founders</h2>
-            <div class="container">
-                <!--  image left  -->
-                <div class="row row_1">
-                    <div class="col-md-6">
-                        <img src="images/creed.png" alt="Creed Polen - CEO" class="img-fluid w-100" />
-                    </div>
-                    <!-- /.col-md-6 -->
-                    <div class="col-md-6">
-                        <div class="row align-items-center h-100">
-                            <div class="col">
-                                <h2 class="display-3 Creed" style="width: 110%">Creed Polen <span class="divider">|</span> Chief Executive Officer</h2>
-<!--                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj-->
-<!--                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l-->
-<!--                                    <br /><br />-->
-<!--                                </p>-->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.col-md-6 -->
-                </div>
-                <!-- /.row -->
-
-                <!--  image right  -->
-                <div class="row row_2">
-                    <div class="col-md-6 order-md-1">
-                        <img src="images/chris.png" alt="Christopher Polen - CDO" class="img-fluid w-100 chris" />
-                    </div>
-                    <!-- /.col-md-6 -->
-                    <div class="col-md-6 order-md-6">
-                        <div class="row align-items-center h-100">
-                            <div class="col">
-                                <h2 class="display-3 text-center">Chris Polen <span class="divider">|</span> Chief Design Officer</h2>
-<!--                                <p class="lead text-white founderP">Some Info will go here............alksdjflk;djsfa l;fdjasdk;fjskfdkfkdsfja;dksfj-->
-<!--                                    al;kdjas;kdfjasdk;fljasdkfdf;f;fjfkdfj;fsd;f;l-->
-<!--                                    <br /><br />-->
-<!--                                </p>-->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.col-md-6 -->
-                </div>
-                <!-- /.row -->
-            </div>
+           <div class="container mt-5">
+               <div class="card rounded mb-5 border-0" style="max-width: 750px;">
+                   <div class="row g-0">
+                       <div class="col-md-4">
+                           <img src="images/Creed.JPG" class="img-fluid rounded-start" alt="...">
+                       </div>
+                       <div class="col-md-8">
+                           <div class="card-body">
+                               <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Creed Polen | Chief Executive Officer</h2>
+                               <p class="card-text mt-4" style="font-size: 1.5rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+<!--                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                               <i class="fa-brands fa-linkedin" style="font-size: 3rem; color: steelblue"></i>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="card rounded border-0 mb-3 float-end" style="max-width: 750px;">
+                   <div class="row g-0">
+                       <div class="col-md-8">
+                           <div class="card-body">
+                               <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Chris Polen | Chief Design Officer</h2>
+                               <p class="card-text mt-4" style="font-size: 1.5rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+<!--                               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                               <i class="fa-brands fa-linkedin" style="font-size: 3rem; color: steelblue"></i>
+                           </div>
+                       </div>
+                       <div class="col-md-4">
+                           <img src="images/christopher.jpg" class="img-fluid rounded-start" alt="...">
+                       </div>
+                   </div>
+               </div>
+           </div>
 		</div>
 	</div>
     <!-- Footer -->

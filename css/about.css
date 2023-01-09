@@ -9,6 +9,53 @@ html {
     box-sizing: border-box;
 }
 
+body.light-mode {
+    background: white !important;
+    color: black !important;
+}
+
+body.light-mode p.display-6.text-center.col-lg-6.col-sm-12.lead,
+p.p-3.display-6.text-center.col-12 {
+    text-shadow: none !important;
+}
+
+body.light-mode a {
+    color: black !important;
+}
+
+body.light-mode .active {
+    background: rgb(132, 14, 205) !important;
+    color: white !important;
+}
+
+body.light-mode .card.rounded {
+    background: rgb(132, 14, 205) !important;
+    color: white !important;
+}
+
+body.light-mode i.fa-brands.fa-linkedin {
+    color: white !important;
+}
+
+body.light-mode .display-4 {
+    color: rgb(132, 14, 205) !important;
+}
+
+body.light-mode strong.h1.mt-0 {
+    color: rgb(132, 14, 205) !important;
+    text-shadow: none !important;
+}
+
+body.light-mode h2.text-center.h-1.mt-0 {
+    color: rgb(132, 14, 205) !important;
+    text-shadow: none !important;
+}
+
+body.light-mode hr.my-4 {
+    color: black !important;
+    border-bottom-color: black !important;
+}
+
 body {
     background-color: rgb(132, 14, 205);
     font-family: "laca Text", sans-serif;
@@ -16,7 +63,15 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    color: white;
 }
+
+.card.rounded {
+    box-shadow: 8px 8px 10px #000000 !important;
+    color: black !important;
+}
+
+
 
 /* Nav bar Start */
 @media only screen and (max-width: 991px) {
@@ -28,7 +83,7 @@ body {
 
 .navbar-brand img {
     position: relative;
-   margin-left: 2rem;
+    margin-left: 2rem;
 }
 
 .navbar-nav li {
@@ -116,7 +171,8 @@ h2.text-center.h-1.mt-0 {
     color: rgb(240, 204, 0);
     text-shadow: 1px 1px 1px #000;
 }
-p {
+p.display-6.text-center.col-lg-6.col-sm-12.lead,
+p.p-3.display-6.text-center.col-12 {
     text-shadow: 1px 1px 2px #000;
 }
 
@@ -189,8 +245,7 @@ strong.h1.mt-0 {
 }
 
 img.animate__animated.animate__slideInRight.img-fluid {
-    border: 2px solid #ffffff;
-    box-shadow: 1px 1px 4px #000000;
+    box-shadow: 8px 8px 10px #000000;
 }
 
 /* ==== SIMPLE FOOTER ==== */
