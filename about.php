@@ -50,7 +50,7 @@
 	<!-- About Header -->
 
 <!-- Top Btn -->
-    <div class="container">
+    <div class="container-fluid">
         <label class="switch float-end">
             <input type="checkbox" onclick="lightMode()"/>
             <span></span>
@@ -92,7 +92,7 @@
                        <div class="col-md-8">
                            <div class="card-body">
                                <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Creed Polen</h2>
-                               <p class="card-text mt-4" style="font-size: 1.5rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                               <p class="card-text mt-4" style="font-size: 2rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                <i class="fa-brands fa-linkedin" style="font-size: 3rem; color: steelblue"></i>
                            </div>
                        </div>
@@ -103,7 +103,7 @@
                        <div class="col-md-8">
                            <div class="card-body">
                                <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Chris Polen</h2>
-                               <p class="card-text mt-4" style="font-size: 1.5rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                               <p class="card-text mt-4" style="font-size: 2rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                <i class="fa-brands fa-linkedin" style="font-size: 3rem; color: steelblue"></i>
                            </div>
                        </div>

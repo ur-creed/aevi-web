@@ -316,6 +316,21 @@ img.animate__animated.animate__slideInRight.img-fluid {
 }
 
 /* ==== SIMPLE FOOTER ==== */
+body.light-mode footer {
+    background: rgba(135, 14, 205);
+}
+
+body.light-mode .copyright-text{
+    color: white !important;
+}
+
+body.light-mode .copyright-text a {
+    color: white !important;
+}
+
+body.light-mode .foot-links a {
+    color: white !important;
+}
 
 footer {
     position: relative;
