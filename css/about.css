@@ -9,52 +9,64 @@ html {
     box-sizing: border-box;
 }
 
-    body.light-mode {
-        background: white !important;
-        color: black !important;
-    }
+.switch {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.switch input {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 0;
+    height: 0;
+}
+.switch input + span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
 
-    body.light-mode p.display-6.text-center.col-lg-6.col-sm-12.lead,
-    p.p-3.display-6.text-center.col-12 {
-        text-shadow: none !important;
-    }
+body.light-mode .switch input + span {
+    background: rgb(135, 14, 205);
+}
 
-    body.light-mode a {
-        color: black !important;
-    }
+body.light-mode .switch input:checked + span {
+    background: rgb(135, 14, 205);
+}
 
-    body.light-mode .active {
-        background: rgb(132, 14, 205) !important;
-        color: white !important;
-    }
+body.light-mode .switch input + span:before {
+    background: rgb(255, 255, 255);
+}
 
-    body.light-mode .card.rounded {
-        background: rgb(132, 14, 205) !important;
-        color: white !important;
-    }
+.switch input:checked + span {
+    background: rgb(255, 255, 255);
+}
+.switch input + span:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 32px;
+    height: 32px;
+    background: rgb(135, 14, 205);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: all .3s;
+}
+.switch input:checked + span:before {
+    left: 34px;
+}
 
-    body.light-mode i.fa-brands.fa-linkedin {
-        color: white !important;
-    }
-
-    body.light-mode .display-4 {
-        color: rgb(132, 14, 205) !important;
-    }
-
-    body.light-mode strong.h1.mt-0 {
-        color: rgb(132, 14, 205) !important;
-        text-shadow: none !important;
-    }
-
-    body.light-mode h2.text-center.h-1.mt-0 {
-        color: rgb(132, 14, 205) !important;
-        text-shadow: none !important;
-    }
-
-    body.light-mode hr.my-4 {
-        color: black !important;
-        border-bottom-color: black !important;
-    }
 
 body {
     background-color: rgb(132, 14, 205);
@@ -64,6 +76,61 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     color: white;
+    transition: color .3s;
+}
+
+body.light-mode {
+    background: white !important;
+    color: black !important;
+}
+
+body.light-mode p.p-3.display-6.text-center.col-12 {
+    text-shadow: none;
+}
+
+body.light-mode p.display-6.text-center.col-lg-6.col-sm-12.lead {
+    text-shadow: none;
+}
+
+body.light-mode a {
+    color: black !important;
+}
+
+body.light-mode .active {
+    background: rgb(132, 14, 205) !important;
+    color: white !important;
+}
+
+body.light-mode .card.rounded {
+    background: rgb(132, 14, 205) !important;
+    color: white !important;
+}
+
+body.light-mode i.fa-brands.fa-linkedin {
+    color: white !important;
+}
+
+body.light-mode .display-4 {
+    color: rgb(132, 14, 205) !important;
+}
+
+body.light-mode strong.h1.mt-0 {
+    color: rgb(132, 14, 205) !important;
+    text-shadow: none !important;
+}
+
+body.light-mode h2.text-center.h-1.mt-0 {
+    color: rgb(132, 14, 205) !important;
+    text-shadow: none !important;
+}
+
+body.light-mode hr.my-4 {
+    color: black !important;
+    border-bottom-color: black !important;
+}
+
+#myButton {
+    font-size: 1.5rem;
 }
 
 .card.rounded {

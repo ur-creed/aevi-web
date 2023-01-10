@@ -49,7 +49,12 @@
 	<!-- About Header -->
 
 <!-- Top Btn -->
-    <button class="btn btn-dark" id="myButton" onclick="lightMode()">Light Mode</button>
+    <div class="container">
+        <label class="switch float-end">
+            <input type="checkbox" onclick="lightMode()"/>
+            <span></span>
+        </label>
+    </div>
 	<!-- About Content -->
 	<div class="container container-about">
         <h1 class="display-4 text-center h-1 mt-3">About Aevi Web</h1>
@@ -87,7 +92,7 @@
                        </div>
                        <div class="col-md-8">
                            <div class="card-body">
-                               <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Creed Polen | Chief Executive Officer</h2>
+                               <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Creed Polen</h2>
                                <p class="card-text mt-4" style="font-size: 1.5rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                <i class="fa-brands fa-linkedin" style="font-size: 3rem; color: steelblue"></i>
                            </div>
@@ -98,7 +103,7 @@
                    <div class="row g-0">
                        <div class="col-md-8">
                            <div class="card-body">
-                               <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Chris Polen | Chief Design Officer</h2>
+                               <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Chris Polen</h2>
                                <p class="card-text mt-4" style="font-size: 1.5rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                <i class="fa-brands fa-linkedin" style="font-size: 3rem; color: steelblue"></i>
                            </div>

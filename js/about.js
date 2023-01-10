@@ -8,19 +8,22 @@ $(document).ready(function(){
     $aboutNavLink.addClass('active');
 });
 
+// Light Mode Toggle Button
 function lightMode() {
     var element = document.body;
     element.classList.toggle("light-mode");
 }
 
+// Change Text Inside Button
 const btn = document.getElementById("myButton");
 
 btn.addEventListener('click', function handleClick () {
-    const initialText = 'Light Mode';
+    const initialText = 'Light Mode'; // dark mode text
 
     if (btn.textContent.toLowerCase().includes(initialText.toLowerCase())) {
-        btn.textContent = 'Dark Mode';
+        btn.textContent = 'Dark Mode'; // light mode text
 } else {
         btn.textContent = initialText;
     }
 });
+
