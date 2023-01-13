@@ -93,7 +93,7 @@
                        <div class="col-md-8">
                            <div class="card-body">
                                <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Creed Polen</h2>
-                               <p class="card-text mt-4" style="font-size: 2rem;">Meet our co-founder, Creed.
+                               <p class="card-text mt-4" style="font-size: 2rem;">
 	                               With over 10 years of experience in software development, Creed is a true expert in his field.
 	                               He has a passion for creating innovative and user-friendly software that makes a real difference in people's lives.
 	                               <br>
@@ -110,7 +110,7 @@
                        <div class="col-md-8">
                            <div class="card-body">
                                <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Chris Polen</h2>
-                               <p class="card-text mt-4" style="font-size: 2rem;">Meet our co-founder, Chris.
+                               <p class="card-text mt-4" style="font-size: 2rem;">
 	                               A former mechanic, Chris recently transitioned to front-end development and it's been a true passion for her ever since.
 	                               She finds great satisfaction in bringing human's visual dreams to life through her work.
 	                               Chris's skills in front-end development combined with her passion for creating visually appealing and user-friendly interfaces, make her an invaluable member of our team.
