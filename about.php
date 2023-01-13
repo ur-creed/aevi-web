@@ -93,7 +93,13 @@
                        <div class="col-md-8">
                            <div class="card-body">
                                <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Creed Polen</h2>
-                               <p class="card-text mt-4" style="font-size: 2rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                               <p class="card-text mt-4" style="font-size: 2rem;">Meet our co-founder, Creed.
+	                               With over 10 years of experience in software development, Creed is a true expert in his field.
+	                               He has a passion for creating innovative and user-friendly software that makes a real difference in people's lives.
+	                               <br>
+	                               But Creed's dedication to making a positive impact doesn't stop there.
+	                               He is also deeply committed to protecting the planet and promoting the well-being of all human beings.
+	                               He works tirelessly to create solutions that benefit everyone. As our leader and mentor, Creed sets a shining example for our team, inspiring us to strive for excellence and keep our impact in mind.</p>
                                <i class="fa-brands fa-linkedin" style="font-size: 3rem; color: steelblue"></i>
                            </div>
                        </div>
@@ -104,7 +110,13 @@
                        <div class="col-md-8">
                            <div class="card-body">
                                <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Chris Polen</h2>
-                               <p class="card-text mt-4" style="font-size: 2rem;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                               <p class="card-text mt-4" style="font-size: 2rem;">Meet our co-founder, Chris.
+	                               A former mechanic, Chris recently transitioned to front-end development and it's been a true passion for her ever since.
+	                               She finds great satisfaction in bringing human's visual dreams to life through her work.
+	                               Chris's skills in front-end development combined with her passion for creating visually appealing and user-friendly interfaces, make her an invaluable member of our team.
+	                               Her dedication to her craft and her desire to make a positive impact on people's lives through technology, serves as a constant source of inspiration to us all.
+	                               We're fortunate to have Chris's expertise and passion on our team as we work together to create innovative solutions that are both functional and beautiful.
+                               </p>
                                <i class="fa-brands fa-linkedin" style="font-size: 3rem; color: steelblue"></i>
                            </div>
                        </div>
