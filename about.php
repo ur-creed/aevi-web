@@ -60,7 +60,7 @@
         <h1 class="display-4 text-center h-1 mt-3">About Aevi Web</h1>
         <hr class="my-4">
 		<div class="row row-content">
-			<p class="display-6 text-center text-white col-lg-6 col-sm-12 lead">
+			<p class="display-6 text-center col-lg-6 col-sm-12 lead">
 				At Aevi Web, we are dedicated to helping our clients bring their website dreams to life.
 				We offer a range of services, including website design, development, and maintenance, as well as consulting services to help our clients achieve their goals.
 				Whether you need updates to an existing project or want to start from scratch, we have the skills and expertise to help.
@@ -73,7 +73,7 @@
 	        <div class="col-sm d-none d-lg-block">
 		        <img src="images/shenandoah-national-park.png"  class="animate__animated animate__slideInRight img-fluid" height="750" width="750" alt="Shenandoah National Park">
 	        </div>
-            <p class="p-3 display-6 text-center text-white col-12">
+            <p class="p-3 display-6 text-center col-12">
 	            We are a team of experienced developers based in Shenandoah, Virginia.
 	            We are passionate about creating web solutions, helping others, and protecting the environment.
 	            With Aevi Web, you can not only get a top-quality website, but you can also contribute to making the world a better place.
