@@ -7,19 +7,19 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" id="Home" href="index.php">Home</a>
+                    <a class="nav-link" id="Home" href="index">Home</a>
                 </li>
 				<li class="nav-item">
-					<a class="nav-link" id="About" href="about.php">About</a>
+					<a class="nav-link" id="About" href="about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="Pricing" href="pricing.php">Pricing</a>
+					<a class="nav-link" id="Pricing" href="pricing">Pricing</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="Contact" href="contact.php">Contact</a>
+					<a class="nav-link" id="Contact" href="contact">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="Portfolio" href="portfolio.php">Portfolio</a>
+					<a class="nav-link" id="Portfolio" href="portfolio">Portfolio</a>
 				</li>
 			</ul>
 		</div>
