@@ -111,10 +111,10 @@
                            <div class="card-body">
                                <h2 class="card-title mt-3 text-decoration-underline" style="font-size: 2.9rem;">Chris Polen</h2>
                                <p class="card-text mt-4" style="font-size: 2rem;">
-	                               A former mechanic, Chris recently transitioned to front-end development and it's been a true passion for her ever since.
-	                               She finds great satisfaction in bringing human's visual dreams to life through her work.
-	                               Chris's skills in front-end development combined with her passion for creating visually appealing and user-friendly interfaces, make her an invaluable member of our team.
-	                               Her dedication to her craft and her desire to make a positive impact on people's lives through technology, serves as a constant source of inspiration to us all.
+	                               A former mechanic, Chris recently transitioned to front-end development and it's been a true passion for him ever since.
+	                               He finds great satisfaction in bringing human's visual dreams to life through his work.
+	                               Chris's skills in front-end development combined with his passion for creating visually appealing and user-friendly interfaces, make him an invaluable member of our team.
+	                               His dedication to his craft and his desire to make a positive impact on people's lives through technology, serves as a constant source of inspiration to us all.
 	                               We're fortunate to have Chris's expertise and passion on our team as we work together to create innovative solutions that are both functional and beautiful.
                                </p>
                                <i class="fa-brands fa-linkedin" style="font-size: 3rem; color: steelblue"></i>
