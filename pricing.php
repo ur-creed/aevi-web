@@ -32,6 +32,15 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
+    <style type="text/css">
+        ul {
+            list-style: url("images/checkmark(32px).png");
+        }
+        .card {
+            margin: 0 auto !important;
+            float: none;
+        }
+    </style>
     <script type='text/javascript'>
         window.smartlook||(function(d) {
             var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
@@ -48,90 +57,119 @@
     <?php include_once 'particles.php' ?>
 	<!-- Pricing Heading   -->
     <div class="container container-h1">
-        <h1 class="display-4 text-center text-white h1 mt-0">Pricing</h1>
+        <h1 class="display-4 text-center text-white h1 mt-0">Our Services</h1>
         <hr class="my-4">
     </div>
-	
-	<!-- Pricing Cards -->
+
     <div class="container">
-        <div class="row row-content1">
-            <div class="wrapper">
-                <div class="table new">
-                    <div class="ribbon"><span>Starting At</span></div>
-                    <div class="price-section">
-                        <div class="price-area">
-                            <div class="inside">
-                                <span class="text">$</span>
-                                <span class="price">1K</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="package-name"></div>
-                    <ul class="features">
-                        <li>
-                            <span class="list-name">Up to 5 Pages</span>
-                            <span class="icon check"><i class="fas fa-check"></i></span>
-                        </li>
-                        <li>
-                            <span class="list-name">100% Responsive Design</span>
-                            <span class="icon check"><i class="fas fa-check"></i></span>
-                        </li>
-                        <li>
-                            <span class="list-name">Lifetime Site Updates</span>
-                            <span class="icon cross"><i class="fas fa-times"></i></span>
-                        </li>
-                        <li>
-                            <span class="list-name">One Contact Form</span>
-                            <span class="icon check"><i class="fas fa-check"></i></span>
-                        </li>
-	                    <li>
-		                    <span class="list-name">Accessibility</span>
-		                    <span class="icon check"><i class="fas fa-check"></i></span>
-	                    </li>
+        <div class="card table border rounded" style="box-shadow: 2px 2px 4px #000000; width: 65%">
+            <div class="card-body row">
+                <div class="col-md-4">
+                    <h2 class="text-decoration-underline mt-3 text-center" style="font-size: 2.5rem;">New Project</h2>
+                    <ul class="mt-2 ms-5" style="font-size: 2rem;">
+                        <li>Up to 5 Pages</li>
+                        <li>100% Responsive Design</li>
+                        <li>One Contact Form</li>
+                        <li>Accessibility</li>
                     </ul>
-                    <div class="btn">
-	                    <button id="NewProjectButton" aria-label="">Select</button>
-                    </div>
                 </div>
-                <div class="table maintenance">
-                    <div class="ribbon ribbon_maintenance"><span>Hourly</span></div>
-                    <div class="price-section">
-                        <div class="price-area">
-                            <div class="inside">
-                                <span class="text">$</span>
-                                <span class="price">63</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="package-name"></div>
-                    <ul class="features">
-                        <li>
-                            <span class="list-name">Feature Additions</span>
-                            <span class="icon check"><i class="fas fa-check"></i></span>
-                        </li>
-                        <li>
-                            <span class="list-name">SEO & Content Updates</span>
-                            <span class="icon check"><i class="fas fa-check"></i></span>
-                        </li>
-                        <li>
-                            <span class="list-name">Bug Fixes</span>
-                            <span class="icon check"><i class="fas fa-check"></i></span>
-                        </li>
-                        <li>
-                            <span class="list-name">Site Hosting</span>
-                            <span class="icon cross"><i class="fas fa-times"></i></span>
-                        </li>
-	                    <li>
-		                    <span class="list-name">Support</span>
-		                    <span class="icon check"><i class="fas fa-check"></i></span>
-	                    </li>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <h2 class="text-decoration-underline mt-3 text-center" style="font-size: 2.5rem;">Maintenance</h2>
+                    <ul class="mt-2 ms-5" style="font-size: 2rem;">
+                        <li>SEO & Content Updates</li>
+                        <li>Feature Additions</li>
+                        <li>Bug Fixes</li>
+                        <li>Support</li>
                     </ul>
-                    <div class="btn">
-                        <button id="ExistingProjectButton" aria-label="Website Maintenance Learn More Button">Select</button>
-                    </div>
                 </div>
             </div>
+            <div class="btn">
+                <button id="NewProjectButton" aria-label="">Select</button>
+            </div>
         </div>
+    </div>
+	
+<!--	<!-- Pricing Cards -->-->
+<!--    <div class="container">-->
+<!--        <div class="row row-content1">-->
+<!--            <div class="wrapper">-->
+<!--                <div class="table new">-->
+<!--                    <div class="ribbon"><span>Starting At</span></div>-->
+<!--                    <div class="price-section">-->
+<!--                        <div class="price-area">-->
+<!--                            <div class="inside">-->
+<!--                                <span class="text">$</span>-->
+<!--                                <span class="price">1K</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="package-name"></div>-->
+<!--                    <ul class="features">-->
+<!--                        <li>-->
+<!--                            <span class="list-name">Up to 5 Pages</span>-->
+<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <span class="list-name">100% Responsive Design</span>-->
+<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <span class="list-name">Lifetime Site Updates</span>-->
+<!--                            <span class="icon cross"><i class="fas fa-times"></i></span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <span class="list-name">One Contact Form</span>-->
+<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
+<!--                        </li>-->
+<!--	                    <li>-->
+<!--		                    <span class="list-name">Accessibility</span>-->
+<!--		                    <span class="icon check"><i class="fas fa-check"></i></span>-->
+<!--	                    </li>-->
+<!--                    </ul>-->
+<!--                    <div class="btn">-->
+<!--                        <button id="NewProjectButton" aria-label="">Select</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="table maintenance">-->
+<!--                    <div class="ribbon ribbon_maintenance"><span>Hourly</span></div>-->
+<!--                    <div class="price-section">-->
+<!--                        <div class="price-area">-->
+<!--                            <div class="inside">-->
+<!--                                <span class="text">$</span>-->
+<!--                                <span class="price">63</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="package-name"></div>-->
+<!--                    <ul class="features">-->
+<!--                        <li>-->
+<!--                            <span class="list-name">Feature Additions</span>-->
+<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <span class="list-name">SEO & Content Updates</span>-->
+<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <span class="list-name">Bug Fixes</span>-->
+<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <span class="list-name">Site Hosting</span>-->
+<!--                            <span class="icon cross"><i class="fas fa-times"></i></span>-->
+<!--                        </li>-->
+<!--	                    <li>-->
+<!--		                    <span class="list-name">Support</span>-->
+<!--		                    <span class="icon check"><i class="fas fa-check"></i></span>-->
+<!--	                    </li>-->
+<!--                    </ul>-->
+<!--                    <div class="btn">-->
+<!--                        <button id="ExistingProjectButton" aria-label="Website Maintenance Learn More Button">Select</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
         <hr class="my-4">
 
     </div>

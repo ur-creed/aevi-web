@@ -244,12 +244,15 @@ padding: 2rem !important;
 .features li .icon.cross{
     color: rgb(201, 48, 48);
 }
+button#NewProjectButton {
+    background: rgb(16, 101, 61);
+}
 .table .btn{
     width: 100%;
     display: flex;
     margin-top: 35px;
     justify-content: center;
-    position: relative;
+    /*position: relative;*/
     top: 1rem;
 }
 .table .btn button{
