@@ -1,15 +1,28 @@
 let $contactForm,
     $existingProjectButton,
-    $newProjectButton,
+    $requestQuoteButton,
     $packageSelect,
     $pricingNavLink,
     $successAlert,
     $dangerAlert,
     $loadingIndicator;
 
+
+// Hide the form until the button is clicked
+const btn = document.getElementById('RequestQuoteButton');
+btn.addEventListener('click', () => {
+    const form = document.getElementById('PricingContactForm');
+    if(form.style.display === 'none') {
+        // This will SHOW the form
+        form.style.display = 'block';
+    } else {
+        // This Will HIDE the form
+        form.style.display = 'none';
+    }
+});
 // Handle what happens when "New" button is click
-function handleNewProjectButtonClick() {
-    $newProjectButton.click(function() {
+function handleRequestQuoteButtonClick() {
+    $requestQuoteButton.click(function() {
         $packageSelect.value = "new"
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#PricingContactForm").offset().top
@@ -50,7 +63,7 @@ function handleFormSubmission(formData) {
 $(document).ready(function(){
     $pricingNavLink = $('#Pricing');
     $contactForm = $('#PricingContactForm');
-    $newProjectButton = $('#NewProjectButton');
+    $requestQuoteButton = $('#RequestQuoteButton');
     $existingProjectButton = $('#ExistingProjectButton');
     $packageSelect = $('#PackageSelect')[0];
     $successAlert = $('#SuccessAlert');
@@ -60,7 +73,7 @@ $(document).ready(function(){
     // Make the current page active.
     $pricingNavLink.addClass('active');
 
-    handleNewProjectButtonClick();
+    handleRequestQuoteButtonClick();
     handleExistingProjectButtonClick();
 
     $contactForm.submit(function (e) {

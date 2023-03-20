@@ -84,13 +84,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="btn">
-                <button id="NewProjectButton" aria-label="">Select</button>
+            <div class="btn p-4">
+                <button id="RequestQuoteButton" aria-label="" style="box-shadow: 2px 2px 4px #000;">Request a Quote</button>
             </div>
         </div>
     </div>
 	
-<!--	<!-- Pricing Cards -->-->
+<!-- Pricing Cards -->
 <!--    <div class="container">-->
 <!--        <div class="row row-content1">-->
 <!--            <div class="wrapper">-->
@@ -170,16 +170,19 @@
 <!--                </div>-->
 <!--            </div>-->
 <!--        </div>-->
+    <div class="container">
         <hr class="my-4">
-
     </div>
+
+
+
 	<!-- Alerts	-->
 	<?php include_once 'alert.php'?>
 	
 	<!-- Pricing Form -->
 	<div class="container container-form">
 	    <div class="row row-content">
-	        <form id="PricingContactForm">
+	        <form id="PricingContactForm" style="display: none;">
 	            <div class="secondaryTitle title">
 	                Please fill out this form below.
 	            </div>
@@ -196,8 +199,8 @@
 	                <label for="PackageSelect" class="form-label">Select a Package:</label>
 	                <select id="PackageSelect" class="form-select" name="package_select" required>
 	                    <option value="">Choose package</option>
-		                <option value="new">New site</option>
-		                <option value="existing">Maintenance</option>
+		                <option value="new">Request a Quote</option>
+<!--		                <option value="existing">Maintenance</option>-->
 	                </select>
 	            </div>
 	            <div class="mb-5">
