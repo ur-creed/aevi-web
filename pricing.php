@@ -85,96 +85,16 @@
                 </div>
             </div>
             <div class="btn p-4">
-                <button id="RequestQuoteButton" aria-label="" style="box-shadow: 2px 2px 4px #000;">Request a Quote</button>
+                <button id="RequestQuoteButton" aria-label="" style="box-shadow: 2px 2px 4px #000;">
+                    Request a Quote
+                </button>
             </div>
         </div>
     </div>
-	
-<!-- Pricing Cards -->
-<!--    <div class="container">-->
-<!--        <div class="row row-content1">-->
-<!--            <div class="wrapper">-->
-<!--                <div class="table new">-->
-<!--                    <div class="ribbon"><span>Starting At</span></div>-->
-<!--                    <div class="price-section">-->
-<!--                        <div class="price-area">-->
-<!--                            <div class="inside">-->
-<!--                                <span class="text">$</span>-->
-<!--                                <span class="price">1K</span>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="package-name"></div>-->
-<!--                    <ul class="features">-->
-<!--                        <li>-->
-<!--                            <span class="list-name">Up to 5 Pages</span>-->
-<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <span class="list-name">100% Responsive Design</span>-->
-<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <span class="list-name">Lifetime Site Updates</span>-->
-<!--                            <span class="icon cross"><i class="fas fa-times"></i></span>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <span class="list-name">One Contact Form</span>-->
-<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
-<!--                        </li>-->
-<!--	                    <li>-->
-<!--		                    <span class="list-name">Accessibility</span>-->
-<!--		                    <span class="icon check"><i class="fas fa-check"></i></span>-->
-<!--	                    </li>-->
-<!--                    </ul>-->
-<!--                    <div class="btn">-->
-<!--                        <button id="NewProjectButton" aria-label="">Select</button>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="table maintenance">-->
-<!--                    <div class="ribbon ribbon_maintenance"><span>Hourly</span></div>-->
-<!--                    <div class="price-section">-->
-<!--                        <div class="price-area">-->
-<!--                            <div class="inside">-->
-<!--                                <span class="text">$</span>-->
-<!--                                <span class="price">63</span>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="package-name"></div>-->
-<!--                    <ul class="features">-->
-<!--                        <li>-->
-<!--                            <span class="list-name">Feature Additions</span>-->
-<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <span class="list-name">SEO & Content Updates</span>-->
-<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <span class="list-name">Bug Fixes</span>-->
-<!--                            <span class="icon check"><i class="fas fa-check"></i></span>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <span class="list-name">Site Hosting</span>-->
-<!--                            <span class="icon cross"><i class="fas fa-times"></i></span>-->
-<!--                        </li>-->
-<!--	                    <li>-->
-<!--		                    <span class="list-name">Support</span>-->
-<!--		                    <span class="icon check"><i class="fas fa-check"></i></span>-->
-<!--	                    </li>-->
-<!--                    </ul>-->
-<!--                    <div class="btn">-->
-<!--                        <button id="ExistingProjectButton" aria-label="Website Maintenance Learn More Button">Select</button>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+
     <div class="container">
         <hr class="my-4">
     </div>
-
-
 
 	<!-- Alerts	-->
 	<?php include_once 'alert.php'?>
