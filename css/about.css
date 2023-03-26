@@ -102,8 +102,8 @@ body.light-mode .active {
 }
 
 body.light-mode .card.rounded {
-    background: rgb(132, 14, 205) !important;
-    color: white !important;
+    background: transparent !important;
+    color: rgb(132, 14, 205) !important;
 }
 
 body.light-mode i.fa-brands.fa-linkedin {

@@ -92,21 +92,11 @@ body.light-mode .active {
 }
 /* Light Mode Body Content */
 body.light-mode h1 {
-    color: rgba(16, 101, 61) !important;
+    color: rgb(16, 101, 61) !important;
 }
 body.light-mode .card {
-    background: rgb(16, 101, 61) !important;
-    color: white !important;
-}
-body.light-mode .card ul {
-    list-style: url("../images/checkmarkLightMode.png");
-}
-body.light-mode .btn {
-    color: white !important;
-}
-body.light-mode button#RequestQuoteButton {
-    background: rgb(255, 255, 255);
-    color: rgb(16, 101, 61);
+    background: transparent !important;
+    color: rgb(16, 101, 61) !important;
 }
 body.light-mode .my-4 {
     color: rgb(16,101, 61) !important;
@@ -114,20 +104,10 @@ body.light-mode .my-4 {
 }
 /* Light Mode Form */
 body.light-mode form#PricingContactForm{
-    background: rgb(16, 101, 61) !important;
+    background: transparent !important;
 }
 body.light-mode  label.form-label, div#emailHelp {
-    color: white !important;
-}
-body.light-mode button.btn.btn-success {
-    background: white !important;
     color: rgb(16, 101, 61) !important;
-}
-body.light-mode .btn-success:hover {
-    transform: translateY(-3px);
-    border-top: 5px solid rgb(0, 0, 0);
-    background: rgb(16, 101, 61);
-    color: rgb(255, 255, 255);
 }
 /* Light Mode Footer*/
 body.light-mode footer {

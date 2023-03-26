@@ -98,21 +98,21 @@ body.light-mode .my-4 {
 }
 /* Light Mode Form */
 body.light-mode form#ContactForm {
-    background: rgb(201, 48, 48) !important;
+    background: transparent;
 }
 body.light-mode  label.form-label, div#emailHelp, .secondaryTitle {
-    color: white !important;
-}
-body.light-mode button.btn.btn-danger {
-    background: white !important;
     color: rgb(201, 48, 48) !important;
 }
-body.light-mode .btn-danger:hover {
-    transform: translateY(-3px);
-    border-top: 5px solid rgb(0, 0, 0);
-    background: rgb(201, 48, 48) !important;
-    color: rgb(255, 255, 255) !important;
-}
+/*body.light-mode button.btn.btn-danger {*/
+/*    background: white !important;*/
+/*    color: rgb(201, 48, 48) !important;*/
+/*}*/
+/*body.light-mode .btn-danger:hover {*/
+/*    transform: translateY(-3px);*/
+/*    border-top: 5px solid rgb(0, 0, 0);*/
+/*    background: rgb(201, 48, 48) !important;*/
+/*    color: rgb(255, 255, 255) !important;*/
+/*}*/
 /* Light Mode Footer*/
 body.light-mode footer {
     background-color: rgb(201, 48, 48);
