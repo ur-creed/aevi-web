@@ -9,6 +9,64 @@ html {
     box-sizing: border-box;
 }
 
+.switch {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.switch input {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 0;
+    height: 0;
+}
+.switch input + span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+body.light-mode .switch input + span {
+    background: rgb(16, 101, 61);
+}
+
+body.light-mode .switch input:checked + span {
+    background: rgb(16, 101, 61);
+}
+
+body.light-mode .switch input + span:before {
+    background: rgb(255, 255, 255);
+}
+
+.switch input:checked + span {
+    background: rgb(255, 255, 255);
+}
+.switch input + span:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 32px;
+    height: 32px;
+    background: rgb(16, 101, 61);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: all .3s;
+}
+.switch input:checked + span:before {
+    left: 34px;
+}
+
 body {
     background-color: rgb(16, 101, 61);
     z-index: 0;
@@ -16,8 +74,84 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    color: white;
+    transition: color .3s;
 }
-
+/* Light Mode */
+body.light-mode {
+    background: white !important;
+    color: black !important;
+}
+/* Light Mode Nav */
+body.light-mode .nav-link {
+    color: rgb(16, 101, 61) !important;
+}
+body.light-mode .active {
+    background-color: rgb(16, 101, 61) !important;
+    color: rgb(255, 255, 255) !important;
+}
+/* Light Mode Body Content */
+body.light-mode h1 {
+    color: rgba(16, 101, 61) !important;
+}
+body.light-mode .card {
+    background: rgb(16, 101, 61) !important;
+    color: white !important;
+}
+body.light-mode .card ul {
+    list-style: url("../images/checkmarkLightMode.png");
+}
+body.light-mode .btn {
+    color: white !important;
+}
+body.light-mode button#RequestQuoteButton {
+    background: rgb(255, 255, 255);
+    color: rgb(16, 101, 61);
+}
+body.light-mode .my-4 {
+    color: rgb(16,101, 61) !important;
+    border-bottom-color: rgb(16, 101, 61) !important;
+}
+/* Light Mode Form */
+body.light-mode form#PricingContactForm{
+    background: rgb(16, 101, 61) !important;
+}
+body.light-mode  label.form-label, div#emailHelp {
+    color: white !important;
+}
+body.light-mode button.btn.btn-success {
+    background: white !important;
+    color: rgb(16, 101, 61) !important;
+}
+body.light-mode .btn-success:hover {
+    transform: translateY(-3px);
+    border-top: 5px solid rgb(0, 0, 0);
+    background: rgb(16, 101, 61);
+    color: rgb(255, 255, 255);
+}
+/* Light Mode Footer*/
+body.light-mode footer {
+    background-color: rgb(16, 101, 61);
+}
+footer hr {
+    border-top-color: #bbb;
+}
+body.light-mode .copyright-text {
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+body.light-mode .copyright-text a {
+    color: white !important;
+}
+body.light-mode .copyright-text a:hover {
+    color: rgb(132, 14, 205) !important;
+}
+body.light-mode .foot-links a {
+    color: rgb(255, 255, 255);
+}
+body.light-mode .foot-links a:hover {
+    color: rgb(132, 14, 205);
+}
 
 /* Nav bar Start */
 .navbar-nav {
@@ -143,10 +277,9 @@ button.navbar-toggler {
 /*}*/
 
 .display-4 {
-    font-size: 8rem;
+    font-size: 10rem;
     letter-spacing: .2rem;
-    font-weight: 350;
-    text-shadow: 1px 1px 2px #000;
+    font-weight: 700 !important;
     margin-top: 3rem !important;
 }
 
@@ -154,95 +287,10 @@ button.navbar-toggler {
 padding: 2rem !important;
 }
 /* Card */
-.wrapper{
-    max-width: 1090px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.wrapper .table{
-    background: #fff;
-    width: calc(33% - 20px);
-    padding: 30px 30px;
-    position: relative;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-}
-.table .price-section {
-    display: flex;
-    justify-content: center;
-}
-.table .price-area {
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    padding: 2px;
-    position: relative;
-    top: .9rem;
-}
-.price-area .inside {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    line-height: 117px;
-    text-align: center;
-    color: #fff;
-    position: relative;
-}
-.price-area .inside .text{
-    font-size: 25px;
-    font-weight: 400;
-    position: absolute;
-    top: -10px;
-    left: 17px;
-}
-.price-area .inside .price{
-    font-size: 45px;
-    font-weight: 500;
-    margin-left: 16px;
-}
 
-.features {
-    position: relative;
-    top: 7px;
-}
-
-.table .package-name{
-    width: 100%;
-    height: 2px;
-    margin: 35px 0;
-    position: relative;
-}
-.table .package-name::before{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 25px;
-    font-weight: 500;
-    background: #fff;
-    padding: 0 15px;
-    transform: translate(-50%, -50%);
-}
-.table .features li{
-    margin-bottom: 15px;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-.features li .list-name{
-    font-size: 17px;
-    font-weight: 400;
-}
-.features li .icon{
-    font-size: 15px;
-}
-.features li .icon.check{
-    color: rgb(16, 101, 61);
-}
-.features li .icon.cross{
-    color: rgb(201, 48, 48);
+.table h2 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400 !important;
 }
 button#RequestQuoteButton {
     background: rgb(16, 101, 61);
@@ -271,105 +319,6 @@ button#RequestQuoteButton {
 .table .btn button:hover{
     border-radius: 5px;
 }
-.new .features li::selection{
-    background: rgb(0, 89, 153);
-}
-.new ::selection,
-.new .price-area,
-.new .inside{
-    background: rgb(0, 89, 153);
-}
-.new .btn button{
-    border: 2px solid rgb(0, 89, 153);
-    background: rgb(0, 89, 153);
-    color: rgb(255, 255, 255);
-}
-.new .btn button:hover{
-    background: rgb(0, 89, 153);
-    color: rgb(255, 255, 255);
-}
-.maintenance ::selection,
-.maintenance .price-area,
-.maintenance .inside,
-.maintenance .btn button{
-    background: rgb(104, 16, 244);
-}
-.maintenance .btn button:hover{
-    background: rgb(104, 16, 244);
-}
-
-.new .package-name{
-    background: rgb(0, 89, 153);
-}
-.maintenance .package-name{
-    background: rgb(104, 16, 244);
-}
-.new .package-name::before{
-    content: "New Site";
-}
-.maintenance .package-name::before{
-    content: "Maintenance";
-    font-size: 24px;
-}
-@media (max-width: 1020px) {
-    .wrapper .table{
-        width: calc(50% - 20px);
-        margin-bottom: 40px;
-    }
-}
-@media (max-width: 698px) {
-    .wrapper .table{
-        width: 100%;
-    }
-}
-::selection{
-    color: rgb(255, 255, 255);
-}
-.table .ribbon{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    overflow: hidden;
-}
-.table .ribbon::before,
-.table .ribbon::after{
-    position: absolute;
-    content: "";
-    z-index: -1;
-    display: block;
-    border: 7px solid rgb(0, 0, 0);
-    border-top-color: transparent;
-    border-left-color: transparent;
-}
-.table .ribbon::before{
-    top: 0px;
-    right: 15px;
-}
-.table .ribbon::after{
-    bottom: 15px;
-    left: 0px;
-}
-.table .ribbon span {
-    position: absolute;
-    top: 30px;
-    right: 0;
-    transform: rotate(-45deg);
-    width: 200px;
-    background: rgb(0, 89, 153);
-    padding: 10px 0;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 17px;
-    text-transform: uppercase;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-}
-
-.table .ribbon_maintenance span {
-    background: rgb(104, 16, 244);
-}
-
 /* End Card*/
 
 .row {

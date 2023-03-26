@@ -6,3 +6,9 @@ $(document).ready(function(){
     // Make the current page active.
     $portfolioNavLink.addClass('active');
 });
+
+// Light Mode Toggle Button
+function lightMode() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+}

@@ -16,8 +16,13 @@
     <title>Aevi Web | Pricing</title>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- CDN Fonts   -->
     <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/kaz7xgh.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
@@ -55,6 +60,15 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
     <?php include_once 'particles.php' ?>
+
+    <!-- Top Btn -->
+    <div class="container-fluid">
+        <label class="switch float-end">
+            <input type="checkbox" onclick="lightMode()"/>
+            <span></span>
+        </label>
+    </div>
+
 	<!-- Pricing Heading   -->
     <div class="container container-h1">
         <h1 class="display-4 text-center text-white h1 mt-0">Our Services</h1>
@@ -91,11 +105,30 @@
             </div>
         </div>
     </div>
+<<<<<<< Updated upstream
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+    <div class="container">
+        <hr class="my-4">
+    </div>
+=======
+=======
+>>>>>>> 3780fd2275612d46a5da606ece02f2de2a5538d2
+
+<<<<<<< Updated upstream
+=======
     <div class="container">
         <hr class="my-4">
     </div>
 
+<<<<<<< HEAD
+>>>>>>> 3780fd2275612d46a5da606ece02f2de2a5538d2
+=======
+>>>>>>> 3780fd2275612d46a5da606ece02f2de2a5538d2
+>>>>>>> Stashed changes
 	<!-- Alerts	-->
 	<?php include_once 'alert.php'?>
 	

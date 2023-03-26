@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
     <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/kaz7xgh.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome -->
@@ -47,6 +49,14 @@
 	<?php include_once 'navigation.php' ?>
     <!-- Particles -->
    <?php include_once 'particles.php' ?>
+    <!-- Top Btn -->
+    <div class="container-fluid">
+        <label class="switch float-end">
+            <input type="checkbox" onclick="lightMode()"/>
+            <span></span>
+        </label>
+    </div>
+
     <div class="container container-h1">
         <h1 class="display-4 text-center text-white h1 mt-0">Contact Us!</h1>
         <hr class="my-4">
@@ -57,7 +67,7 @@
 
 	<div class="container container-form">
         <div class="row row-content">
-            <form id="ContactForm">
+            <form class="shadow border rounded" id="ContactForm">
                 <div class="secondaryTitle">
 	                Please fill out this form below.
                 </div>

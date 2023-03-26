@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
     <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/kaz7xgh.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Animate CSS -->
@@ -38,13 +40,21 @@
 	<?php include_once 'navigation.php' ?>
 	<!-- Particles -->
 	<?php include_once 'particles.php' ?>
+    <!-- Top Btn -->
+    <div class="container-fluid">
+        <label class="switch float-end">
+            <input type="checkbox" onclick="lightMode()"/>
+            <span></span>
+        </label>
+    </div>
+
 	<div class="container container-h1">
 		<h1 class="display-4 text-center text-white h1 mt-0">Portfolio</h1>
 		<hr class="my-4">
 	</div>
     <div class="container justify-content-center">
             <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
+                <div class="col mx-auto">
                     <div class="card">
                         <img src="images/clients/dare_angel_logo_new.png" class="card-img-top img-fluid da" alt="Dare Angle website developed site by Aevi Web">
                         <div class="card-body">
@@ -55,17 +65,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="images/clients/ReneeMWagnerPolen.png" class="card-img-top img-fluid rw" alt="Art website developed site by Aevi Web">
-                        <div class="card-body">
-                            <div class="middleTextRW">
-                                <a href="https://www.reneemwpolen.art/" id="rwa" target="_blank"><h5 class="card-title">Renee M Wagner-Polen Fine Art</h5></a>
-                                <p class="card-text lead text-light">Do you love abstract art as much as we do?! Check out our latest project for Renee Wagner-Polen, an amazing abstract artist.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!--                <div class="col">-->
+<!--                    <div class="card">-->
+<!--                        <img src="images/clients/ReneeMWagnerPolen.png" class="card-img-top img-fluid rw" alt="Art website developed site by Aevi Web">-->
+<!--                        <div class="card-body">-->
+<!--                            <div class="middleTextRW">-->
+<!--                                <a href="https://www.reneemwpolen.art/" id="rwa" target="_blank"><h5 class="card-title">Renee M Wagner-Polen Fine Art</h5></a>-->
+<!--                                <p class="card-text lead text-light">Do you love abstract art as much as we do?! Check out our latest project for Renee Wagner-Polen, an amazing abstract artist.</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
         </div>
     </div>
 	<div class="container text-center">

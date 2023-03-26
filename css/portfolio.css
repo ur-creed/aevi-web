@@ -9,11 +9,117 @@ html {
     box-sizing: border-box;
 }
 
+/* Light Mode Button */
+.switch {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.switch input {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 0;
+    height: 0;
+}
+.switch input + span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+body.light-mode .switch input + span {
+    background: rgb(137, 56, 93);
+}
+
+body.light-mode .switch input:checked + span {
+    background: rgb(137, 56, 93);
+}
+
+body.light-mode .switch input + span:before {
+    background: rgb(255, 255, 255);
+}
+
+.switch input:checked + span {
+    background: rgb(255, 255, 255);
+}
+.switch input + span:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 32px;
+    height: 32px;
+    background: rgb(137, 56, 93);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: all .3s;
+}
+.switch input:checked + span:before {
+    left: 34px;
+}
+/* End Light Mode Button */
+
 body {
     background-color: rgb(137, 56, 93);
     font-family: "laca Text", sans-serif;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+/* Light Mode */
+body.light-mode {
+    background: rgb(255, 255, 255) !important;
+    color: black !important;
+}
+/* Light Mode Nav */
+body.light-mode .nav-link {
+    color: rgb(137, 56, 93) !important;
+}
+body.light-mode .active {
+    background-color: rgb(137, 56, 93) !important;
+    color: rgb(255, 255, 255) !important;
+}
+/* Light Mode Body Content */
+body.light-mode h1 {
+    color: rgba(137, 56, 93) !important;
+}
+body.light-mode .my-4 {
+    color: rgb(137, 56, 93) !important;
+    border-bottom-color: rgb(137, 56, 93) !important;
+}
+body.light-mode h2.display-3.mt-5.mb-5.animate__animated.animate__pulse {
+    color: rgb(137, 56, 93) !important;
+}
+/* Light Mode Footer*/
+body.light-mode footer {
+    background-color: rgb(137, 56, 93);
+}
+footer hr {
+    border-top-color: #bbb;
+}
+body.light-mode .copyright-text {
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+body.light-mode .copyright-text a {
+    color: white !important;
+}
+body.light-mode .copyright-text a:hover {
+    color: rgb(16, 101, 61) !important;
+}
+body.light-mode .foot-links a {
+    color: rgb(255, 255, 255);
+}
+body.light-mode .foot-links a:hover {
+    color: rgb(132, 14, 205);
 }
 
 /* NavBar Start */
@@ -201,9 +307,12 @@ img.card-img-top.img-fluid.da, img.card-img-top.img-fluid.rw{
 
 /* General Styles */
 .display-4 {
-    font-size: 8rem;
-    font-weight: 350;
-    text-shadow: 1px 1px 2px #000;
+    font-family: "proxima-nova", sans-serif;
+    position: relative;
+    font-size: 10rem;
+    letter-spacing: .2rem;
+    font-weight: 700 !important;
+    margin-top: 3rem !important;
 }
 
 .display-3 {

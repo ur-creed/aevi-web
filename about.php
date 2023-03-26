@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <!-- CDN Fonts   -->
     <link href="https://fonts.cdnfonts.com/css/laca-text" rel="stylesheet">
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/kaz7xgh.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome CDN -->
