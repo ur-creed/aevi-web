@@ -49,7 +49,7 @@
     <?php include_once 'particles.php' ?>
 
     <div class="centered">
-        <img src="images/AeviWeb.png" alt="Website DevelopAevi Web Developing Dreams">
+        <img src="images/AeviWeb.png" alt="Website Develop Aevi Web Developing Dreams">
     </div>
 
 
