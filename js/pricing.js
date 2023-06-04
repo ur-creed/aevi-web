@@ -20,10 +20,9 @@ btn.addEventListener('click', () => {
         form.style.display = 'none';
     }
 });
-// Handle what happens when "New" button is click
+// Handle what happens when "Request a Quote" button is click
 function handleRequestQuoteButtonClick() {
     $requestQuoteButton.click(function() {
-        $packageSelect.value = "new"
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#PricingContactForm").offset().top
         }, 250);
@@ -31,6 +30,7 @@ function handleRequestQuoteButtonClick() {
 }
 
 // Handle what happens when "Maintenance" button is click
+/*
 function handleExistingProjectButtonClick() {
     $existingProjectButton.click(function() {
         $packageSelect.value = "existing"
@@ -39,6 +39,7 @@ function handleExistingProjectButtonClick() {
         }, 250);
     });
 }
+*/
 
 // Handle form submission
 function handleFormSubmission(formData) {
@@ -64,7 +65,7 @@ $(document).ready(function(){
     $pricingNavLink = $('#Pricing');
     $contactForm = $('#PricingContactForm');
     $requestQuoteButton = $('#RequestQuoteButton');
-    $existingProjectButton = $('#ExistingProjectButton');
+    /*$existingProjectButton = $('#ExistingProjectButton');*/
     $packageSelect = $('#PackageSelect')[0];
     $successAlert = $('#SuccessAlert');
     $dangerAlert = $('#DangerAlert');
@@ -74,7 +75,7 @@ $(document).ready(function(){
     $pricingNavLink.addClass('active');
 
     handleRequestQuoteButtonClick();
-    handleExistingProjectButtonClick();
+    /*handleExistingProjectButtonClick();*/
 
     $contactForm.submit(function (e) {
         e.preventDefault();
