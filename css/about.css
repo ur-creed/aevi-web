@@ -259,7 +259,7 @@ button.navbar-toggler {
 /* ==== GENERAL STYLES ==== */
 .display-4 {
     font-family: "proxima-nova", sans-serif;
-    font-size: 10rem;
+    font-size: 9rem;
     font-weight: 700 !important;
     color: rgb(240, 204, 0);
 }
