@@ -138,7 +138,42 @@ body.light-mode hr.my-4 {
     color: black !important;
 }
 
+.card-title {
+    font-size: 2.9rem !important;
+}
 
+.card-image {
+    position: relative;
+    perspective: 1000px; /* Set perspective for 3D effect */
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Hide any overflow from the flipped image */
+}
+
+.card-image .card-front,
+.card-image .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hide backface of both sides */
+    transition: transform 0.6s;
+}
+
+.card-image .card-front {
+    z-index: 2; /* Make sure front image is on top */
+}
+
+.card-image .card-back {
+    transform: rotateY(180deg); /* Rotate back side by 180 degrees */
+}
+
+.card-image:hover .card-front {
+    transform: rotateY(180deg); /* Flip the front side on hover */
+}
+
+.card-image:hover .card-back {
+    transform: rotateY(0); /* Bring the back side to the front on hover */
+}
 
 /* Nav bar Start */
 @media only screen and (max-width: 991px) {
