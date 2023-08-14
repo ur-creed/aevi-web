@@ -43,7 +43,7 @@
     <!-- Top Btn -->
     <div class="container-fluid">
         <label class="switch float-end">
-            <input type="checkbox" onclick="lightMode()"/>
+            <input type="checkbox" onclick="darkMode()"/>
             <span></span>
         </label>
     </div>

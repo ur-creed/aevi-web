@@ -86,7 +86,7 @@ $(document).ready(function(){
 });
 
 // Light Mode Toggle Button
-function lightMode() {
+function darkMode() {
     var element = document.body;
-    element.classList.toggle("light-mode");
+    element.classList.toggle("dark-mode");
 }

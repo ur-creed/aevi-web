@@ -53,13 +53,13 @@
 <!-- Top Btn -->
     <div class="container-fluid">
         <label class="switch float-end">
-            <input type="checkbox" onclick="lightMode()"/>
+            <input type="checkbox" onclick="darkMode()"/>
             <span></span>
         </label>
     </div>
 	<!-- About Content -->
 	<div class="container container-about">
-        <h1 class="display-4 text-center h-1 mt-3">About Aevi Web</h1>
+        <h1 class="display-4 text-center h-1">About Aevi Web</h1>
         <hr class="my-4">
 		<div class="row row-content">
 			<p class="display-6 text-center col-lg-6 col-sm-12 lead">
@@ -83,7 +83,7 @@
             </p>
 	    </div>
         <hr class="my-4">
-		<?php include_once 'founders.php' ?>
+        <div class="mt-5"></div>
 	</div>
     <!-- Footer -->
 	<?php include_once 'footer.php' ?>
