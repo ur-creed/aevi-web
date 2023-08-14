@@ -4,13 +4,33 @@ html {
     font-size: 62.5%; /* 1rem = 10px; 10/16px = 62.5% */
 }
 
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-about: rgb(106, 13, 173);
+    --color-home: rgb(38, 113, 217);
+    --color-contact: rgb(201, 48, 48);
+    --color-pricing: rgb(66, 130, 53);
+    --color-portfolio: rgb(137, 56, 93);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-image: url("../images/bluebg.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    /*background-image: url("../images/bluebg.jpeg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    overflow: hidden;
+    /*overflow-y: scroll;*/
     font-family: 'laca Text' , sans-serif;
+}
+.centeredTwo {
+    display: none;
+}
+.whiteImage {
+    display: none;
 }
 
 /* Nav bar Start */
@@ -21,7 +41,7 @@ body {
 }
 .navbar-brand img {
     position: relative;
-    margin-left: 2rem;
+    width: 150px;
 }
 
 .navbar-nav li {
@@ -34,7 +54,7 @@ body {
 
 .nav-link {
     font-size: 3rem !important;
-    color: rgb(255, 255, 255) !important;
+    color: var(--color-white) !important;
     font-weight: 350;
 
 }
@@ -43,24 +63,24 @@ body {
     text-decoration: underline;
 }
 
-.nav-link#Home:hover {
-    color: rgb(38, 113, 217);
+.nav-link#Home{
+    color: var(--color-home);
 }
 
-.nav-link#About:hover {
-    color: rgb(106, 13, 173) !important;
+.nav-link#About {
+    color: var(--color-about) !important;
 }
 
-.nav-link#Contact:hover {
-    color: rgb(201, 48, 48) !important;
+.nav-link#Contact {
+    color: var(--color-contact) !important;
 }
 
-.nav-link#Pricing:hover {
-    color: rgb(66, 130, 53) !important;
+.nav-link#Pricing {
+    color: var(--color-pricing) !important;
 }
 
-.nav-link#Portfolio:hover {
-    color: rgb(137, 56, 93) !important;
+.nav-link#Portfolio {
+    color: var(--color-portfolio) !important;
 }
 
 /*!*!* Nav toggler *!*/
@@ -70,22 +90,22 @@ body {
 }
 
 button.navbar-toggler {
-    background: rgb(255, 255, 255);
+    background: var(--color-white);
 }
 
 button.navbar-toggler {
     border-radius: 1rem;
 }
 
-.active {
-    text-decoration: underline;
-    border: 1px solid;
-    border-radius: 1.5rem;
-    background-color: rgb(255, 255, 255);
-    color: rgb(38, 113, 217) !important;
-    font-size: 3.5rem;
-    box-shadow: 1px 1px 2px #000;
-}
+/*.active {*/
+/*    text-decoration: underline;*/
+/*    border: 1px solid;*/
+/*    border-radius: 1.5rem;*/
+/*    background-color: var(--color-white);*/
+/*    color: rgb(38, 113, 217) !important;*/
+/*    font-size: 3.5rem;*/
+/*    box-shadow: 1px 1px 2px #000;*/
+/*}*/
 
 #Home {
     display: none;
@@ -117,36 +137,132 @@ button.navbar-toggler {
 }
 .container h1 {
     font-size: 30rem;
-    color: rgb(255, 255, 255);
+    color: var(--color-white);
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     position: relative;
     top: 5rem;
 }
 
 /* Hr Style */
-hr {
-    height: 3rem !important;
-    border-style: solid;
-    border-color: #8c8b8b;
-    border-width: 1px 0 0 0;
-    border-radius: 2rem;
-}
-hr:before {
+/*hr {*/
+/*    height: 3rem !important;*/
+/*    border-style: solid;*/
+/*    border-color: #8c8b8b;*/
+/*    border-width: 1px 0 0 0;*/
+/*    border-radius: 2rem;*/
+/*}*/
+/*hr:before {*/
+/*    display: block;*/
+/*    content: "";*/
+/*    height: 3rem;*/
+/*    margin-top: -3rem;*/
+/*    border-style: solid;*/
+/*    border-color: #8c8b8b;*/
+/*    border-width: 0 0 1px 0;*/
+/*    border-radius: 2rem;*/
+/*}*/
+
+/*.container p {*/
+/*    font-size: 5rem;*/
+/*    color: var(--color-white);*/
+/*    font-family: 'Marshland Beauty';*/
+/*    text-shadow: 1px 1px 2px rgb(0, 0, 0);*/
+/*}*/
+
+/* Dark Mode */
+.switch {
     display: block;
-    content: "";
-    height: 3rem;
-    margin-top: -3rem;
-    border-style: solid;
-    border-color: #8c8b8b;
-    border-width: 0 0 1px 0;
-    border-radius: 2rem;
+    position: relative;
+    margin: auto;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.switch input {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 0;
+    height: 0;
+}
+.switch input + span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--color-white);
+    border-radius: 20px;
+    border: solid 1px #000;
+}
+body.dark-mode .switch input + span {
+    background: var(--color-white);
 }
 
-.container p {
-    font-size: 5rem;
-    color: rgb(255, 255, 255);
-    font-family: 'Marshland Beauty';
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+body.dark-mode .switch input:checked + span {
+    background: transparent;
+}
+
+body.dark-mode .switch input + span:before {
+    background: var(--color-white);
+}
+
+.switch input:checked + span {
+    background:var(--color-white);
+}
+.switch input + span:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 32px;
+    height: 32px;
+    background: var(--color-home);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: all .3s;
+}
+.switch input:checked + span:before {
+    left: 34px;
+}
+body.dark-mode {
+    background: var(--color-home) !important;
+    color: black !important;
+}
+body.dark-mode .centered {
+    display: none;
+}
+body.dark-mode .centeredTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    position: relative;
+}
+body.dark-mode .centeredTwo img {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+body.dark-mode .blueImage {
+    display: none;
+}
+body.dark-mode .whiteImage {
+    display: block;
+}
+body.dark-mode .nav-link#About {
+    color: var(--color-white) !important;
+}
+body.dark-mode .nav-link#Pricing {
+    color: var(--color-white) !important;
+}
+body.dark-mode .nav-link#Contact {
+    color: var(--color-white) !important;
+}
+body.dark-mode .nav-link#Portfolio {
+    color: var(--color-white) !important;
 }
 @media only screen and (device-width: 1024px) and (device-height: 600px)  {
     .centered {

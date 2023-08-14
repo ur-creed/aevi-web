@@ -64,14 +64,14 @@
     <!-- Top Btn -->
     <div class="container-fluid">
         <label class="switch float-end">
-            <input type="checkbox" onclick="lightMode()"/>
+            <input type="checkbox" onclick="darkMode()"/>
             <span></span>
         </label>
     </div>
 
 	<!-- Pricing Heading   -->
     <div class="container container-h1">
-        <h1 class="display-4 text-center text-white h1 mt-0">Our Services</h1>
+        <h1 class="display-4 text-center h1 mt-0">Our Services</h1>
         <hr class="my-4">
     </div>
 

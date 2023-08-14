@@ -8,7 +8,17 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-about: rgb(106, 13, 173);
+    --color-home: rgb(38, 113, 217);
+    --color-contact: rgb(201, 48, 48);
+    --color-pricing: rgb(66, 130, 53);
+    --color-portfolio: rgb(137, 56, 93);
+    --color-gold: rgb(240, 204, 0);
+}
 
+/*Dark Mode */
 .switch {
     display: block;
     position: relative;
@@ -32,21 +42,9 @@ html {
     left: 0;
     right: 0;
     background: rgb(255, 255, 255);
+    border: solid 1px #000;
     border-radius: 20px;
 }
-
-body.light-mode .switch input + span {
-    background: rgb(16, 101, 61);
-}
-
-body.light-mode .switch input:checked + span {
-    background: rgb(16, 101, 61);
-}
-
-body.light-mode .switch input + span:before {
-    background: rgb(255, 255, 255);
-}
-
 .switch input:checked + span {
     background: rgb(255, 255, 255);
 }
@@ -66,9 +64,109 @@ body.light-mode .switch input + span:before {
 .switch input:checked + span:before {
     left: 34px;
 }
+body.dark-mode .switch input + span {
+    background: rgb(16, 101, 61);
+}
+body.dark-mode .switch input:checked + span {
+    background: rgb(16, 101, 61);
+}
+body.dark-mode .switch input + span:before {
+    background: rgb(255, 255, 255);
+}
+body.dark-mode {
+    background: rgb(16, 101, 61) !important;
+    color: white !important;
+}
+/* Dark Mode Nav */
+body.dark-mode .blueImage {
+    display: none;
+}
 
-body {
+body.dark-mode .whiteImage {
+    display: block;
+}
+body.dark-mode .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+body.dark-mode .nav-link#About{
+    color: rgb(255, 255, 255) !important;
+}
+
+body.dark-mode .nav-link#Contact {
+    color: rgb(255, 255, 255) !important;
+}
+
+body.dark-mode .nav-link#Portfolio {
+    color: rgb(255, 255, 255) !important;
+}
+
+body.dark-mode .active {
+    background-color: rgb(16, 101, 61) !important;
+    color: rgb(255, 255, 255) !important;
+}
+/* Dark Mode Body Content */
+body.dark-mode h1 {
+    color: rgb(255, 255, 255) !important;
+}
+body.dark-mode .card {
+    background: rgb(16, 101, 61) !important;
+    color: rgb(255, 255, 255) !important;
+}
+body.dark-mode .my-4 {
+    color: rgb(255, 255, 255) !important;
+    border-bottom-color: rgb(255, 255, 255) !important;
+}
+body.dark-mode .table>:not(:first-child) {
+    border-top: 2px solid white;
+}
+body.dark-mode button#RequestQuoteButton {
+    background: rgb(255, 255, 255) !important;
+    color: rgb(16, 101, 61) !important;
+}
+/* Dark Mode Form */
+body.dark-mode form#PricingContactForm{
+    background: transparent !important;
+}
+body.dark-mode  label.form-label, div#emailHelp {
+    color: rgb(16, 101, 61) !important;
+}
+/* Dark Mode Footer*/
+body.dark-mode footer {
     background-color: rgb(16, 101, 61);
+}
+body.dark-mode .copyright-text {
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+body.dark-mode .copyright-text a {
+    color: white !important;
+}
+body.dark-mode .copyright-text a:hover {
+    color: rgb(132, 14, 205) !important;
+}
+body.dark-mode .foot-links a {
+    color: rgb(255, 255, 255);
+}
+body.dark-mode .foot-links a:hover {
+    color: rgb(132, 14, 205);
+}
+body.dark-mode .secondaryTitle {
+    color: rgb(255, 255, 255) !important;
+}
+
+body.dark-mode label.form-label {
+    color: rgb(255, 255, 255) !important;
+}
+
+body.dark-mode #emailHelp {
+    color: rgb(255, 255, 255) !important;
+}
+body.dark-mode button.btn.btn-success {
+    color: rgb(16, 101, 61) !important;
+    background: rgb(255, 255, 255) !important;
+}
+/* End Dark Mode */
+body {
     z-index: 0;
     font-family: "laca Text", sans-serif;
     overflow-x: hidden;
@@ -77,70 +175,18 @@ body {
     color: white;
     transition: color .3s;
 }
-/* Light Mode */
-body.light-mode {
-    background: white !important;
-    color: black !important;
-}
-/* Light Mode Nav */
-body.light-mode .nav-link {
-    color: rgb(16, 101, 61) !important;
-}
-body.light-mode .active {
-    background-color: rgb(16, 101, 61) !important;
-    color: rgb(255, 255, 255) !important;
-}
-/* Light Mode Body Content */
-body.light-mode h1 {
-    color: rgb(16, 101, 61) !important;
-}
-body.light-mode .card {
-    background: transparent !important;
-    color: rgb(16, 101, 61) !important;
-}
-body.light-mode .my-4 {
-    color: rgb(16,101, 61) !important;
-    border-bottom-color: rgb(16, 101, 61) !important;
-}
-/* Light Mode Form */
-body.light-mode form#PricingContactForm{
-    background: transparent !important;
-}
-body.light-mode  label.form-label, div#emailHelp {
-    color: rgb(16, 101, 61) !important;
-}
-/* Light Mode Footer*/
-body.light-mode footer {
-    background-color: rgb(16, 101, 61);
-}
-footer hr {
-    border-top-color: #bbb;
-}
-body.light-mode .copyright-text {
-    margin: 0;
-    color: rgb(255, 255, 255);
-}
-body.light-mode .copyright-text a {
-    color: white !important;
-}
-body.light-mode .copyright-text a:hover {
-    color: rgb(132, 14, 205) !important;
-}
-body.light-mode .foot-links a {
-    color: rgb(255, 255, 255);
-}
-body.light-mode .foot-links a:hover {
-    color: rgb(132, 14, 205);
-}
-
 /* Nav bar Start */
 .navbar-nav {
     text-align: center;
 }
 
+.whiteImage {
+    display: none;
+}
+
 .navbar-brand img {
     position: relative;
-    margin-left: 2rem;
+    width: 150px;
 }
 
 .navbar-nav li {
@@ -158,22 +204,21 @@ body.light-mode .foot-links a:hover {
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
     /*text-shadow: 1px 1px 2px #000;*/
-
 }
 
 .nav-link:hover {
     text-decoration: underline;
 }
 
-.nav-link#About:hover {
+.nav-link#About{
     color: rgb(132, 14, 205) !important;
 }
 
-.nav-link#Contact:hover {
+.nav-link#Contact {
     color: rgb(201, 48, 48) !important;
 }
 
-.nav-link#Portfolio:hover {
+.nav-link#Portfolio {
     color: rgb(137, 56, 93) !important;
 }
 
@@ -257,6 +302,7 @@ button.navbar-toggler {
 /*}*/
 
 .display-4 {
+    color: rgb(16, 101, 61);
     font-size: 10rem;
     letter-spacing: .2rem;
     font-weight: 700 !important;
@@ -318,8 +364,8 @@ justify-content: center !important;
 }
 
 .my-4 {
-    color: rgb(255, 255, 255);
-    border-bottom: solid rgb(255, 255, 255);
+    color: rgb(16, 101, 61);
+    border-bottom: solid rgb(16, 101, 61);
 }
 
 /*!* Form *!*/
@@ -327,9 +373,9 @@ justify-content: center !important;
     position: relative;
 }
 
+
 form {
     background: rgb(255, 255, 255);
-    box-shadow: 0 3rem 6rem 0 rgba(90, 116, 148, 0.4);
     border-radius: 5px;
     max-width: 48rem;
     margin-left: auto;

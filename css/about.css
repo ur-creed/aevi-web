@@ -2,6 +2,15 @@ html {
     /* this defines what 1 rem is */
     font-size: 62.55%; /* 1rem = 10px; 10/16px = 62.5% */
 }
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-about: rgb(106, 13, 173);
+    --color-home: rgb(38, 113, 217);
+    --color-contact: rgb(201, 48, 48);
+    --color-pricing: rgb(66, 130, 53);
+    --color-portfolio: rgb(137, 56, 93);
+    --color-gold: rgb(240, 204, 0);
+}
 
 * {
     margin: 0;
@@ -9,6 +18,7 @@ html {
     box-sizing: border-box;
 }
 
+/* Dark Mode */
 .switch {
     display: block;
     position: relative;
@@ -31,24 +41,12 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgb(255, 255, 255);
+    background: var(--color-white);
     border-radius: 20px;
+    border: solid 1px #000;
 }
-
-body.light-mode .switch input + span {
-    background: rgb(135, 14, 205);
-}
-
-body.light-mode .switch input:checked + span {
-    background: rgb(135, 14, 205);
-}
-
-body.light-mode .switch input + span:before {
-    background: rgb(255, 255, 255);
-}
-
 .switch input:checked + span {
-    background: rgb(255, 255, 255);
+    background: var(--color-white);
 }
 .switch input + span:before {
     content: "";
@@ -58,7 +56,7 @@ body.light-mode .switch input + span:before {
     left: 4px;
     width: 32px;
     height: 32px;
-    background: rgb(135, 14, 205);
+    background: var(--color-about);
     border-radius: 50%;
     transform: translateY(-50%);
     transition: all .3s;
@@ -66,68 +64,121 @@ body.light-mode .switch input + span:before {
 .switch input:checked + span:before {
     left: 34px;
 }
+body.dark-mode .switch input + span {
+    background: var(--color-about);
+}
 
+body.dark-mode .switch input:checked + span {
+    background: var(--color-about);
+}
+
+body.dark-mode .switch input + span:before {
+    background: var(--color-white);
+}
+
+
+body.dark-mode .container-about p {
+    color: var(--color-white) !important;
+}
+body.dark-mode {
+    background: var(--color-about) !important;
+    color: var(--color-white) !important;
+}
+
+body.dark-mode p.p-3.display-6.text-center.col-12 {
+    text-shadow: none;
+}
+
+body.dark-mode p.display-6.text-center.col-lg-6.col-sm-12.lead {
+    text-shadow: none;
+}
+
+body.dark-mode a {
+    color: black !important;
+}
+
+body.dark-mode .active {
+    background: var(--color-about) !important;
+    color: var(--color-white) !important;
+}
+
+/*body.dark-mode .card.rounded {*/
+/*    background: transparent !important;*/
+/*    color: rgb(132, 14, 205) !important;*/
+/*}*/
+
+body.dark-mode i.fa-brands.fa-linkedin {
+    color: var(--color-white) !important;
+}
+
+body.dark-mode .display-4 {
+    color: var(--color-gold) !important;
+}
+
+body.dark-mode .blueImage {
+    display: none;
+}
+
+body.dark-mode .whiteImage {
+    display: block;
+}
+
+body.dark-mode strong.h1.mt-0 {
+    color: var(--color-gold) !important;
+    text-shadow: none !important;
+}
+
+body.dark-mode h2.text-center.h-1.mt-0 {
+    color: var(--color-about) !important;
+    text-shadow: none !important;
+}
+
+body.dark-mode hr.my-4 {
+    color: var(--color-white) !important;
+    border-bottom-color: var(--color-white) !important;
+}
+
+body.dark-mode .nav-link#Pricing {
+    color: var(--color-white) !important;
+}
+
+body.dark-mode .nav-link#Contact {
+    color: var(--color-white) !important;
+}
+
+body.dark-mode .nav-link#Portfolio {
+    color: var(--color-white) !important;
+}
+body.dark-mode footer {
+    background: var(--color-about);
+}
+
+body.dark-mode .copyright-text{
+    color: var(--color-white) !important;
+}
+
+body.dark-mode .copyright-text a {
+    color:var(--color-white) !important;
+}
+
+body.dark-mode .foot-links a {
+    color: var(--color-white) !important;
+}
+
+/* End Dark Mode */
 
 body {
-    background-color: rgb(132, 14, 205);
+    /*background-color: rgb(132, 14, 205);*/
     font-family: "laca Text", sans-serif;
     z-index: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
     scroll-behavior: smooth;
-    color: white;
+    color: var(--color-white);
     transition: color .3s;
 }
 
-body.light-mode {
-    background: white !important;
-    color: black !important;
-}
 
-body.light-mode p.p-3.display-6.text-center.col-12 {
-    text-shadow: none;
-}
 
-body.light-mode p.display-6.text-center.col-lg-6.col-sm-12.lead {
-    text-shadow: none;
-}
-
-body.light-mode a {
-    color: black !important;
-}
-
-body.light-mode .active {
-    background: rgb(132, 14, 205) !important;
-    color: white !important;
-}
-
-body.light-mode .card.rounded {
-    background: transparent !important;
-    color: rgb(132, 14, 205) !important;
-}
-
-body.light-mode i.fa-brands.fa-linkedin {
-    color: white !important;
-}
-
-body.light-mode .display-4 {
-    color: rgb(132, 14, 205) !important;
-}
-
-body.light-mode strong.h1.mt-0 {
-    color: rgb(132, 14, 205) !important;
-    text-shadow: none !important;
-}
-
-body.light-mode h2.text-center.h-1.mt-0 {
-    color: rgb(132, 14, 205) !important;
-    text-shadow: none !important;
-}
-
-body.light-mode hr.my-4 {
-    color: black !important;
-    border-bottom-color: black !important;
-}
 
 #myButton {
     font-size: 1.5rem;
@@ -185,7 +236,10 @@ body.light-mode hr.my-4 {
 
 .navbar-brand img {
     position: relative;
-    margin-left: 2rem;
+    width: 150px;
+}
+.whiteImage {
+    display: none;
 }
 
 .navbar-nav li {
@@ -198,7 +252,7 @@ body.light-mode hr.my-4 {
 
 .nav-link {
     font-size: 3rem !important;
-    color: rgb(255, 255, 255) !important;
+    color: var(--color-white) !important;
     /*font-family: "Marshland Beauty";*/
     font-family: 'laca Text' , sans-serif;
     font-weight: 350;
@@ -209,24 +263,24 @@ body.light-mode hr.my-4 {
     text-decoration: underline;
 }
 
-.nav-link#Pricing:hover {
-    color: rgb(16, 101, 61) !important;
+.nav-link#Pricing {
+    color: var(--color-pricing) !important;
 }
 
-.nav-link#Contact:hover {
-    color: rgb(201, 48, 48) !important;
+.nav-link#Contact {
+    color: var(--color-contact) !important;
 }
 
-.nav-link#Portfolio:hover {
-    color: rgb(137, 56, 93) !important;
+.nav-link#Portfolio {
+    color: var(--color-portfolio) !important;
 }
 
 .active {
     text-decoration: underline;
     border: 1px solid;
     border-radius: 1.5rem;
-    background-color: rgb(255, 255, 255);
-    color: rgb(132, 14, 205) !important;
+    background-color: var(--color-white);
+    color: var(--color-about) !important;
     font-size: 3.5rem;
     box-shadow: 1px 1px 2px #000;
 }
@@ -242,7 +296,7 @@ body.light-mode hr.my-4 {
 }
 
 button.navbar-toggler {
-    background: rgb(255, 255, 255);
+    background: var(--color-white);
 }
 
 button.navbar-toggler {
@@ -261,27 +315,27 @@ button.navbar-toggler {
     font-family: "proxima-nova", sans-serif;
     font-size: 9rem;
     font-weight: 700 !important;
-    color: rgb(240, 204, 0);
+    color: var(--color-about) !important;
 }
 h2.text-center.h-1.mt-0 {
     font-family: "proxima-nova", sans-serif;
     font-weight: 700 !important;
-    color: rgb(240, 204, 0);
+    color: var(--color-gold);
     font-size: 6rem;
 }
 .display-3 {
     font-weight: 400;
-    color: rgb(240, 204, 0);
+    color: var(--color-gold);
     text-shadow: 1px 1px 1px #000;
 }
 p.display-6.text-center.col-lg-6.col-sm-12.lead,
 p.p-3.display-6.text-center.col-12 {
-    text-shadow: 1px 1px 2px #000;
+    color: black;
 }
 
 strong.h1.mt-0 {
     font-weight: 500;
-    color: rgb(240, 204, 0);
+    color: var(--color-about) !important;
     text-shadow: 1px 1px 1px #000;
 }
 
@@ -290,14 +344,14 @@ strong.h1.mt-0 {
 }
 
 .my-4 {
-    color: rgb(255, 255, 255);
-    border-bottom: solid rgb(255, 255, 255);
+    color: var(--color-about);
+    border-bottom: solid var(--color-about);
 }
 
 
 .container-about {
     position: relative;
-    margin-top: 6rem;
+    margin-top: 3.5rem;
 }
 
 .container-fluid  {
@@ -305,7 +359,7 @@ strong.h1.mt-0 {
 }
 
 .divider {
-    color: rgb(255, 255, 255) !important;
+    color: var(--color-white) !important;
 }
 
 .founderP {
@@ -352,28 +406,12 @@ img.animate__animated.animate__slideInRight.img-fluid {
 }
 
 /* ==== SIMPLE FOOTER ==== */
-body.light-mode footer {
-    background: rgba(135, 14, 205);
-}
-
-body.light-mode .copyright-text{
-    color: white !important;
-}
-
-body.light-mode .copyright-text a {
-    color: white !important;
-}
-
-body.light-mode .foot-links a {
-    color: white !important;
-}
-
 footer {
     position: relative;
     width: 100%;
     left: 0;
     bottom: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color-white);
     font-size: 1.2rem;
     line-height: 5rem;
 }
@@ -387,14 +425,15 @@ footer hr.small {
     margin: 2rem 0;
 }
 
+
 .copyright-text, .copyright-text a {
     margin: 0;
-    color: rgb(132, 14, 205);
+    color: var(--color-about) !important;
     text-shadow: none !important;
 }
 
 .copyright-text a:hover {
-    color: rgb(240, 204, 0);
+    color: var(--color-gold);
 }
 
 .foot-links {
@@ -414,12 +453,12 @@ footer hr.small {
     line-height: 4rem;
     margin-left: 6px;
     margin-right: 0;
-    color: rgb(132, 14, 205);
+    color: var(--color-about);
 
 }
 
 .foot-links a:hover {
-    color: rgb(240, 204, 0);
+    color: var(--color-gold);
 }
 
 

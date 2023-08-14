@@ -31,18 +31,19 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
+    border: solid 1px #000;
     background: rgb(255, 255, 255);
     border-radius: 20px;
 }
-body.light-mode .switch input + span {
-    background: rgb(201, 48, 48);
+body.dark-mode .switch input + span {
+    background: transparent;
 }
 
-body.light-mode .switch input:checked + span {
-    background: rgb(201, 48, 48);
+body.dark-mode .switch input:checked + span {
+    background: transparent;
 }
 
-body.light-mode .switch input + span:before {
+body.dark-mode .switch input + span:before {
     background: rgb(255, 255, 255);
 }
 
@@ -68,7 +69,6 @@ body.light-mode .switch input + span:before {
 /* End Light Mode Button */
 
 body {
-    background-color: rgb(201, 48, 48);
     z-index: 0;
     font-family: "laca Text", sans-serif !important;
     overflow-x: hidden;
@@ -76,64 +76,77 @@ body {
     scroll-behavior: smooth;
 }
 /* Light Mode */
-body.light-mode {
-    background: rgb(255, 255, 255) !important;
+body.dark-mode {
+    background: rgb(201, 48 ,48) !important;
     color: black !important;
 }
 /* Light Mode Nav */
-body.light-mode .nav-link {
+body.dark-mode .nav-link {
     color: rgb(201, 48, 48) !important;
 }
-body.light-mode .active {
+
+body.dark-mode .nav-link#About {
+    color: rgb(255, 255, 255) !important;
+}
+
+body.dark-mode .nav-link#Pricing {
+    color: rgb(255, 255, 255) !important;
+}
+body.dark-mode .nav-link#Portfolio {
+    color: rgb(255, 255, 255) !important;
+}
+
+body.dark-mode .active {
     background-color: rgb(201, 48, 48) !important;
     color: rgb(255, 255, 255) !important;
 }
 /* Light Mode Body Content */
-body.light-mode h1 {
-    color: rgba(201, 48, 48) !important;
+body.dark-mode .display-4 {
+    color: rgb(255, 255, 255) !important;
 }
-body.light-mode .my-4 {
-    color: rgb(201, 48, 48) !important;
-    border-bottom-color: rgb(201, 48, 48) !important;
+body.dark-mode .my-4 {
+    color: rgb(255, 255, 255) !important;
+    border-bottom-color: rgb(255, 255, 255) !important;
 }
 /* Light Mode Form */
-body.light-mode form#ContactForm {
-    background: transparent;
+body.dark-mode form#ContactForm {
+    background: rgb(201, 48, 48);
 }
-body.light-mode  label.form-label, div#emailHelp, .secondaryTitle {
+
+body.dark-mode  label.form-label, div#emailHelp, .secondaryTitle {
+    color: rgb(255, 255, 255) !important;
+}
+body.dark-mode button.btn.btn-danger {
+    background: white !important;
     color: rgb(201, 48, 48) !important;
 }
-/*body.light-mode button.btn.btn-danger {*/
-/*    background: white !important;*/
-/*    color: rgb(201, 48, 48) !important;*/
-/*}*/
-/*body.light-mode .btn-danger:hover {*/
-/*    transform: translateY(-3px);*/
-/*    border-top: 5px solid rgb(0, 0, 0);*/
-/*    background: rgb(201, 48, 48) !important;*/
-/*    color: rgb(255, 255, 255) !important;*/
-/*}*/
+body.dark-mode .btn-danger:hover {
+    transform: translateY(-3px);
+    border-top: 5px solid rgb(201, 48, 48);
+    background: rgb(201, 48, 48) !important;
+    color: rgb(255, 255, 255) !important;
+}
 /* Light Mode Footer*/
-body.light-mode footer {
+body.dark-mode footer {
     background-color: rgb(201, 48, 48);
 }
 footer hr {
     border-top-color: #bbb;
 }
-body.light-mode .copyright-text {
+body.dark-mode .copyright-text {
     margin: 0;
     color: rgb(255, 255, 255);
 }
-body.light-mode .copyright-text a {
+body.dark-mode .copyright-text a {
     color: white !important;
 }
-body.light-mode .copyright-text a:hover {
+body.dark-mode .copyright-text a:hover {
     color: rgb(16, 101, 61) !important;
 }
-body.light-mode .foot-links a {
+body.dark-mode .foot-links a {
     color: rgb(255, 255, 255);
 }
-body.light-mode .foot-links a:hover {
+body.dark-mode .foot-links a:hover {
     color: rgb(132, 14, 205);
 }
 
@@ -142,10 +155,21 @@ body.light-mode .foot-links a:hover {
     text-align: center;
 }
 
+body.dark-mode .blueImage {
+    display: none;
+}
+
+.dark-mode .whiteImage {
+    display: block;
+}
+
+.whiteImage {
+    display: none;
+}
 
 .navbar-brand img {
     position: relative;
-    margin-left: 2rem;
+    width: 150px;
 }
 
 .navbar-nav li {
@@ -169,15 +193,15 @@ body.light-mode .foot-links a:hover {
     text-decoration: underline;
 }
 
-.nav-link#About:hover {
+.nav-link#About {
     color: rgb(132, 14, 205) !important;
 }
 
-.nav-link#Pricing:hover {
+.nav-link#Pricing {
     color: rgb(16, 101, 61) !important;
 }
 
-.nav-link#Portfolio:hover {
+.nav-link#Portfolio {
     color: rgb(137, 56, 93) !important;
 }
 
@@ -224,6 +248,7 @@ button.navbar-toggler {
 
 /* General Styles */
 .display-4 {
+    color: rgb(201, 48, 48) !important;
     font-family: "proxima-nova", sans-serif;
     position: relative;
     font-size: 9rem;
@@ -232,7 +257,7 @@ button.navbar-toggler {
 }
 
 .my-4 {
-    border-bottom: solid rgb(255, 255, 255);
+    border-bottom: solid rgb(201, 48 ,48);
 }
 
 .row-content {
@@ -251,7 +276,7 @@ button.navbar-toggler {
 
 /* Form */
 .container-form {
-   position: relative;
+    position: relative;
     top: -4rem;
 }
 
@@ -259,10 +284,8 @@ form {
     background: rgb(255, 255, 255);
     border-radius: 5px;
     max-width: 48rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin: auto;
+    padding: 10px;
     border-top: 5px solid rgb(255, 255, 255);
     /*animation: bounce 1.5s infinite;*/
 }

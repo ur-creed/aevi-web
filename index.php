@@ -45,11 +45,24 @@
 <body>
 	<!-- Navigation -->
 	<?php include_once 'navigation.php' ?>
+
+    <div class="container-fluid">
+        <label class="switch float-end">
+            <input type="checkbox" onclick="darkMode()"/>
+            <span></span>
+        </label>
+    </div>
+
 	<!-- Particles -->
     <?php include_once 'particles.php' ?>
 
+
+
     <div class="centered">
-        <img src="images/AeviWeb.png" alt="Website Develop Aevi Web Developing Dreams">
+        <img src="images/newAeviWebLogoinvert.png" id="image" alt="Website Develop Aevi Web Developing Dreams">
+    </div>
+    <div class="centeredTwo">
+        <img src="images/newAeviWebLogo.png" alt="Website Develop Aevi Web Developing Dreams">
     </div>
 
 
