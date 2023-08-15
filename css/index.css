@@ -9,7 +9,7 @@ html {
     --color-about: rgb(106, 13, 173);
     --color-home: rgb(38, 113, 217);
     --color-contact: rgb(201, 48, 48);
-    --color-pricing: rgb(66, 130, 53);
+    --color-pricing: rgb(16, 101, 61);
     --color-portfolio: rgb(137, 56, 93);
 }
 
@@ -28,6 +28,10 @@ body {
 }
 .centeredTwo {
     display: none;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    position: relative;
 }
 .whiteImage {
     display: none;
@@ -135,6 +139,13 @@ button.navbar-toggler {
     display: block;
     margin: auto;
 }
+
+.centeredTwo img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
 .container h1 {
     font-size: 30rem;
     color: var(--color-white);
