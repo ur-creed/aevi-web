@@ -67,7 +67,7 @@
 
 	<div class="container container-form">
         <div class="row row-content">
-            <form class="shadow border rounded" id="ContactForm">
+            <form class="border" id="ContactForm">
                 <div class="secondaryTitle">
 	                Please fill out this form below.
                 </div>

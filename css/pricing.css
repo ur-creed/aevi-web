@@ -8,12 +8,13 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --color-white: rgb(255, 255, 255);
     --color-about: rgb(106, 13, 173);
     --color-home: rgb(38, 113, 217);
     --color-contact: rgb(201, 48, 48);
-    --color-pricing: rgb(66, 130, 53);
+    --color-pricing: rgb(16, 101, 61);
     --color-portfolio: rgb(137, 56, 93);
     --color-gold: rgb(240, 204, 0);
 }
@@ -125,7 +126,8 @@ body.dark-mode button#RequestQuoteButton {
 }
 /* Dark Mode Form */
 body.dark-mode form#PricingContactForm{
-    background: transparent !important;
+    background: var(--color-pricing) !important;
+    border: solid 1px var(--color-white);
 }
 body.dark-mode  label.form-label, div#emailHelp {
     color: rgb(16, 101, 61) !important;
@@ -373,16 +375,23 @@ justify-content: center !important;
     position: relative;
 }
 
+.card {
+    background-color: #f7f7f7;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) !important;
+
+
+}
+
 
 form {
-    background: rgb(255, 255, 255);
-    border-radius: 5px;
+    background-color: #f7f7f7;
+    border-radius: 10px !important;
     max-width: 48rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-top: 5px solid rgb(255, 255, 255);
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
     /*animation: bounce 1s infinite;*/
 }
 

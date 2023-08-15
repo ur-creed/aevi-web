@@ -2,12 +2,13 @@ html {
     /* this defines what 1 rem is */
     font-size: 62.55%; /* 1rem = 10px; 10/16px = 62.5% */
 }
+
 :root {
     --color-white: rgb(255, 255, 255);
     --color-about: rgb(106, 13, 173);
     --color-home: rgb(38, 113, 217);
     --color-contact: rgb(201, 48, 48);
-    --color-pricing: rgb(66, 130, 53);
+    --color-pricing: rgb(16, 101, 61);
     --color-portfolio: rgb(137, 56, 93);
     --color-gold: rgb(240, 204, 0);
 }
@@ -164,6 +165,17 @@ body.dark-mode .copyright-text a {
 body.dark-mode .foot-links a {
     color: var(--color-white) !important;
 }
+body.dark-mode .value-card {
+    background: var(--color-about);
+    box-shadow: 2px 2px 4px #000;
+    border: solid 1px var(--color-white);
+}
+body.dark-mode .value-title {
+    color: var(--color-gold);
+}
+body.dark-mode .value-icon {
+    color: var(--color-white);
+}
 
 /* End Dark Mode */
 
@@ -172,6 +184,7 @@ body {
     font-family: "laca Text", sans-serif;
     z-index: 0;
     overflow: hidden;
+    overflow-y: scroll;
     scroll-behavior: smooth;
     color: var(--color-white);
     transition: color .3s;
@@ -317,16 +330,42 @@ button.navbar-toggler {
     font-weight: 700 !important;
     color: var(--color-about) !important;
 }
-h2.text-center.h-1.mt-0 {
+h2.text-center.display-4.mt-5 {
     font-family: "proxima-nova", sans-serif;
     font-weight: 700 !important;
-    color: var(--color-gold);
     font-size: 6rem;
 }
 .display-3 {
-    font-weight: 400;
+    font-weight: 700;
     color: var(--color-gold);
     text-shadow: 1px 1px 1px #000;
+}
+.value-card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 30px; /* Adjust the padding here */
+    margin-bottom: 30px;
+    max-width: 600px; /* Adjust the max-width here */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.value-title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.value-text {
+    font-size: 2.1rem;
+    font-family: "proxima-nova", sans-serif;
+    color: #666;
+    line-height: 1.6;
+}
+
+.value-icon {
+    font-size: 3rem;
+    color: var(--color-about);
+    margin-right: 10px;
 }
 p.display-6.text-center.col-lg-6.col-sm-12.lead,
 p.p-3.display-6.text-center.col-12 {
