@@ -82,11 +82,7 @@
 	            That's because we donate 12% of all sales to environmental causes.
             </p>
 	    </div>
-        <hr class="my-4">
-        <div class="container">
-            <h2 class="text-center display-4 mt-5">Our Values Elevate the Experience</h2>
-        </div>
-        <div class="mt-5"></div>
+       <?php include 'founders.php' ?>
 	</div>
     <!-- Footer -->
 	<?php include_once 'footer.php' ?>
