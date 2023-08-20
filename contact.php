@@ -90,6 +90,7 @@
             </form>
         </div>
     </div>
+    <div></div>
 
     <!-- Footer -->
     <?php include_once 'footer.php' ?>

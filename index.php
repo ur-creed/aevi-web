@@ -60,9 +60,7 @@
 
     <div class="centered">
         <img src="images/newAeviWebLogoinvert.png" id="image" alt="Website Develop Aevi Web Developing Dreams">
-    </div>
-    <div class="centeredTwo">
-        <img src="images/newAeviWebLogo.png" alt="Website Develop Aevi Web Developing Dreams">
+        <img src="images/newAeviWebLogo.png" id="mainWhiteImage" alt="Website Develop Aevi Web Developing Dreams">
     </div>
 
 
