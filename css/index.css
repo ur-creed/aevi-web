@@ -26,12 +26,8 @@ body {
     /*overflow-y: scroll;*/
     font-family: 'laca Text' , sans-serif;
 }
-.centeredTwo {
+#mainWhiteImage {
     display: none;
-    justify-content: center;
-    align-items: center;
-    height: 50rem;
-    position: relative;
 }
 .whiteImage {
     display: none;
@@ -41,6 +37,14 @@ body {
 @media only screen and (max-width: 991px) {
     .navbar-nav {
         text-align: center;
+    }
+
+    .centered img {
+        position: relative;
+        width: 70% !important;
+        left: 50%;
+        top: 50%;
+        transform: translate(-60%, -50%);
     }
 }
 .navbar-brand img {
@@ -127,23 +131,15 @@ button.navbar-toggler {
 }
 .centered {
     /*text-align: center;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50rem;
-    position: relative;
+
 }
 
 .centered img {
-    width: 70%;
-    display: block;
-    margin: auto;
-}
-
-.centeredTwo img {
-    width: 70%;
-    display: block;
-    margin: auto;
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .container h1 {
@@ -242,19 +238,10 @@ body.dark-mode {
     background: var(--color-home) !important;
     color: black !important;
 }
-body.dark-mode .centered {
+body.dark-mode img#image {
     display: none;
 }
-body.dark-mode .centeredTwo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50rem;
-    position: relative;
-}
-body.dark-mode .centeredTwo img {
-    width: 70%;
-    margin: auto;
+body.dark-mode img#mainWhiteImage {
     display: block;
 }
 body.dark-mode .blueImage {
