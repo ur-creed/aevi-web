@@ -28,9 +28,14 @@ body {
 }
 #mainWhiteImage {
     display: none;
+    z-index: -1;
 }
 .whiteImage {
     display: none;
+    z-index: -1;
+}
+#mainBlueImage {
+    z-index: -1;
 }
 
 /* Nav bar Start */
