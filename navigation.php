@@ -16,7 +16,7 @@
 					<a class="nav-link" id="About" href="about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="Pricing" href="pricing">Pricing</a>
+					<a class="nav-link" id="Pricing" href="pricing">Services</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" id="Contact" href="contact">Contact</a>
